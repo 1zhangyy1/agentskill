@@ -1,0 +1,43 @@
+{
+  "id": "16e4025aa9876dd2",
+  "slug": "ai-design-components",
+  "name": "Ai Design Components",
+  "description": "Comprehensive UI/UX and Backend component design skills for AI-assisted development with Claude",
+  "author": "ancoleman",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/30809789?v=4",
+  "repoUrl": "https://github.com/ancoleman/ai-design-components",
+  "repoFullName": "ancoleman/ai-design-components",
+  "stars": 5,
+  "forks": 2,
+  "category": "ai-ml",
+  "categories": [
+    "ai-ml"
+  ],
+  "tags": [
+    "ai-design",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "claude-skills",
+    "design-system",
+    "full-stack",
+    "react",
+    "skills",
+    "typescript",
+    "ui-components"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-11-13T19:42:41Z",
+  "updatedAt": "2025-12-10T15:32:44Z",
+  "lastCommitAt": "2025-12-11T00:50:33Z",
+  "source": "github-topic",
+  "collectedAt": "2025-12-11T08:55:44.424Z",
+  "authorUrl": "https://github.com/ancoleman",
+  "license": "MIT",
+  "readme": "<p align=\"center\">\n  <img src=\"https://ancoleman.github.io/ai-design-components/img/logo.png\" alt=\"AI Design Components Logo\" width=\"150\">\n</p>\n\n> Full-stack development skills for AI-assisted development with Claude\n\n[![Version](https://img.shields.io/badge/version-0.5.0-blue.svg)](./VERSION)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)\n[![Skills](https://img.shields.io/badge/skills-76-purple.svg)](https://ancoleman.github.io/ai-design-components/docs/skills/overview)\n[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-orange.svg)](https://ancoleman.github.io/ai-design-components/)\n\n## What is this?\n\nA collection of **76 production-ready Claude Skills** covering frontend, backend, DevOps, infrastructure, security, cloud, and AI/ML development. Skills provide Claude with domain expertise, decision frameworks, and production-ready code patterns.\n\n## Documentation\n\n**Full documentation: [ancoleman.github.io/ai-design-components](https://ancoleman.github.io/ai-design-components/)**\n\n| Resource | Description |\n|----------|-------------|\n| [Getting Started](https://ancoleman.github.io/ai-design-components/docs/intro) | Introduction and overview |\n| [Installation](https://ancoleman.github.io/ai-design-components/docs/installation) | Setup instructions |\n| [Skills Reference](https://ancoleman.github.io/ai-design-components/docs/skills/overview) | All 76 skills documented |\n| [Skillchain Guide](https://ancoleman.github.io/ai-design-components/docs/skillchain/overview) | Guided workflow system |\n\n## Quick Start\n\n### Option 1: Installer Script (Recommended)\n\nThe interactive installer handles everything - skills, skillchain, and plugins:\n\n```bash\ngit clone https://github.com/ancoleman/ai-design-components.git\ncd ai-design-components\n./install.sh\n```\n\nThe installer provides:\n- **Interactive menu** for choosing what to install\n- **Skillchain v3.0** with 76 skills across 10 domains\n- **Plugin installation** for all 19 plugin groups\n- **Automatic setup** of commands and data directories\n\n```bash\n# Installer commands\n./install.sh                    # Interactive mode\n./install.sh plugins list       # See all available plugins\n./install.sh plugins install    # Install all plugins\n./install.sh skillchain         # Install skillchain only\n```\n\n### Option 2: Manual Plugin Installation\n\nIf you prefer using Claude's plugin commands directly:\n\n```bash\n# Add marketplace\nclaude plugin marketplace add ancoleman/ai-design-components\n\n# Install all 19 plugins (76 skills)\nclaude plugin install ui-foundation-skills@ai-design-components\nclaude plugin install ui-data-skills@ai-design-components\nclaude plugin install ui-input-skills@ai-design-components\nclaude plugin install ui-interaction-skills@ai-design-components\nclaude plugin install ui-structure-skills@ai-design-components\nclaude plugin install ui-content-skills@ai-design-components\nclaude plugin install ui-assembly-skills@ai-design-components\nclaude plugin install backend-data-skills@ai-design-components\nclaude plugin install backend-api-skills@ai-design-components\nclaude plugin install backend-platform-skills@ai-design-components\nclaude plugin install backend-ai-skills@ai-design-components\nclaude plugin install devops-skills@ai-design-components\nclaude plugin install infrastructure-skills@ai-design-components\nclaude plugin install security-skills@ai-design-components\nclaude plugin install developer-productivity-skills@ai-design-components\nclaude plugin install data-engineering-skills@ai-design-components\nclaude plugin install ai-ml-skills@ai-design-components\nclaude plugin install cloud-provider-skills@ai-design-components\nclaude plugin install finops-skills@ai-design-components\n```\n\n### Option 3: Selective Installation\n\nInstall only what you need:\n\n```bash\n# Add marketplace first\nclaude plugin marketplace add ancoleman/ai-design-components\n\n# Install specific plugin groups\nclaude plugin install infrastructure-skills@ai-design-components\nclaude plugin install devops-skills@ai-design-components\nclaude plugin install security-skills@ai-design-components\n```\n\n## Plugin Commands Reference\n\n```bash\n# Marketplace\nclaude plugin marketplace add ancoleman/ai-design-components    # Add\nclaude plugin marketplace rm ai-design-components               # Remove\nclaude plugin marketplace list                                  # List all\nclaude plugin marketplace update ai-design-components           # Update\n\n# Plugins\nclaude plugin install <plugin>@ai-design-components             # Install\nclaude plugin uninstall <plugin>                                # Uninstall\n\n# Validation\nclaude plugin validate .claude-plugin/marketplace.json          # Validate\n```\n\n## Using Skillchain\n\nOnce installed, use the `/skillchain:start` command for guided workflows:\n\n```bash\n/skillchain:start dashboard with charts and filters\n/skillchain:start REST API with postgres\n/skillchain:start kubernetes with monitoring\n/skillchain:start RAG pipeline with embeddings\n```\n\n## Skill Categories\n\n| Category | Skills | Description |\n|----------|--------|-------------|\n| **Frontend** | 15 | UI components, forms, data viz, navigation |\n| **Backend** | 14 | Databases, APIs, auth, observability |\n| **DevOps** | 6 | CI/CD, GitOps, platform engineering |\n| **Infrastructure** | 12 | IaC, Kubernetes, networking, distributed systems |\n| **Security** | 7 | Architecture, compliance, TLS, hardening |\n| **Developer Productivity** | 7 | APIs, CLIs, SDKs, documentation |\n| **Data Engineering** | 6 | Architecture, streaming, SQL, secrets |\n| **AI/ML** | 4 | MLOps, RAG, prompt engineering |\n| **Cloud** | 3 | AWS, GCP, Azure patterns |\n| **FinOps** | 2 | Cost optimization, tagging |\n\nSee [Skills Overview](https://ancoleman.github.io/ai-design-components/docs/skills/overview) for the complete list.\n\n## Prerequisites\n\n- **Claude Code CLI** - [Install Claude Code](https://docs.anthropic.com/en/docs/claude-code)\n- **Context7 MCP** (recommended) - For up-to-date library documentation\n\n## Resources\n\n- [Plugin Commands Reference](https://ancoleman.github.io/ai-design-components/docs/guides/plugin-commands) - Complete CLI reference for marketplace/plugin management\n- [Anthropic Skills Documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)\n- [Skills Best Practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)\n- [LLM Ecosystem Guide](https://ancoleman.github.io/ai-design-components/llm-ecosystem)\n\n## License\n\nMIT License - See [LICENSE](./LICENSE) for details.\n\n---\n\n**[View Full Documentation](https://ancoleman.github.io/ai-design-components/)** | Built following [Anthropic's Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)\n",
+  "installCommand": "git clone https://github.com/ancoleman/ai-design-components ~/.claude/skills/ai-design-components",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

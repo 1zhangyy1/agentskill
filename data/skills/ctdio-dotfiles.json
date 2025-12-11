@@ -1,0 +1,31 @@
+{
+  "id": "bc832584226beefd",
+  "slug": "ctdio-dotfiles",
+  "name": "Dotfiles",
+  "description": "",
+  "author": "ctdio",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/9613701?v=4",
+  "repoUrl": "https://github.com/ctdio/dotfiles",
+  "repoFullName": "ctdio/dotfiles",
+  "stars": 5,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2016-11-02T15:37:39Z",
+  "updatedAt": "2025-12-01T20:34:00Z",
+  "lastCommitAt": "2025-12-01T20:33:56Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:00:55.404Z",
+  "authorUrl": "https://github.com/ctdio",
+  "license": null,
+  "readme": "# dotfiles\n\nJust some assorted config files and scripts that I use.\n",
+  "installCommand": "git clone https://github.com/ctdio/dotfiles ~/.claude/skills/ctdio-dotfiles",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

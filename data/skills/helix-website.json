@@ -1,0 +1,34 @@
+{
+  "id": "9b23db80f4548ebb",
+  "slug": "helix-website",
+  "name": "Helix Website",
+  "description": "The Helix website https://www.aem.live/",
+  "author": "adobe",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/476009?v=4",
+  "repoUrl": "https://github.com/adobe/helix-website",
+  "repoFullName": "adobe/helix-website",
+  "stars": 36,
+  "forks": 53,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "documentation",
+    "helix"
+  ],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2021-10-22T17:42:23Z",
+  "updatedAt": "2025-12-11T07:55:52Z",
+  "lastCommitAt": "2025-12-11T07:55:49Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:03:14.592Z",
+  "authorUrl": "https://github.com/adobe",
+  "license": "Apache-2.0",
+  "readme": "# Project Helix Website\n[www.aem.live](https://www.aem.live)\n\n[![codecov](https://codecov.io/gh/adobe/helix-website/branch/main/graph/badge.svg?token=If90y6KMqx)](https://codecov.io/gh/adobe/helix-website)\n## Introduction\nThis repo is what powers the helix website.\n\n## Developing\nInstall the Helix CLI:\n\n    sudo npm install -g @adobe/aem-cli\n    \nRun it in this repo:\n\n    aem up\n\nWhile site preview is authenticated, run below command for local development:\n\n    npx @adobe/aem-cli up --url https://main--helix-website--adobe.aem.live/\n\n    \n## Testing\n### Install dependencies:\n\n    npm install\n### Run tests:\n\n    npm test\n### Watch tests:\n\n    npm test:watch\n    \nThis will run through all your tests, but then only run against any changed tests.\n\n\n",
+  "installCommand": "git clone https://github.com/adobe/helix-website ~/.claude/skills/helix-website",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

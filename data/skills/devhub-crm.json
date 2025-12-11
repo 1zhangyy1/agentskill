@@ -1,0 +1,31 @@
+{
+  "id": "25db23c2c485299c",
+  "slug": "devhub-crm",
+  "name": "Devhub Crm",
+  "description": "",
+  "author": "spences10",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/234708?v=4",
+  "repoUrl": "https://github.com/spences10/devhub-crm",
+  "repoFullName": "spences10/devhub-crm",
+  "stars": 6,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2023-08-08T17:46:19Z",
+  "updatedAt": "2025-12-09T21:16:25Z",
+  "lastCommitAt": "2025-12-10T22:34:43Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:00:56.376Z",
+  "authorUrl": "https://github.com/spences10",
+  "license": null,
+  "readme": "# Devhub CRM\n",
+  "installCommand": "git clone https://github.com/spences10/devhub-crm ~/.claude/skills/devhub-crm",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

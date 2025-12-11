@@ -1,0 +1,31 @@
+{
+  "id": "dbca38b3821964a0",
+  "slug": "azure-ai-docs",
+  "name": "Azure Ai Docs",
+  "description": "Open Source Azure AI documentation including, azure ai, azure studio, machine learning, genomics, open-datasets, and search",
+  "author": "MicrosoftDocs",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/22479449?v=4",
+  "repoUrl": "https://github.com/MicrosoftDocs/azure-ai-docs",
+  "repoFullName": "MicrosoftDocs/azure-ai-docs",
+  "stars": 114,
+  "forks": 397,
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2024-08-20T19:03:54Z",
+  "updatedAt": "2025-12-11T06:05:48Z",
+  "lastCommitAt": "2025-12-11T06:05:42Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:02:10.177Z",
+  "authorUrl": "https://github.com/MicrosoftDocs",
+  "license": "CC-BY-4.0",
+  "readme": "## Microsoft Open Source Code of Conduct\nThis project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).\nFor more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.",
+  "installCommand": "git clone https://github.com/MicrosoftDocs/azure-ai-docs ~/.claude/skills/azure-ai-docs",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

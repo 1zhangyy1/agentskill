@@ -1,0 +1,36 @@
+{
+  "id": "97f17f3740218c27",
+  "slug": "home",
+  "name": "Home",
+  "description": "🐸 home configuration files, powered by Nix and NixOS",
+  "author": "vdemeester",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/6508?v=4",
+  "repoUrl": "https://github.com/vdemeester/home",
+  "repoFullName": "vdemeester/home",
+  "stars": 13,
+  "forks": 2,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "dotfiles",
+    "home-manager",
+    "nix",
+    "nixos"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2018-08-02T15:43:52Z",
+  "updatedAt": "2025-12-10T20:52:28Z",
+  "lastCommitAt": "2025-12-10T20:52:24Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:03:17.591Z",
+  "authorUrl": "https://github.com/vdemeester",
+  "license": "GPL-3.0",
+  "readme": "🐸 home configuration files, powered by Nix and NixOS",
+  "installCommand": "git clone https://github.com/vdemeester/home ~/.claude/skills/home",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dc52196f652ea2b7",
+  "slug": "awesome-cloudbase-examples",
+  "name": "Awesome Cloudbase Examples",
+  "description": "Awesome Tencent CloudBase Examples 腾讯云开发案例",
+  "author": "TencentCloudBase",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/40630849?v=4",
+  "repoUrl": "https://github.com/TencentCloudBase/awesome-cloudbase-examples",
+  "repoFullName": "TencentCloudBase/awesome-cloudbase-examples",
+  "stars": 311,
+  "forks": 248,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "awesome",
+    "miniprogram",
+    "server",
+    "tencent",
+    "tencentcloudbase",
+    "web"
+  ],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2019-10-21T08:21:14Z",
+  "updatedAt": "2025-12-11T03:10:41Z",
+  "lastCommitAt": "2025-12-11T03:10:34Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:03:18.593Z",
+  "authorUrl": "https://github.com/TencentCloudBase",
+  "license": null,
+  "readme": "Awesome Tencent CloudBase Examples 腾讯云开发案例",
+  "installCommand": "git clone https://github.com/TencentCloudBase/awesome-cloudbase-examples ~/.claude/skills/awesome-cloudbase-examples",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}

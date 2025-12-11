@@ -1,0 +1,31 @@
+{
+  "id": "70923fe87f261a96",
+  "slug": "2025-intro-swe",
+  "name": "2025 Intro Swe",
+  "description": "",
+  "author": "nibzard",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/6250945?v=4",
+  "repoUrl": "https://github.com/nibzard/2025-intro-swe",
+  "repoFullName": "nibzard/2025-intro-swe",
+  "stars": 8,
+  "forks": 51,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-10-05T20:14:08Z",
+  "updatedAt": "2025-12-10T19:35:33Z",
+  "lastCommitAt": "2025-12-10T19:35:28Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:01:29.061Z",
+  "authorUrl": "https://github.com/nibzard",
+  "license": "NOASSERTION",
+  "readme": "",
+  "installCommand": "git clone https://github.com/nibzard/2025-intro-swe ~/.claude/skills/2025-intro-swe",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}

@@ -1,0 +1,31 @@
+{
+  "id": "145c51b1dcb3fb59",
+  "slug": "benthecoder-blog",
+  "name": "Blog",
+  "description": "writing = thinking",
+  "author": "benthecoder",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/49143413?v=4",
+  "repoUrl": "https://github.com/benthecoder/blog",
+  "repoFullName": "benthecoder/blog",
+  "stars": 8,
+  "forks": 0,
+  "category": "writing",
+  "categories": [
+    "writing"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2023-04-17T06:13:05Z",
+  "updatedAt": "2025-12-07T22:16:24Z",
+  "lastCommitAt": "2025-12-07T22:16:21Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T08:58:16.137Z",
+  "authorUrl": "https://github.com/benthecoder",
+  "license": null,
+  "readme": "my digital commonplace book / blog / public journal",
+  "installCommand": "git clone https://github.com/benthecoder/blog ~/.claude/skills/benthecoder-blog",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
