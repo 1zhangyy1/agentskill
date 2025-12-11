@@ -1,0 +1,31 @@
+{
+  "id": "e3765f0577fe1d98",
+  "slug": "craftaholic-dotfiles",
+  "name": "Dotfiles",
+  "description": "This repository is for setting up local machine environment",
+  "author": "craftaholic",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/63741110?v=4",
+  "repoUrl": "https://github.com/craftaholic/dotfiles",
+  "repoFullName": "craftaholic/dotfiles",
+  "stars": 19,
+  "forks": 2,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2023-07-11T06:57:41Z",
+  "updatedAt": "2025-12-03T06:34:44Z",
+  "lastCommitAt": "2025-12-03T06:34:40Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:47:01.373Z",
+  "authorUrl": "https://github.com/craftaholic",
+  "license": "MIT",
+  "readme": "# Overview\n\nThis repository provides a framework structure for storing all of your working environment configurations in a declarative way, aiming to achieve a unified environment across different platforms and machines. The framework uses GNU Stow to manage symlinks from your home directory to the configuration files in this repository. This means that when you update the repository, all configuration files are automatically updated.\n\nAdditionally, this framework uses Devbox to install all required binaries and maintain consistent versions across platforms on all machines. Please read the instructions below on how to use it.\n\nI use Taskfile for all CLI scripting to ensure easy maintenance and readability.\n\nThis project requires executing a setup script to configure the local machine environment. Please follow the instructions below based on your operating system.\n\n# Project Structure\n```\n.\n├── LICENSE\n├── README.md\n├── Taskfile.yml\n├── aerospace                               # macOS window manager configuration\n├── nvim                                    # Neovim configuration\n├── packages                                # Contains the devbox configuration\n│   └── .local\n│       └── share\n│           └── devbox\n│               └── global\n│                   └── default\n│                       └── devbox.json     # Maintain all your binaries in declarative way\n├── tmux                                    # Tmux configuration\n├── wezterm                                 # Wezterm terminal configuration\n└── zsh                                     # Zsh shell configuration\n```\n\n# Prerequisites\n\nTo run this framework, you only need to have Taskfile (similar to Makefile). The rest, including GNU Stow and Devbox, will be automatically installed during setup.\n\n- **Taskfile**: To install Taskfile, follow this guide: [Link to install Taskfile](https://taskfile.dev/installation/)\n- **stow**: You will need to install stow, to install use brew, apt, or any package manager\n- **zsh**\n\n# Neovim Dotfiles\n\nFor details of my vim configuration, see: [Neovim Configuration](./nvim/README.md)\n\n# Installation\n\nTo install the environment, run the following command:\n```\ntask setup\n```\n\n>**NOTE**: This command will only succeed if the target configuration files do not exist beforehand.\nSo you will need to backup your existing configuration files firsts.\n\nThis command will:\n- Install GNU Stow if it's not already installed.\n- Create ~/.config directory if it doesn't exist.\n- Create symlinks from your home directory to the configuration files in this repository using GNU Stow.\n- Install Devbox if it's not already installed.\n- Install all required binaries (e.g., git, zsh) using the devbox.json configuration located in packages/.local/share/devbox/global/default/.\n\n# Taskfile Commands\n\nThe `Taskfile.yml` provides several tasks to manage your environment:\n\n- **Default Task**: Displays help information.\n  ```\n  task\n  ```\n\n- **Help**: Provides a welcome message and lists available tasks.\n  ```\n  task help\n  ```\n\n- **Setup**: Installs the environment and sets up the environment for macOS and Ubuntu.\n  ```\n  task setup\n  ```\n\n# Devbox Integration\n\nThe devbox configuration is managed through the devbox.json file located at:\n```\npackages/.local/share/devbox/global/default/devbox.json\n```\n\nThis file defines all the packages that will be installed and maintained by Devbox. To add, remove, or update packages, edit this file and run `devbox global install` or use the setup task:\n```\ntask setup\n```\n\n# For WSL Specifically\n\nFor Neovim to work properly with the WSL clipboard, you should install `win32yank` using PowerShell:\n```\nchoco install win32yank\n```\n\n",
+  "installCommand": "git clone https://github.com/craftaholic/dotfiles ~/.claude/skills/craftaholic-dotfiles",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

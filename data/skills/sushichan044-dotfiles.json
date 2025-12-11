@@ -1,0 +1,31 @@
+{
+  "id": "4cfb696a370478dd",
+  "slug": "sushichan044-dotfiles",
+  "name": "Dotfiles",
+  "description": "my dotfiles!",
+  "author": "sushichan044",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/71284054?v=4",
+  "repoUrl": "https://github.com/sushichan044/dotfiles",
+  "repoFullName": "sushichan044/dotfiles",
+  "stars": 9,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2024-10-05T09:10:12Z",
+  "updatedAt": "2025-12-10T15:25:07Z",
+  "lastCommitAt": "2025-12-10T22:06:53Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:45:21.260Z",
+  "authorUrl": "https://github.com/sushichan044",
+  "license": null,
+  "readme": "\n# sushichan044/dotfiles\n\n## Setup\n\n> [!TIP]\n> memo here\n> https://scrapbox.io/sushichan044/dotfiles_%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9\n\nLinux / macOS / WSL\n\n```bash\nsh -c \"$(curl -fsLS get.chezmoi.io)\" -- init --apply sushichan044\n```\n\nWindows (PowerShell)\n\n```powershell\niex \"&{$(irm 'https://get.chezmoi.io/ps1')} init --apply sushichan044\"\n```\n",
+  "installCommand": "git clone https://github.com/sushichan044/dotfiles ~/.claude/skills/sushichan044-dotfiles",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "3637736eab6b67bb",
+  "slug": "nubook",
+  "name": "NUbook",
+  "description": "The NUbots team handbook and documentation.",
+  "author": "NUbots",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/150660?v=4",
+  "repoUrl": "https://github.com/NUbots/NUbook",
+  "repoFullName": "NUbots/NUbook",
+  "stars": 8,
+  "forks": 5,
+  "category": "writing",
+  "categories": [
+    "writing"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2019-08-07T04:07:27Z",
+  "updatedAt": "2025-11-28T01:25:38Z",
+  "lastCommitAt": "2025-12-07T01:54:46Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:46:00.904Z",
+  "authorUrl": "https://github.com/NUbots",
+  "license": "MIT",
+  "readme": "# NUbook\n\n[![Netlify Status](https://api.netlify.com/api/v1/badges/d89a0d60-217a-4563-ad03-65ccc90b9222/deploy-status)](https://app.netlify.com/sites/nubook/deploys)\n\nNUbook is the handbook and high-level documentation for the NUbots team. You can read the latest version at <https://nubook.nubots.net/>\n\nIf you want to add or update content go to <https://nubook.nubots.net/system/tools/nubook>.\n",
+  "installCommand": "git clone https://github.com/NUbots/NUbook ~/.claude/skills/nubook",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "128f6076e449ac58",
+  "slug": "jason0x43-dotfiles",
+  "name": "Dotfiles",
+  "description": "My dotfiles",
+  "author": "jason0x43",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/1042866?v=4",
+  "repoUrl": "https://github.com/jason0x43/dotfiles",
+  "repoFullName": "jason0x43/dotfiles",
+  "stars": 49,
+  "forks": 3,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2014-11-02T19:16:00Z",
+  "updatedAt": "2025-12-10T22:47:09Z",
+  "lastCommitAt": "2025-12-10T22:47:06Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-11T09:46:58.704Z",
+  "authorUrl": "https://github.com/jason0x43",
+  "license": null,
+  "readme": "# Dotfiles\n\nDotfiles! Err...yay!\n\n## Environment\n\nI spend most of my time in the terminal.\n\nTerminal: [wezterm](https://wezfurlong.org/wezterm/) Shell:\n[fish](https://fishshell.com), Editor: [neovim](http://neovim.io)\n\n## Paths\n\nThe location of my dotfiles is specified by the `DOTFILES` environment variable,\nset to `~/.dotfiles` by default. Things that shouldn’t be in the repo, like\nsensitive or host-specific information, go in `~/.local/config`.\n\nGit doesn't support environment variable expansion in `include` statements in\n`.gitconfig`, but it will automatically look in `~/.config/git/config`, and the\nother tools I use can be pointed at `~/.config` as necessary.\n\nTransient files, like vim sessions or zsh completions, are stored under\n`XDG_CACHE_HOME`, set to `~/.cache` by default.\n\nThere’s a `bin/dotfiles` script that will put things in their expected places,\nas well as installing some core homebrew packages and updating plugins.\n",
+  "installCommand": "git clone https://github.com/jason0x43/dotfiles ~/.claude/skills/jason0x43-dotfiles",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

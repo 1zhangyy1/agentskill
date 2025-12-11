@@ -1,31 +1,31 @@
 {
   "version": "2.0",
-  "total": 360,
-  "lastUpdated": "2025-12-11T09:04:03.038Z",
-  "generatedAt": "2025-12-11T09:04:03.038Z",
+  "total": 365,
+  "lastUpdated": "2025-12-11T09:47:11.316Z",
+  "generatedAt": "2025-12-11T09:47:11.316Z",
   "stats": {
     "bySource": {
-      "github-search": 256,
+      "github-search": 261,
       "github-topic": 103,
       "anthropics-official": 1
     },
     "byTier": {
-      "1": 44,
-      "2": 46,
-      "3": 86,
-      "4": 73,
-      "5": 111
+      "1": 45,
+      "2": 50,
+      "3": 81,
+      "4": 76,
+      "5": 113
     },
     "byCategory": {
-      "automation": 35,
-      "ai-ml": 55,
-      "testing": 26,
-      "other": 118,
-      "devops": 37,
+      "automation": 33,
+      "ai-ml": 54,
+      "testing": 30,
+      "other": 124,
+      "devops": 33,
       "coding": 48,
       "writing": 21,
-      "documentation": 9,
-      "productivity": 10,
+      "documentation": 10,
+      "productivity": 11,
       "security": 1
     }
   },
@@ -68,7 +68,7 @@
       "updatedAt": "2025-12-11T06:12:26Z",
       "lastCommitAt": "2025-10-26T20:49:10Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:15.914Z"
+      "collectedAt": "2025-12-11T09:42:43.589Z"
     },
     {
       "id": "6dc8cb6608d60e61",
@@ -79,7 +79,7 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/553618?v=4",
       "repoUrl": "https://github.com/wshobson/agents",
       "repoFullName": "wshobson/agents",
-      "stars": 22486,
+      "stars": 22487,
       "forks": 2512,
       "category": "automation",
       "categories": [
@@ -110,10 +110,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-07-24T23:28:14Z",
-      "updatedAt": "2025-12-11T08:36:11Z",
+      "updatedAt": "2025-12-11T09:16:08Z",
       "lastCommitAt": "2025-12-10T20:52:11Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:14.662Z"
+      "collectedAt": "2025-12-11T09:41:13.790Z"
     },
     {
       "id": "3a7f20a48d837631",
@@ -124,8 +124,8 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "repoUrl": "https://github.com/anthropics/skills/tree/main/template",
       "repoFullName": "anthropics/skills",
-      "stars": 20329,
-      "forks": 1945,
+      "stars": 20335,
+      "forks": 1947,
       "category": "automation",
       "categories": [
         "automation"
@@ -137,10 +137,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-09-22T15:53:31Z",
-      "updatedAt": "2025-12-11T08:54:40Z",
+      "updatedAt": "2025-12-11T09:26:37Z",
       "lastCommitAt": "2025-12-04T17:01:46Z",
       "source": "anthropics-official",
-      "collectedAt": "2025-12-11T08:55:11.221Z"
+      "collectedAt": "2025-12-11T09:41:10.750Z"
     },
     {
       "id": "e7be0dd7520b6cef",
@@ -151,7 +151,7 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
       "repoUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
       "repoFullName": "ComposioHQ/awesome-claude-skills",
-      "stars": 7033,
+      "stars": 7035,
       "forks": 803,
       "category": "automation",
       "categories": [
@@ -177,10 +177,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-10-17T07:15:01Z",
-      "updatedAt": "2025-12-11T08:40:13Z",
+      "updatedAt": "2025-12-11T09:20:10Z",
       "lastCommitAt": "2025-11-26T14:11:55Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:15.170Z"
+      "collectedAt": "2025-12-11T09:41:14.289Z"
     },
     {
       "id": "9a7fdac48d7762d0",
@@ -204,7 +204,7 @@
       "updatedAt": "2025-12-11T05:13:45Z",
       "lastCommitAt": "2025-11-09T21:46:48Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:07.647Z"
+      "collectedAt": "2025-12-11T09:43:46.749Z"
     },
     {
       "id": "4b74aafeb6e45268",
@@ -215,7 +215,7 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/11597362?v=4",
       "repoUrl": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "repoFullName": "yusufkaraaslan/Skill_Seekers",
-      "stars": 4902,
+      "stars": 4906,
       "forks": 520,
       "category": "automation",
       "categories": [
@@ -244,10 +244,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-10-17T14:43:48Z",
-      "updatedAt": "2025-12-11T08:46:11Z",
+      "updatedAt": "2025-12-11T09:40:47Z",
       "lastCommitAt": "2025-11-30T17:45:32Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:15.685Z"
+      "collectedAt": "2025-12-11T09:41:14.790Z"
     },
     {
       "id": "f5f7640b3c5a714f",
@@ -259,7 +259,7 @@
       "repoUrl": "https://github.com/pollinations/pollinations",
       "repoFullName": "pollinations/pollinations",
       "stars": 3394,
-      "forks": 454,
+      "forks": 455,
       "category": "ai-ml",
       "categories": [
         "ai-ml"
@@ -282,10 +282,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2021-04-15T10:57:14Z",
-      "updatedAt": "2025-12-11T07:55:14Z",
-      "lastCommitAt": "2025-12-11T02:02:14Z",
+      "updatedAt": "2025-12-11T09:43:33Z",
+      "lastCommitAt": "2025-12-11T09:43:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:09.122Z"
+      "collectedAt": "2025-12-11T09:45:56.694Z"
     },
     {
       "id": "7ad2a71342f0774b",
@@ -296,8 +296,8 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/683968?v=4",
       "repoUrl": "https://github.com/thedotmack/claude-mem",
       "repoFullName": "thedotmack/claude-mem",
-      "stars": 3301,
-      "forks": 191,
+      "stars": 3369,
+      "forks": 193,
       "category": "automation",
       "categories": [
         "automation"
@@ -327,10 +327,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-08-31T20:50:03Z",
-      "updatedAt": "2025-12-11T08:54:23Z",
+      "updatedAt": "2025-12-11T09:40:45Z",
       "lastCommitAt": "2025-12-11T04:46:18Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:16.189Z"
+      "collectedAt": "2025-12-11T09:41:15.291Z"
     },
     {
       "id": "c1860ac0561a0363",
@@ -362,7 +362,7 @@
       "updatedAt": "2025-12-11T05:31:47Z",
       "lastCommitAt": "2025-12-11T05:32:39Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:02.326Z"
+      "collectedAt": "2025-12-11T09:46:33.979Z"
     },
     {
       "id": "04c62568cae276ef",
@@ -398,7 +398,7 @@
       "updatedAt": "2025-12-11T07:45:40Z",
       "lastCommitAt": "2025-12-09T23:26:30Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:16.693Z"
+      "collectedAt": "2025-12-11T09:41:15.792Z"
     },
     {
       "id": "ee205417b3c953a1",
@@ -434,7 +434,7 @@
       "updatedAt": "2025-12-10T13:56:43Z",
       "lastCommitAt": "2025-01-16T10:20:48Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:36.583Z"
+      "collectedAt": "2025-12-11T09:43:36.995Z"
     },
     {
       "id": "04bca2ed899eb0ad",
@@ -458,7 +458,7 @@
       "updatedAt": "2025-12-11T02:35:41Z",
       "lastCommitAt": "2025-12-09T03:06:55Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:38.545Z"
+      "collectedAt": "2025-12-11T09:43:38.289Z"
     },
     {
       "id": "0fc000952acdb612",
@@ -469,8 +469,8 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
       "repoUrl": "https://github.com/K-Dense-AI/claude-scientific-skills",
       "repoFullName": "K-Dense-AI/claude-scientific-skills",
-      "stars": 1954,
-      "forks": 231,
+      "stars": 1955,
+      "forks": 232,
       "category": "devops",
       "categories": [
         "devops"
@@ -496,10 +496,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-10-19T20:54:15Z",
-      "updatedAt": "2025-12-11T08:38:54Z",
+      "updatedAt": "2025-12-11T09:36:16Z",
       "lastCommitAt": "2025-12-07T21:55:09Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:17.206Z"
+      "collectedAt": "2025-12-11T09:41:16.293Z"
     },
     {
       "id": "37ab85040fb8a0ec",
@@ -529,7 +529,7 @@
       "updatedAt": "2025-12-02T19:26:38Z",
       "lastCommitAt": "2025-12-07T19:34:50Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:27.330Z"
+      "collectedAt": "2025-12-11T09:42:51.261Z"
     },
     {
       "id": "9f4ce2170b058ee9",
@@ -562,10 +562,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-03-12T14:49:15Z",
-      "updatedAt": "2025-12-11T01:43:35Z",
-      "lastCommitAt": "2025-12-11T08:09:52Z",
+      "updatedAt": "2025-12-11T09:35:23Z",
+      "lastCommitAt": "2025-12-11T09:28:02Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:52.524Z"
+      "collectedAt": "2025-12-11T09:46:12.512Z"
     },
     {
       "id": "e9c9d1fa37e3e564",
@@ -593,7 +593,7 @@
       "updatedAt": "2025-12-11T08:45:14Z",
       "lastCommitAt": "2025-12-11T06:36:20Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:22.120Z"
+      "collectedAt": "2025-12-11T09:45:57.346Z"
     },
     {
       "id": "a3b537652bce2859",
@@ -604,7 +604,7 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/201282378?v=4",
       "repoUrl": "https://github.com/VoltAgent/awesome-claude-skills",
       "repoFullName": "VoltAgent/awesome-claude-skills",
-      "stars": 1227,
+      "stars": 1228,
       "forks": 81,
       "category": "other",
       "categories": [
@@ -619,10 +619,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-10-28T08:55:32Z",
-      "updatedAt": "2025-12-11T08:50:33Z",
+      "updatedAt": "2025-12-11T09:21:03Z",
       "lastCommitAt": "2025-12-08T15:35:34Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:17.707Z"
+      "collectedAt": "2025-12-11T09:41:16.793Z"
     },
     {
       "id": "b3dc386def060c82",
@@ -656,7 +656,7 @@
       "updatedAt": "2025-12-10T18:10:59Z",
       "lastCommitAt": "2025-12-05T20:00:37Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:52.687Z"
+      "collectedAt": "2025-12-11T09:43:47.398Z"
     },
     {
       "id": "d8e4f606350984a9",
@@ -680,7 +680,7 @@
       "updatedAt": "2025-12-10T16:16:22Z",
       "lastCommitAt": "2025-10-21T12:50:37Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:52.586Z"
+      "collectedAt": "2025-12-11T09:44:38.147Z"
     },
     {
       "id": "272c756a2f037fce",
@@ -691,7 +691,7 @@
       "authorAvatar": "https://avatars.githubusercontent.com/u/9823496?v=4",
       "repoUrl": "https://github.com/lackeyjb/playwright-skill",
       "repoFullName": "lackeyjb/playwright-skill",
-      "stars": 870,
+      "stars": 871,
       "forks": 38,
       "category": "testing",
       "categories": [
@@ -715,10 +715,10 @@
       "tier": 1,
       "status": "active",
       "createdAt": "2025-10-19T21:33:51Z",
-      "updatedAt": "2025-12-11T06:10:48Z",
+      "updatedAt": "2025-12-11T09:26:09Z",
       "lastCommitAt": "2025-12-02T12:46:15Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:18.208Z"
+      "collectedAt": "2025-12-11T09:41:17.294Z"
     },
     {
       "id": "5dba15fccc28d341",
@@ -754,7 +754,7 @@
       "updatedAt": "2025-12-11T08:33:41Z",
       "lastCommitAt": "2025-12-03T13:15:58Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:18.720Z"
+      "collectedAt": "2025-12-11T09:41:17.795Z"
     },
     {
       "id": "3d40caf2d99167a6",
@@ -783,7 +783,7 @@
       "updatedAt": "2025-12-11T08:37:04Z",
       "lastCommitAt": "2025-12-06T01:05:21Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:05.282Z"
+      "collectedAt": "2025-12-11T09:46:55.344Z"
     },
     {
       "id": "cdc1fe30b216a08c",
@@ -819,7 +819,7 @@
       "updatedAt": "2025-12-10T15:43:57Z",
       "lastCommitAt": "2025-12-10T15:43:53Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:19.222Z"
+      "collectedAt": "2025-12-11T09:41:18.296Z"
     },
     {
       "id": "60e14009bc219242",
@@ -860,7 +860,7 @@
       "updatedAt": "2025-12-10T18:13:49Z",
       "lastCommitAt": "2025-12-11T04:17:07Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:30.955Z"
+      "collectedAt": "2025-12-11T09:46:24.714Z"
     },
     {
       "id": "5b9a8d214d82b3be",
@@ -893,7 +893,7 @@
       "updatedAt": "2025-12-11T07:47:30Z",
       "lastCommitAt": "2025-12-10T17:24:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:29.418Z"
+      "collectedAt": "2025-12-11T09:44:18.423Z"
     },
     {
       "id": "b76772699cd04a7e",
@@ -929,7 +929,7 @@
       "updatedAt": "2025-12-10T06:22:43Z",
       "lastCommitAt": "2025-12-10T19:43:02Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:03.382Z"
+      "collectedAt": "2025-12-11T09:46:17.601Z"
     },
     {
       "id": "cd7d5d4b7ed70cf8",
@@ -953,7 +953,38 @@
       "updatedAt": "2025-12-11T08:34:09Z",
       "lastCommitAt": "2025-12-10T11:10:23Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:30.901Z"
+      "collectedAt": "2025-12-11T09:44:38.872Z"
+    },
+    {
+      "id": "ce00297fb4f9ce9d",
+      "slug": "mcpspy",
+      "name": "MCPSpy",
+      "description": "MCP Monitoring with eBPF",
+      "author": "alex-ilgayev",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/23579644?v=4",
+      "repoUrl": "https://github.com/alex-ilgayev/MCPSpy",
+      "repoFullName": "alex-ilgayev/MCPSpy",
+      "stars": 478,
+      "forks": 68,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ai",
+        "ai-security",
+        "llm",
+        "mcp",
+        "monitoring",
+        "security"
+      ],
+      "tier": 1,
+      "status": "active",
+      "createdAt": "2025-07-17T15:47:17Z",
+      "updatedAt": "2025-12-07T08:19:27Z",
+      "lastCommitAt": "2025-12-07T08:19:25Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:28.721Z"
     },
     {
       "id": "a4c292995cc20fc7",
@@ -985,11 +1016,11 @@
       "updatedAt": "2025-12-08T14:00:08Z",
       "lastCommitAt": "2025-11-16T01:24:50Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:56.686Z"
+      "collectedAt": "2025-12-11T09:44:05.361Z"
     },
     {
       "id": "2fe948b9121eef8c",
-      "slug": "config",
+      "slug": "benbrastmckie-config",
       "name": ".config",
       "description": "NeoVim configuration optimized for writing in LaTeX with AI integration for Avante, Lectic, and Claude-Code",
       "author": "benbrastmckie",
@@ -1009,7 +1040,7 @@
       "updatedAt": "2025-12-10T20:52:08Z",
       "lastCommitAt": "2025-12-10T20:52:01Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:27.935Z"
+      "collectedAt": "2025-12-11T09:46:20.261Z"
     },
     {
       "id": "70e51a6d0a30033a",
@@ -1040,7 +1071,7 @@
       "updatedAt": "2025-12-09T20:41:12Z",
       "lastCommitAt": "2025-12-07T09:28:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:21.392Z"
+      "collectedAt": "2025-12-11T09:44:13.127Z"
     },
     {
       "id": "dd17105f4e4940d9",
@@ -1067,7 +1098,7 @@
       "updatedAt": "2025-11-25T12:13:42Z",
       "lastCommitAt": "2022-12-10T16:54:03Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:28.292Z"
+      "collectedAt": "2025-12-11T09:42:51.905Z"
     },
     {
       "id": "57c6f12c31a280cc",
@@ -1106,7 +1137,7 @@
       "updatedAt": "2025-12-11T08:48:32Z",
       "lastCommitAt": "2025-12-06T20:05:20Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:19.723Z"
+      "collectedAt": "2025-12-11T09:41:18.797Z"
     },
     {
       "id": "e79b13e5793863ee",
@@ -1140,7 +1171,7 @@
       "updatedAt": "2025-12-03T13:12:06Z",
       "lastCommitAt": "2025-08-12T20:11:19Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:19.487Z"
+      "collectedAt": "2025-12-11T09:42:45.684Z"
     },
     {
       "id": "dc52196f652ea2b7",
@@ -1171,7 +1202,7 @@
       "updatedAt": "2025-12-11T03:10:41Z",
       "lastCommitAt": "2025-12-11T03:10:34Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:18.593Z"
+      "collectedAt": "2025-12-11T09:46:56.695Z"
     },
     {
       "id": "790e892d9e4b812c",
@@ -1195,7 +1226,7 @@
       "updatedAt": "2025-07-19T19:34:01Z",
       "lastCommitAt": "2017-11-03T09:48:39Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:20.459Z"
+      "collectedAt": "2025-12-11T09:42:46.351Z"
     },
     {
       "id": "7f87266601c30568",
@@ -1219,7 +1250,7 @@
       "updatedAt": "2025-12-11T06:31:42Z",
       "lastCommitAt": "2025-12-09T19:11:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:54.535Z"
+      "collectedAt": "2025-12-11T09:46:37.396Z"
     },
     {
       "id": "92d422b3585542a4",
@@ -1253,7 +1284,7 @@
       "updatedAt": "2025-12-11T08:41:33Z",
       "lastCommitAt": "2025-11-06T16:47:06Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:20.225Z"
+      "collectedAt": "2025-12-11T09:41:19.298Z"
     },
     {
       "id": "3b0c9f0434593734",
@@ -1292,40 +1323,7 @@
       "updatedAt": "2025-12-09T06:52:52Z",
       "lastCommitAt": "2025-11-22T22:59:53Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:52.299Z"
-    },
-    {
-      "id": "4eb85c7faae96266",
-      "slug": "gh-aw",
-      "name": "Gh Aw",
-      "description": "GitHub Agentic Workflows",
-      "author": "githubnext",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/89615882?v=4",
-      "repoUrl": "https://github.com/githubnext/gh-aw",
-      "repoFullName": "githubnext/gh-aw",
-      "stars": 264,
-      "forks": 32,
-      "category": "automation",
-      "categories": [
-        "automation"
-      ],
-      "tags": [
-        "actions",
-        "cai",
-        "ci",
-        "claude-code",
-        "codex",
-        "copilot",
-        "gh-extension",
-        "github-actions"
-      ],
-      "tier": 1,
-      "status": "active",
-      "createdAt": "2025-08-12T17:40:41Z",
-      "updatedAt": "2025-12-11T08:49:11Z",
-      "lastCommitAt": "2025-12-11T08:49:09Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:10.273Z"
+      "collectedAt": "2025-12-11T09:42:30.309Z"
     },
     {
       "id": "ef46699d1b645bff",
@@ -1363,7 +1361,7 @@
       "updatedAt": "2025-10-29T00:20:10Z",
       "lastCommitAt": "2023-07-19T04:45:10Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:18.495Z"
+      "collectedAt": "2025-12-11T09:42:45.020Z"
     },
     {
       "id": "0dc821347a509fd5",
@@ -1387,7 +1385,7 @@
       "updatedAt": "2025-11-26T09:25:28Z",
       "lastCommitAt": "2022-05-12T02:44:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:17.410Z"
+      "collectedAt": "2025-12-11T09:42:44.328Z"
     },
     {
       "id": "4c4a663864221754",
@@ -1411,7 +1409,7 @@
       "updatedAt": "2025-12-10T22:54:18Z",
       "lastCommitAt": "2025-12-10T22:54:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:16.423Z"
+      "collectedAt": "2025-12-11T09:44:19.757Z"
     },
     {
       "id": "ae65c8c8938d4e9c",
@@ -1456,7 +1454,7 @@
       "updatedAt": "2025-12-11T00:41:20Z",
       "lastCommitAt": "2025-11-29T17:40:32Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:20.729Z"
+      "collectedAt": "2025-12-11T09:41:19.799Z"
     },
     {
       "id": "68eddd198981dd3f",
@@ -1487,7 +1485,7 @@
       "updatedAt": "2025-12-10T17:12:32Z",
       "lastCommitAt": "2025-11-12T15:30:27Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:21.230Z"
+      "collectedAt": "2025-12-11T09:41:20.300Z"
     },
     {
       "id": "e3033432f805480d",
@@ -1519,7 +1517,36 @@
       "updatedAt": "2025-12-10T07:23:11Z",
       "lastCommitAt": "2025-12-11T06:31:50Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:24.477Z"
+      "collectedAt": "2025-12-11T09:44:44.778Z"
+    },
+    {
+      "id": "550fec269653244d",
+      "slug": "fredrikaverpil-dotfiles",
+      "name": "Dotfiles",
+      "description": "",
+      "author": "fredrikaverpil",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/994357?v=4",
+      "repoUrl": "https://github.com/fredrikaverpil/dotfiles",
+      "repoFullName": "fredrikaverpil/dotfiles",
+      "stars": 187,
+      "forks": 5,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "bash",
+        "dotbot",
+        "dotfiles",
+        "zsh"
+      ],
+      "tier": 1,
+      "status": "active",
+      "createdAt": "2016-04-08T16:19:25Z",
+      "updatedAt": "2025-12-09T07:07:26Z",
+      "lastCommitAt": "2025-12-11T09:23:41Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:38.051Z"
     },
     {
       "id": "0e6a06115b43c039",
@@ -1550,7 +1577,7 @@
       "updatedAt": "2025-12-11T00:45:29Z",
       "lastCommitAt": "2025-12-10T04:04:31Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:51.645Z"
+      "collectedAt": "2025-12-11T09:44:31.472Z"
     },
     {
       "id": "8b650934662d22b2",
@@ -1574,7 +1601,7 @@
       "updatedAt": "2025-12-06T21:24:43Z",
       "lastCommitAt": "2025-12-06T21:24:40Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:16.612Z"
+      "collectedAt": "2025-12-11T09:46:31.822Z"
     },
     {
       "id": "0d01b6c1daa586b9",
@@ -1598,7 +1625,7 @@
       "updatedAt": "2025-08-25T06:32:18Z",
       "lastCommitAt": "2017-02-25T11:32:30Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:53.636Z"
+      "collectedAt": "2025-12-11T09:43:48.062Z"
     },
     {
       "id": "29bfad3fc44358e5",
@@ -1643,7 +1670,7 @@
       "updatedAt": "2025-12-11T07:07:25Z",
       "lastCommitAt": "2025-11-10T09:53:29Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:21.733Z"
+      "collectedAt": "2025-12-11T09:41:20.801Z"
     },
     {
       "id": "78717363ed046926",
@@ -1667,7 +1694,7 @@
       "updatedAt": "2025-12-03T01:41:36Z",
       "lastCommitAt": "2024-03-05T14:56:03Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:32.536Z"
+      "collectedAt": "2025-12-11T09:42:54.516Z"
     },
     {
       "id": "2f6f2e18ea41ee49",
@@ -1708,7 +1735,7 @@
       "updatedAt": "2025-12-10T10:18:00Z",
       "lastCommitAt": "2025-12-10T00:14:58Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:22.236Z"
+      "collectedAt": "2025-12-11T09:41:21.302Z"
     },
     {
       "id": "4c2e5036dcd46bf7",
@@ -1732,7 +1759,7 @@
       "updatedAt": "2025-11-28T17:54:08Z",
       "lastCommitAt": "2025-11-22T11:43:19Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:22.546Z"
+      "collectedAt": "2025-12-11T09:42:47.841Z"
     },
     {
       "id": "d428a5e6d632421c",
@@ -1777,7 +1804,7 @@
       "updatedAt": "2025-12-10T23:36:41Z",
       "lastCommitAt": "2025-12-10T21:41:31Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:22.737Z"
+      "collectedAt": "2025-12-11T09:41:21.802Z"
     },
     {
       "id": "bf0366e75dd0dc12",
@@ -1819,7 +1846,7 @@
       "updatedAt": "2025-12-10T19:40:35Z",
       "lastCommitAt": "2025-10-28T08:02:48Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:23.252Z"
+      "collectedAt": "2025-12-11T09:41:22.303Z"
     },
     {
       "id": "c339cde526637ab4",
@@ -1843,7 +1870,7 @@
       "updatedAt": "2025-10-12T16:36:06Z",
       "lastCommitAt": "2016-05-08T21:03:07Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:21.511Z"
+      "collectedAt": "2025-12-11T09:42:47.089Z"
     },
     {
       "id": "2f8aeae706f91e17",
@@ -1874,7 +1901,7 @@
       "updatedAt": "2025-12-09T14:26:05Z",
       "lastCommitAt": "2025-12-04T09:04:27Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:23.752Z"
+      "collectedAt": "2025-12-11T09:41:22.804Z"
     },
     {
       "id": "dbca38b3821964a0",
@@ -1898,7 +1925,7 @@
       "updatedAt": "2025-12-11T06:05:48Z",
       "lastCommitAt": "2025-12-11T06:05:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:10.177Z"
+      "collectedAt": "2025-12-11T09:45:58.140Z"
     },
     {
       "id": "597729d1e0e96a73",
@@ -1932,7 +1959,7 @@
       "updatedAt": "2025-12-10T02:24:11Z",
       "lastCommitAt": "2025-12-10T02:24:07Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:34.751Z"
+      "collectedAt": "2025-12-11T09:44:15.833Z"
     },
     {
       "id": "d8b42057677ea1e7",
@@ -1969,7 +1996,7 @@
       "updatedAt": "2025-11-12T07:47:27Z",
       "lastCommitAt": "2025-09-07T03:26:40Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:31.603Z"
+      "collectedAt": "2025-12-11T09:42:53.864Z"
     },
     {
       "id": "4f667da46efb4b22",
@@ -1995,7 +2022,7 @@
       "updatedAt": "2025-12-09T19:18:03Z",
       "lastCommitAt": "2025-10-16T20:20:06Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:24.253Z"
+      "collectedAt": "2025-12-11T09:41:23.305Z"
     },
     {
       "id": "81c9304f80631f9e",
@@ -2019,7 +2046,7 @@
       "updatedAt": "2025-04-11T02:05:25Z",
       "lastCommitAt": "2020-04-21T21:06:07Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:25.415Z"
+      "collectedAt": "2025-12-11T09:42:49.956Z"
     },
     {
       "id": "6ee9f0e59dfeb36f",
@@ -2043,7 +2070,7 @@
       "updatedAt": "2025-10-26T17:44:28Z",
       "lastCommitAt": "2016-06-15T12:13:29Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:24.467Z"
+      "collectedAt": "2025-12-11T09:42:49.289Z"
     },
     {
       "id": "de86adca8c9c6821",
@@ -2067,7 +2094,59 @@
       "updatedAt": "2025-10-04T17:40:07Z",
       "lastCommitAt": "2025-09-04T08:31:37Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:30.663Z"
+      "collectedAt": "2025-12-11T09:42:53.221Z"
+    },
+    {
+      "id": "fb7c080f9393768b",
+      "slug": "agentic-qe",
+      "name": "Agentic Qe",
+      "description": "Agentic QE Framework - Bridge classical to autonomous quality engineering",
+      "author": "proffesor-for-testing",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/214853444?v=4",
+      "repoUrl": "https://github.com/proffesor-for-testing/agentic-qe",
+      "repoFullName": "proffesor-for-testing/agentic-qe",
+      "stars": 89,
+      "forks": 19,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "agenticsfoundation",
+        "agents",
+        "quality-engineering"
+      ],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-09-11T11:03:30Z",
+      "updatedAt": "2025-12-10T05:40:23Z",
+      "lastCommitAt": "2025-12-11T08:49:35Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:23.989Z"
+    },
+    {
+      "id": "6e103facb453fa47",
+      "slug": "droidz",
+      "name": "Droidz",
+      "description": "",
+      "author": "korallis",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/7937632?v=4",
+      "repoUrl": "https://github.com/korallis/Droidz",
+      "repoFullName": "korallis/Droidz",
+      "stars": 88,
+      "forks": 11,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-11-08T23:45:02Z",
+      "updatedAt": "2025-12-06T19:56:46Z",
+      "lastCommitAt": "2025-11-26T23:09:15Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:59.750Z"
     },
     {
       "id": "47f277aa1c9af50b",
@@ -2097,7 +2176,7 @@
       "updatedAt": "2025-12-11T06:51:29Z",
       "lastCommitAt": "2025-12-04T22:14:19Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:24.756Z"
+      "collectedAt": "2025-12-11T09:41:23.806Z"
     },
     {
       "id": "b106f605e33e940b",
@@ -2130,7 +2209,7 @@
       "updatedAt": "2025-12-11T06:04:15Z",
       "lastCommitAt": "2025-12-11T06:04:12Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:25.270Z"
+      "collectedAt": "2025-12-11T09:41:24.307Z"
     },
     {
       "id": "311bcf2c712514dc",
@@ -2154,7 +2233,7 @@
       "updatedAt": "2025-06-18T05:58:53Z",
       "lastCommitAt": "2020-04-27T14:19:07Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:29.669Z"
+      "collectedAt": "2025-12-11T09:42:52.566Z"
     },
     {
       "id": "c9b682c78e4f8f52",
@@ -2175,10 +2254,10 @@
       "tier": 2,
       "status": "active",
       "createdAt": "2023-09-06T18:07:38Z",
-      "updatedAt": "2025-12-11T01:50:14Z",
-      "lastCommitAt": "2025-12-11T01:50:11Z",
+      "updatedAt": "2025-12-11T09:38:54Z",
+      "lastCommitAt": "2025-12-11T09:43:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:12.191Z"
+      "collectedAt": "2025-12-11T09:45:59.530Z"
     },
     {
       "id": "538daa6623c6bbaf",
@@ -2202,7 +2281,7 @@
       "updatedAt": "2025-11-27T17:17:18Z",
       "lastCommitAt": "2025-11-27T17:17:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:22.334Z"
+      "collectedAt": "2025-12-11T09:43:27.964Z"
     },
     {
       "id": "b1ebcfb626142973",
@@ -2226,7 +2305,7 @@
       "updatedAt": "2025-09-06T16:22:44Z",
       "lastCommitAt": "2023-11-03T09:30:05Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:23.530Z"
+      "collectedAt": "2025-12-11T09:42:48.651Z"
     },
     {
       "id": "5daee86dfefaf683",
@@ -2250,7 +2329,7 @@
       "updatedAt": "2025-12-08T09:25:18Z",
       "lastCommitAt": "2025-12-08T09:25:15Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:26.347Z"
+      "collectedAt": "2025-12-11T09:42:50.625Z"
     },
     {
       "id": "fc526a02fb2fa6e1",
@@ -2274,7 +2353,7 @@
       "updatedAt": "2025-12-06T05:54:09Z",
       "lastCommitAt": "2021-05-08T20:43:36Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:36.551Z"
+      "collectedAt": "2025-12-11T09:42:57.297Z"
     },
     {
       "id": "128502ce0a843d84",
@@ -2298,7 +2377,7 @@
       "updatedAt": "2024-12-14T16:46:48Z",
       "lastCommitAt": "2019-12-13T05:16:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:39.423Z"
+      "collectedAt": "2025-12-11T09:42:59.409Z"
     },
     {
       "id": "7d37bcc17046559b",
@@ -2330,7 +2409,7 @@
       "updatedAt": "2025-12-10T20:07:10Z",
       "lastCommitAt": "2025-12-10T20:33:35Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:44.162Z"
+      "collectedAt": "2025-12-11T09:44:28.077Z"
     },
     {
       "id": "e42543aa52f5cde2",
@@ -2366,7 +2445,7 @@
       "updatedAt": "2025-12-10T02:34:13Z",
       "lastCommitAt": "2025-12-08T09:57:57Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:25.772Z"
+      "collectedAt": "2025-12-11T09:41:24.808Z"
     },
     {
       "id": "900e28ad7e84ee14",
@@ -2393,7 +2472,7 @@
       "updatedAt": "2025-10-29T04:13:57Z",
       "lastCommitAt": "2025-10-13T01:22:58Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:38.475Z"
+      "collectedAt": "2025-12-11T09:42:58.700Z"
     },
     {
       "id": "1bf82af06a965e5e",
@@ -2417,7 +2496,7 @@
       "updatedAt": "2025-12-01T06:18:21Z",
       "lastCommitAt": "2020-09-24T12:43:06Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:40.469Z"
+      "collectedAt": "2025-12-11T09:43:00.111Z"
     },
     {
       "id": "457c79c4adbb2055",
@@ -2441,7 +2520,65 @@
       "updatedAt": "2025-12-07T20:32:46Z",
       "lastCommitAt": "2025-12-07T20:32:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:54.694Z"
+      "collectedAt": "2025-12-11T09:43:48.788Z"
+    },
+    {
+      "id": "04886834bf544407",
+      "slug": "skillport",
+      "name": "Skillport",
+      "description": "Bring Agent Skills to Cursor / Copilot / Antigravity / Codex & Any Agent — via CLI or MCP. Manage once, serve anywhere.",
+      "author": "gotalab",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/75576618?v=4",
+      "repoUrl": "https://github.com/gotalab/skillport",
+      "repoFullName": "gotalab/skillport",
+      "stars": 49,
+      "forks": 1,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "claude",
+        "codex",
+        "context-engineering",
+        "cursor",
+        "github-copilot",
+        "mcp",
+        "skills"
+      ],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-12-01T17:29:59Z",
+      "updatedAt": "2025-12-11T03:28:19Z",
+      "lastCommitAt": "2025-12-11T09:04:36Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:39.539Z"
+    },
+    {
+      "id": "128f6076e449ac58",
+      "slug": "jason0x43-dotfiles",
+      "name": "Dotfiles",
+      "description": "My dotfiles",
+      "author": "jason0x43",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/1042866?v=4",
+      "repoUrl": "https://github.com/jason0x43/dotfiles",
+      "repoFullName": "jason0x43/dotfiles",
+      "stars": 49,
+      "forks": 3,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2014-11-02T19:16:00Z",
+      "updatedAt": "2025-12-10T22:47:09Z",
+      "lastCommitAt": "2025-12-10T22:47:06Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:58.704Z"
     },
     {
       "id": "2b75adbb704c934c",
@@ -2465,36 +2602,7 @@
       "updatedAt": "2025-12-09T10:48:53Z",
       "lastCommitAt": "2025-12-09T10:48:49Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:48.221Z"
-    },
-    {
-      "id": "93a707ad4539356c",
-      "slug": "nori-profiles",
-      "name": "Nori Profiles",
-      "description": "System for building custom coding agents",
-      "author": "tilework-tech",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/240563687?v=4",
-      "repoUrl": "https://github.com/tilework-tech/nori-profiles",
-      "repoFullName": "tilework-tech/nori-profiles",
-      "stars": 46,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [
-        "agentic-ai",
-        "ai",
-        "claude",
-        "coding-agent"
-      ],
-      "tier": 2,
-      "status": "active",
-      "createdAt": "2025-10-30T19:33:58Z",
-      "updatedAt": "2025-12-11T06:44:18Z",
-      "lastCommitAt": "2025-12-11T06:44:15Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:53.425Z"
+      "collectedAt": "2025-12-11T09:46:35.314Z"
     },
     {
       "id": "c2251aefb6088104",
@@ -2518,7 +2626,7 @@
       "updatedAt": "2025-08-03T18:50:09Z",
       "lastCommitAt": "2024-01-26T00:54:20Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:42.450Z"
+      "collectedAt": "2025-12-11T09:43:01.591Z"
     },
     {
       "id": "62fbd1056f3a9b76",
@@ -2544,7 +2652,7 @@
       "updatedAt": "2025-10-04T13:58:58Z",
       "lastCommitAt": "2025-08-28T07:23:26Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:33.504Z"
+      "collectedAt": "2025-12-11T09:42:55.149Z"
     },
     {
       "id": "7feaa51b39f27f96",
@@ -2568,7 +2676,7 @@
       "updatedAt": "2025-12-01T08:11:29Z",
       "lastCommitAt": "2025-03-31T13:12:06Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:47.465Z"
+      "collectedAt": "2025-12-11T09:43:04.453Z"
     },
     {
       "id": "29dc92ff829b72f8",
@@ -2600,35 +2708,7 @@
       "updatedAt": "2025-12-11T00:50:59Z",
       "lastCommitAt": "2025-12-11T00:50:54Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:10.658Z"
-    },
-    {
-      "id": "1428a5b3afb44b35",
-      "slug": "polymath",
-      "name": "Polymath",
-      "description": "Claude Code skills and workflows, optimized for context-efficiency and skill quality. Skills ranging from cloud infrastructure to design to advanced maths.",
-      "author": "rand",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2835?v=4",
-      "repoUrl": "https://github.com/rand/cc-polymath",
-      "repoFullName": "rand/cc-polymath",
-      "stars": 40,
-      "forks": 4,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [
-        "ai",
-        "claude-code",
-        "skills"
-      ],
-      "tier": 2,
-      "status": "active",
-      "createdAt": "2025-10-18T18:41:55Z",
-      "updatedAt": "2025-12-08T18:15:59Z",
-      "lastCommitAt": "2025-11-25T21:16:52Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:20.604Z"
+      "collectedAt": "2025-12-11T09:44:43.397Z"
     },
     {
       "id": "ff5b3acda02fafbd",
@@ -2649,10 +2729,10 @@
       "tier": 2,
       "status": "active",
       "createdAt": "2022-08-26T16:21:17Z",
-      "updatedAt": "2025-12-03T16:05:22Z",
-      "lastCommitAt": "2025-12-05T09:20:50Z",
+      "updatedAt": "2025-12-11T09:24:42Z",
+      "lastCommitAt": "2025-12-11T09:41:41Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:47.462Z"
+      "collectedAt": "2025-12-11T09:46:15.457Z"
     },
     {
       "id": "47eba5fb2b3c7f86",
@@ -2684,7 +2764,7 @@
       "updatedAt": "2025-12-09T06:34:33Z",
       "lastCommitAt": "2025-12-04T09:20:43Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:26.276Z"
+      "collectedAt": "2025-12-11T09:41:25.309Z"
     },
     {
       "id": "2806b30782c1fa27",
@@ -2726,7 +2806,7 @@
       "updatedAt": "2025-12-08T16:21:06Z",
       "lastCommitAt": "2025-12-05T23:01:33Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:29.384Z"
+      "collectedAt": "2025-12-11T09:46:45.103Z"
     },
     {
       "id": "b1621ab3741d1e7c",
@@ -2767,7 +2847,7 @@
       "updatedAt": "2025-12-10T14:22:33Z",
       "lastCommitAt": "2025-11-04T04:17:12Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:26.780Z"
+      "collectedAt": "2025-12-11T09:41:25.810Z"
     },
     {
       "id": "76b2e2468d87534f",
@@ -2795,7 +2875,7 @@
       "updatedAt": "2025-12-10T00:22:42Z",
       "lastCommitAt": "2025-12-08T06:32:39Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:27.283Z"
+      "collectedAt": "2025-12-11T09:41:26.311Z"
     },
     {
       "id": "9b23db80f4548ebb",
@@ -2819,10 +2899,10 @@
       "tier": 2,
       "status": "active",
       "createdAt": "2021-10-22T17:42:23Z",
-      "updatedAt": "2025-12-11T07:55:52Z",
-      "lastCommitAt": "2025-12-11T07:55:49Z",
+      "updatedAt": "2025-12-11T09:40:52Z",
+      "lastCommitAt": "2025-12-11T09:40:48Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:14.592Z"
+      "collectedAt": "2025-12-11T09:46:29.803Z"
     },
     {
       "id": "fc6bc77de2a6a17e",
@@ -2846,7 +2926,7 @@
       "updatedAt": "2025-12-11T06:35:46Z",
       "lastCommitAt": "2019-11-24T12:10:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:18.121Z"
+      "collectedAt": "2025-12-11T09:43:25.358Z"
     },
     {
       "id": "14d59aa2695627ce",
@@ -2870,7 +2950,7 @@
       "updatedAt": "2025-12-08T01:46:16Z",
       "lastCommitAt": "2025-12-08T01:46:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:16.031Z"
+      "collectedAt": "2025-12-11T09:44:17.780Z"
     },
     {
       "id": "ff1d85f852e8500e",
@@ -2906,7 +2986,7 @@
       "updatedAt": "2025-11-26T20:40:19Z",
       "lastCommitAt": "2025-11-26T20:40:15Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:26.007Z"
+      "collectedAt": "2025-12-11T09:46:43.583Z"
     },
     {
       "id": "9995acdfe125c77d",
@@ -2936,7 +3016,7 @@
       "updatedAt": "2025-12-06T17:12:12Z",
       "lastCommitAt": "2025-10-22T04:18:03Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:27.795Z"
+      "collectedAt": "2025-12-11T09:41:26.812Z"
     },
     {
       "id": "ef514de9076be4de",
@@ -2960,7 +3040,7 @@
       "updatedAt": "2025-12-11T07:20:28Z",
       "lastCommitAt": "2025-12-11T07:20:24Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:55.564Z"
+      "collectedAt": "2025-12-11T09:44:35.468Z"
     },
     {
       "id": "93ad13ed8e8a8fa2",
@@ -2991,7 +3071,7 @@
       "updatedAt": "2025-12-10T16:02:32Z",
       "lastCommitAt": "2025-11-25T18:13:42Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:28.310Z"
+      "collectedAt": "2025-12-11T09:41:27.313Z"
     },
     {
       "id": "7ea61bbbc1ac0a19",
@@ -3015,45 +3095,7 @@
       "updatedAt": "2025-12-11T02:19:11Z",
       "lastCommitAt": "2025-12-10T09:21:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:32.400Z"
-    },
-    {
-      "id": "e34efa6f819f371d",
-      "slug": "the-unofficial-swift-concurrency-migration",
-      "name": "The Unofficial Swift Concurrency Migration",
-      "description": "The Swift Concurrency Migration Guide, packaged as a Skill for LLMs.",
-      "author": "kylehughes",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/229059?v=4",
-      "repoUrl": "https://github.com/kylehughes/the-unofficial-swift-concurrency-migration-skill",
-      "repoFullName": "kylehughes/the-unofficial-swift-concurrency-migration-skill",
-      "stars": 27,
-      "forks": 0,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [
-        "agent-skills",
-        "apple",
-        "claude",
-        "claude-code",
-        "claude-desktop",
-        "claude-plugins",
-        "claude-skills",
-        "ios",
-        "macos",
-        "swift",
-        "tvos",
-        "visionos",
-        "watchos"
-      ],
-      "tier": 2,
-      "status": "active",
-      "createdAt": "2025-12-07T02:42:40Z",
-      "updatedAt": "2025-12-09T19:39:07Z",
-      "lastCommitAt": "2025-12-07T07:33:41Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:28.813Z"
+      "collectedAt": "2025-12-11T09:46:47.843Z"
     },
     {
       "id": "b13d8ce9896ec0b9",
@@ -3091,7 +3133,45 @@
       "updatedAt": "2025-12-11T08:45:15Z",
       "lastCommitAt": "2025-12-11T08:45:12Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:29.319Z"
+      "collectedAt": "2025-12-11T09:41:27.814Z"
+    },
+    {
+      "id": "e34efa6f819f371d",
+      "slug": "the-unofficial-swift-concurrency-migration",
+      "name": "The Unofficial Swift Concurrency Migration",
+      "description": "The Swift Concurrency Migration Guide, packaged as a Skill for LLMs.",
+      "author": "kylehughes",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/229059?v=4",
+      "repoUrl": "https://github.com/kylehughes/the-unofficial-swift-concurrency-migration-skill",
+      "repoFullName": "kylehughes/the-unofficial-swift-concurrency-migration-skill",
+      "stars": 27,
+      "forks": 0,
+      "category": "devops",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "agent-skills",
+        "apple",
+        "claude",
+        "claude-code",
+        "claude-desktop",
+        "claude-plugins",
+        "claude-skills",
+        "ios",
+        "macos",
+        "swift",
+        "tvos",
+        "visionos",
+        "watchos"
+      ],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-12-07T02:42:40Z",
+      "updatedAt": "2025-12-09T19:39:07Z",
+      "lastCommitAt": "2025-12-07T07:33:41Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:28.315Z"
     },
     {
       "id": "16522679a1ea5d00",
@@ -3115,7 +3195,7 @@
       "updatedAt": "2025-10-13T18:25:59Z",
       "lastCommitAt": "2025-10-13T18:35:55Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:37.527Z"
+      "collectedAt": "2025-12-11T09:42:58.056Z"
     },
     {
       "id": "4e9837be12f0825d",
@@ -3145,7 +3225,7 @@
       "updatedAt": "2025-12-06T22:32:55Z",
       "lastCommitAt": "2024-03-16T06:07:16Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:15.629Z"
+      "collectedAt": "2025-12-11T09:46:02.213Z"
     },
     {
       "id": "985c735bacfed106",
@@ -3169,7 +3249,7 @@
       "updatedAt": "2025-12-08T19:24:55Z",
       "lastCommitAt": "2025-12-08T19:24:51Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:57.126Z"
+      "collectedAt": "2025-12-11T09:43:10.543Z"
     },
     {
       "id": "680a8fa383bde99b",
@@ -3195,7 +3275,7 @@
       "updatedAt": "2025-12-11T08:04:20Z",
       "lastCommitAt": "2025-12-11T08:04:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:55.722Z"
+      "collectedAt": "2025-12-11T09:43:50.245Z"
     },
     {
       "id": "499da0ec5379929a",
@@ -3227,7 +3307,31 @@
       "updatedAt": "2025-12-10T08:57:46Z",
       "lastCommitAt": "2025-11-29T03:57:26Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:29.820Z"
+      "collectedAt": "2025-12-11T09:41:28.816Z"
+    },
+    {
+      "id": "7868fe3214654c48",
+      "slug": "mpm",
+      "name": "Mpm",
+      "description": "Claude Multi-Agent Project Manager - Subprocess orchestration layer for Claude",
+      "author": "bobmatnyc",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/913108?v=4",
+      "repoUrl": "https://github.com/bobmatnyc/claude-mpm",
+      "repoFullName": "bobmatnyc/claude-mpm",
+      "stars": 24,
+      "forks": 4,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-07-25T05:21:17Z",
+      "updatedAt": "2025-12-11T04:17:24Z",
+      "lastCommitAt": "2025-12-11T04:18:33Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:57.051Z"
     },
     {
       "id": "0047851ba579fe1a",
@@ -3265,7 +3369,7 @@
       "updatedAt": "2025-12-09T16:17:37Z",
       "lastCommitAt": "2025-12-10T13:34:15Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:30.322Z"
+      "collectedAt": "2025-12-11T09:41:29.317Z"
     },
     {
       "id": "b427732f14d94da6",
@@ -3295,7 +3399,7 @@
       "updatedAt": "2025-12-03T12:33:44Z",
       "lastCommitAt": "2025-11-06T03:47:33Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:30.822Z"
+      "collectedAt": "2025-12-11T09:41:29.818Z"
     },
     {
       "id": "cf3d3146f666cacd",
@@ -3330,7 +3434,55 @@
       "updatedAt": "2025-12-11T05:50:45Z",
       "lastCommitAt": "2025-12-11T05:44:40Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:28.117Z"
+      "collectedAt": "2025-12-11T09:45:38.547Z"
+    },
+    {
+      "id": "2f87df092ac31777",
+      "slug": "sentinel-api-testing",
+      "name": "Sentinel Api Testing",
+      "description": "AI Agentic API Testing Platform - Automated testing with specialized ephemeral agents",
+      "author": "proffesor-for-testing",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/214853444?v=4",
+      "repoUrl": "https://github.com/proffesor-for-testing/sentinel-api-testing",
+      "repoFullName": "proffesor-for-testing/sentinel-api-testing",
+      "stars": 23,
+      "forks": 7,
+      "category": "testing",
+      "categories": [
+        "testing"
+      ],
+      "tags": [],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-07-26T12:29:14Z",
+      "updatedAt": "2025-12-09T18:36:38Z",
+      "lastCommitAt": "2025-12-08T15:09:52Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:49.872Z"
+    },
+    {
+      "id": "428889a009cfa0c1",
+      "slug": "openshift-eng-ai-helpers",
+      "name": "Ai Helpers",
+      "description": "Developer productivity tools for Claude Code & other AI assistants",
+      "author": "openshift-eng",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/84759374?v=4",
+      "repoUrl": "https://github.com/openshift-eng/ai-helpers",
+      "repoFullName": "openshift-eng/ai-helpers",
+      "stars": 23,
+      "forks": 147,
+      "category": "productivity",
+      "categories": [
+        "productivity"
+      ],
+      "tags": [],
+      "tier": 2,
+      "status": "active",
+      "createdAt": "2025-10-10T07:55:31Z",
+      "updatedAt": "2025-12-11T02:37:56Z",
+      "lastCommitAt": "2025-12-11T02:37:52Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:38.788Z"
     },
     {
       "id": "7914ebd2dc61a98a",
@@ -3354,7 +3506,7 @@
       "updatedAt": "2024-10-05T06:49:00Z",
       "lastCommitAt": "2015-01-09T15:14:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:41.477Z"
+      "collectedAt": "2025-12-11T09:43:00.839Z"
     },
     {
       "id": "5e903df83730c295",
@@ -3378,7 +3530,7 @@
       "updatedAt": "2025-12-03T18:38:25Z",
       "lastCommitAt": "2025-11-21T11:28:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:06.422Z"
+      "collectedAt": "2025-12-11T09:44:42.751Z"
     },
     {
       "id": "c815495754b69d9b",
@@ -3402,31 +3554,7 @@
       "updatedAt": "2025-12-10T14:40:39Z",
       "lastCommitAt": "2025-12-02T15:23:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:19.939Z"
-    },
-    {
-      "id": "58590e40b7f74fad",
-      "slug": "snowflake-dbt-demo",
-      "name": "Snowflake Dbt Demo",
-      "description": "This project demonstrates many of dbt's features when used with the Snowflake Data Cloud",
-      "author": "sfc-gh-dflippo",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/81630318?v=4",
-      "repoUrl": "https://github.com/sfc-gh-dflippo/snowflake-dbt-demo",
-      "repoFullName": "sfc-gh-dflippo/snowflake-dbt-demo",
-      "stars": 22,
-      "forks": 6,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 2,
-      "status": "active",
-      "createdAt": "2022-02-01T13:00:17Z",
-      "updatedAt": "2025-12-08T18:17:31Z",
-      "lastCommitAt": "2025-11-26T16:31:56Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:23.677Z"
+      "collectedAt": "2025-12-11T09:44:49.405Z"
     },
     {
       "id": "f1ab8934afd8cf2b",
@@ -3458,7 +3586,7 @@
       "updatedAt": "2025-12-07T03:16:40Z",
       "lastCommitAt": "2025-11-11T08:33:39Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:53.321Z"
+      "collectedAt": "2025-12-11T09:42:31.311Z"
     },
     {
       "id": "0f5d88c0415ca248",
@@ -3482,7 +3610,7 @@
       "updatedAt": "2025-08-01T02:14:34Z",
       "lastCommitAt": "2025-03-29T11:32:18Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:53.231Z"
+      "collectedAt": "2025-12-11T09:43:07.859Z"
     },
     {
       "id": "30f8246293f7c4fc",
@@ -3506,7 +3634,7 @@
       "updatedAt": "2025-12-09T21:44:56Z",
       "lastCommitAt": "2025-12-09T21:44:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:49.984Z"
+      "collectedAt": "2025-12-11T09:45:08.691Z"
     },
     {
       "id": "b45ed6d9d7b9f3ce",
@@ -3530,7 +3658,7 @@
       "updatedAt": "2025-11-08T21:01:57Z",
       "lastCommitAt": "2023-02-26T14:34:02Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:13.157Z"
+      "collectedAt": "2025-12-11T09:46:00.198Z"
     },
     {
       "id": "230a6300d6de71c7",
@@ -3554,7 +3682,7 @@
       "updatedAt": "2025-12-11T08:47:52Z",
       "lastCommitAt": "2025-12-11T08:47:49Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:34.494Z"
+      "collectedAt": "2025-12-11T09:42:55.837Z"
     },
     {
       "id": "2d10b7ec21347dfa",
@@ -3597,7 +3725,7 @@
       "updatedAt": "2025-12-11T02:58:51Z",
       "lastCommitAt": "2025-12-10T02:41:07Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:31.325Z"
+      "collectedAt": "2025-12-11T09:41:30.319Z"
     },
     {
       "id": "e0142f75032ca538",
@@ -3628,7 +3756,7 @@
       "updatedAt": "2025-12-10T14:56:04Z",
       "lastCommitAt": "2025-12-10T14:56:00Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:31.829Z"
+      "collectedAt": "2025-12-11T09:41:30.820Z"
     },
     {
       "id": "a71c24bc7d84baa0",
@@ -3671,7 +3799,35 @@
       "updatedAt": "2025-12-10T17:53:47Z",
       "lastCommitAt": "2025-12-07T13:42:26Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:32.333Z"
+      "collectedAt": "2025-12-11T09:41:31.321Z"
+    },
+    {
+      "id": "31d22a855f370bbf",
+      "slug": "oaustegard-skills",
+      "name": "Skills",
+      "description": "My collection of Claude skills",
+      "author": "oaustegard",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3268739?v=4",
+      "repoUrl": "https://github.com/oaustegard/claude-skills",
+      "repoFullName": "oaustegard/claude-skills",
+      "stars": 19,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "claude",
+        "claude-skill",
+        "claude-skills"
+      ],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2025-10-17T02:32:23Z",
+      "updatedAt": "2025-12-10T20:49:30Z",
+      "lastCommitAt": "2025-12-10T20:49:37Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:31.822Z"
     },
     {
       "id": "cae3d939da3ef13b",
@@ -3709,35 +3865,7 @@
       "updatedAt": "2025-12-10T01:26:57Z",
       "lastCommitAt": "2025-12-09T00:30:21Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:32.835Z"
-    },
-    {
-      "id": "31d22a855f370bbf",
-      "slug": "oaustegard-skills",
-      "name": "Skills",
-      "description": "My collection of Claude skills",
-      "author": "oaustegard",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/3268739?v=4",
-      "repoUrl": "https://github.com/oaustegard/claude-skills",
-      "repoFullName": "oaustegard/claude-skills",
-      "stars": 19,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [
-        "claude",
-        "claude-skill",
-        "claude-skills"
-      ],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-17T02:32:23Z",
-      "updatedAt": "2025-12-10T20:49:30Z",
-      "lastCommitAt": "2025-12-10T20:49:37Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:33.335Z"
+      "collectedAt": "2025-12-11T09:41:32.322Z"
     },
     {
       "id": "1877ff859966eae4",
@@ -3761,7 +3889,7 @@
       "updatedAt": "2021-10-23T14:32:22Z",
       "lastCommitAt": "2023-11-21T07:43:21Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:49.868Z"
+      "collectedAt": "2025-12-11T09:43:05.817Z"
     },
     {
       "id": "077f1b6f8442c2ca",
@@ -3792,100 +3920,31 @@
       "updatedAt": "2025-11-26T20:28:31Z",
       "lastCommitAt": "2024-07-28T18:28:26Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:05.030Z"
+      "collectedAt": "2025-12-11T09:43:15.879Z"
     },
     {
-      "id": "2441a9d94523ab13",
-      "slug": "onewave-ai-skills",
-      "name": "Skills",
-      "description": "100 Production-Ready Claude Code Skills - The most comprehensive collection of AI skills for sales, business automation, content creation, and development",
-      "author": "OneWave-AI",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/239639365?v=4",
-      "repoUrl": "https://github.com/OneWave-AI/claude-skills",
-      "repoFullName": "OneWave-AI/claude-skills",
+      "id": "e3765f0577fe1d98",
+      "slug": "craftaholic-dotfiles",
+      "name": "Dotfiles",
+      "description": "This repository is for setting up local machine environment",
+      "author": "craftaholic",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/63741110?v=4",
+      "repoUrl": "https://github.com/craftaholic/dotfiles",
+      "repoFullName": "craftaholic/dotfiles",
       "stars": 19,
-      "forks": 5,
-      "category": "automation",
+      "forks": 2,
+      "category": "other",
       "categories": [
-        "automation"
+        "other"
       ],
       "tags": [],
       "tier": 3,
-      "status": "maintained",
-      "createdAt": "2025-10-22T18:49:24Z",
-      "updatedAt": "2025-12-07T17:20:31Z",
-      "lastCommitAt": "2025-10-22T18:49:43Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:59.681Z"
-    },
-    {
-      "id": "b3a1bb33e3559a3a",
-      "slug": "claudekit",
-      "name": "Claudekit",
-      "description": "  The open-source AI dev toolkit for Claude Code. Ship faster with 27+ commands, 7 modes, and 34+ skills. Free forever.",
-      "author": "duthaho",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/16200755?v=4",
-      "repoUrl": "https://github.com/duthaho/claudekit",
-      "repoFullName": "duthaho/claudekit",
-      "stars": 19,
-      "forks": 21,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [
-        "ai-assistant",
-        "ai-coding",
-        "ai-tools",
-        "anthropic",
-        "automation",
-        "claude",
-        "claude-code",
-        "cli",
-        "code-generation",
-        "developer-tools",
-        "devtools",
-        "llm",
-        "open-source",
-        "productivity",
-        "workflow-automation"
-      ],
-      "tier": 3,
       "status": "active",
-      "createdAt": "2025-11-29T16:25:09Z",
-      "updatedAt": "2025-12-11T01:55:00Z",
-      "lastCommitAt": "2025-12-06T11:12:10Z",
+      "createdAt": "2023-07-11T06:57:41Z",
+      "updatedAt": "2025-12-03T06:34:44Z",
+      "lastCommitAt": "2025-12-03T06:34:40Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:52.188Z"
-    },
-    {
-      "id": "5a23534e60c1e4e6",
-      "slug": "mcp",
-      "name": "Mcp",
-      "description": "LLM-managed skills platform using MCP - create, edit, and execute skills programmatically in Claude, Cursor, and any MCP-compatible client without manual file uploads.",
-      "author": "fkesheh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/98839443?v=4",
-      "repoUrl": "https://github.com/fkesheh/skill-mcp",
-      "repoFullName": "fkesheh/skill-mcp",
-      "stars": 18,
-      "forks": 3,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [
-        "ai",
-        "claude-skills",
-        "llm",
-        "mcp-server"
-      ],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-18T11:36:38Z",
-      "updatedAt": "2025-12-03T15:55:05Z",
-      "lastCommitAt": "2025-11-14T15:32:59Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:33.838Z"
+      "collectedAt": "2025-12-11T09:47:01.373Z"
     },
     {
       "id": "9e7a99716bb42e14",
@@ -3918,7 +3977,36 @@
       "updatedAt": "2025-12-07T07:46:18Z",
       "lastCommitAt": "2025-10-30T16:33:13Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:34.341Z"
+      "collectedAt": "2025-12-11T09:41:32.823Z"
+    },
+    {
+      "id": "5a23534e60c1e4e6",
+      "slug": "mcp",
+      "name": "Mcp",
+      "description": "LLM-managed skills platform using MCP - create, edit, and execute skills programmatically in Claude, Cursor, and any MCP-compatible client without manual file uploads.",
+      "author": "fkesheh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/98839443?v=4",
+      "repoUrl": "https://github.com/fkesheh/skill-mcp",
+      "repoFullName": "fkesheh/skill-mcp",
+      "stars": 18,
+      "forks": 3,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [
+        "ai",
+        "claude-skills",
+        "llm",
+        "mcp-server"
+      ],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2025-10-18T11:36:38Z",
+      "updatedAt": "2025-12-03T15:55:05Z",
+      "lastCommitAt": "2025-11-14T15:32:59Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:33.324Z"
     },
     {
       "id": "f04df20e6412c144",
@@ -3945,7 +4033,7 @@
       "updatedAt": "2025-11-21T22:52:06Z",
       "lastCommitAt": "2025-11-21T22:52:34Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:34.391Z"
+      "collectedAt": "2025-12-11T09:46:49.192Z"
     },
     {
       "id": "d7de629f4d5e513c",
@@ -3986,7 +4074,7 @@
       "updatedAt": "2025-11-24T14:01:38Z",
       "lastCommitAt": "2025-11-14T06:29:02Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:34.843Z"
+      "collectedAt": "2025-12-11T09:41:33.825Z"
     },
     {
       "id": "21e36404d7bd4230",
@@ -4015,7 +4103,7 @@
       "updatedAt": "2025-12-04T20:24:15Z",
       "lastCommitAt": "2024-02-05T16:01:17Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:35.557Z"
+      "collectedAt": "2025-12-11T09:42:56.573Z"
     },
     {
       "id": "f62f4b5ebc50aed0",
@@ -4056,7 +4144,7 @@
       "updatedAt": "2025-12-07T18:32:09Z",
       "lastCommitAt": "2025-12-07T18:32:06Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:56.086Z"
+      "collectedAt": "2025-12-11T09:43:09.825Z"
     },
     {
       "id": "ccf91a2f63af96db",
@@ -4080,7 +4168,7 @@
       "updatedAt": "2025-12-11T06:00:13Z",
       "lastCommitAt": "2025-11-21T00:14:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:49.009Z"
+      "collectedAt": "2025-12-11T09:45:08.022Z"
     },
     {
       "id": "964caf5ffe5c56a4",
@@ -4111,7 +4199,7 @@
       "updatedAt": "2025-12-01T16:30:43Z",
       "lastCommitAt": "2025-11-22T04:56:47Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:35.344Z"
+      "collectedAt": "2025-12-11T09:41:34.326Z"
     },
     {
       "id": "116337c98af94583",
@@ -4142,7 +4230,7 @@
       "updatedAt": "2025-12-04T23:24:35Z",
       "lastCommitAt": "2025-11-07T09:56:55Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:35.845Z"
+      "collectedAt": "2025-12-11T09:41:34.827Z"
     },
     {
       "id": "3d0ec4d3a2c9640a",
@@ -4166,31 +4254,7 @@
       "updatedAt": "2025-10-25T05:58:06Z",
       "lastCommitAt": "2024-05-11T10:51:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:46.534Z"
-    },
-    {
-      "id": "94f952c4ec6cbb9d",
-      "slug": "cc10x",
-      "name": "Cc10x",
-      "description": "",
-      "author": "romiluz13",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/169876896?v=4",
-      "repoUrl": "https://github.com/romiluz13/cc10x",
-      "repoFullName": "romiluz13/cc10x",
-      "stars": 15,
-      "forks": 3,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-22T11:54:14Z",
-      "updatedAt": "2025-11-17T09:02:28Z",
-      "lastCommitAt": "2025-11-17T06:53:22Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:17.396Z"
+      "collectedAt": "2025-12-11T09:43:03.797Z"
     },
     {
       "id": "ac32968065c27b16",
@@ -4214,7 +4278,7 @@
       "updatedAt": "2025-11-15T03:28:03Z",
       "lastCommitAt": "2025-11-15T03:27:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:36.822Z"
+      "collectedAt": "2025-12-11T09:44:52.967Z"
     },
     {
       "id": "65a02767f7a2f8e1",
@@ -4238,7 +4302,7 @@
       "updatedAt": "2025-12-04T05:55:59Z",
       "lastCommitAt": "2025-10-29T01:33:57Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:56.360Z"
+      "collectedAt": "2025-12-11T09:45:47.186Z"
     },
     {
       "id": "a6450c3fff5a1c49",
@@ -4281,7 +4345,7 @@
       "updatedAt": "2025-12-05T07:22:49Z",
       "lastCommitAt": "2025-10-22T12:02:03Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:36.346Z"
+      "collectedAt": "2025-12-11T09:41:35.328Z"
     },
     {
       "id": "0fad85bd13aa3603",
@@ -4312,7 +4376,7 @@
       "updatedAt": "2025-12-10T17:24:33Z",
       "lastCommitAt": "2025-12-02T21:43:22Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:36.858Z"
+      "collectedAt": "2025-12-11T09:41:35.829Z"
     },
     {
       "id": "63593a91150a7750",
@@ -4336,7 +4400,7 @@
       "updatedAt": "2025-11-29T13:51:47Z",
       "lastCommitAt": "2025-10-20T01:30:31Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:35.346Z"
+      "collectedAt": "2025-12-11T09:44:32.113Z"
     },
     {
       "id": "2778b52b4c35db07",
@@ -4369,7 +4433,7 @@
       "updatedAt": "2025-11-27T21:45:24Z",
       "lastCommitAt": "2025-11-21T11:51:27Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:37.360Z"
+      "collectedAt": "2025-12-11T09:41:36.330Z"
     },
     {
       "id": "823aba14f3005684",
@@ -4393,35 +4457,7 @@
       "updatedAt": "2025-12-01T17:04:16Z",
       "lastCommitAt": "2025-11-30T10:40:35Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:58.599Z"
-    },
-    {
-      "id": "64791b7cfcd0dc6b",
-      "slug": "yogeexu-docs",
-      "name": "Yogeexu Docs",
-      "description": "前端工程师，不断记录才会让技术得到提升！！！",
-      "author": "sunsboyxu",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/25958787?v=4",
-      "repoUrl": "https://github.com/sunsboyxu/yogeexu-docs",
-      "repoFullName": "sunsboyxu/yogeexu-docs",
-      "stars": 13,
-      "forks": 0,
-      "category": "documentation",
-      "categories": [
-        "documentation"
-      ],
-      "tags": [
-        "blog",
-        "docs",
-        "docusaurus"
-      ],
-      "tier": 5,
-      "status": "unknown",
-      "createdAt": "2022-10-12T15:20:35Z",
-      "updatedAt": "2025-09-03T03:35:29Z",
-      "lastCommitAt": "2024-03-30T09:40:37Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:34.048Z"
+      "collectedAt": "2025-12-11T09:44:34.107Z"
     },
     {
       "id": "97f17f3740218c27",
@@ -4450,7 +4486,35 @@
       "updatedAt": "2025-12-10T20:52:28Z",
       "lastCommitAt": "2025-12-10T20:52:24Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:17.591Z"
+      "collectedAt": "2025-12-11T09:46:33.232Z"
+    },
+    {
+      "id": "64791b7cfcd0dc6b",
+      "slug": "yogeexu-docs",
+      "name": "Yogeexu Docs",
+      "description": "前端工程师，不断记录才会让技术得到提升！！！",
+      "author": "sunsboyxu",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/25958787?v=4",
+      "repoUrl": "https://github.com/sunsboyxu/yogeexu-docs",
+      "repoFullName": "sunsboyxu/yogeexu-docs",
+      "stars": 13,
+      "forks": 0,
+      "category": "documentation",
+      "categories": [
+        "documentation"
+      ],
+      "tags": [
+        "blog",
+        "docs",
+        "docusaurus"
+      ],
+      "tier": 5,
+      "status": "unknown",
+      "createdAt": "2022-10-12T15:20:35Z",
+      "updatedAt": "2025-09-03T03:35:29Z",
+      "lastCommitAt": "2024-03-30T09:40:37Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:53.313Z"
     },
     {
       "id": "9639f0070bf1f2ca",
@@ -4481,7 +4545,7 @@
       "updatedAt": "2025-12-03T17:54:48Z",
       "lastCommitAt": "2025-11-07T20:18:26Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:37.875Z"
+      "collectedAt": "2025-12-11T09:41:36.831Z"
     },
     {
       "id": "3f2fe32be713298d",
@@ -4511,7 +4575,7 @@
       "updatedAt": "2025-11-24T14:04:18Z",
       "lastCommitAt": "2025-11-24T14:04:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:55.167Z"
+      "collectedAt": "2025-12-11T09:43:09.188Z"
     },
     {
       "id": "6e83c6df20bd6c4a",
@@ -4535,7 +4599,7 @@
       "updatedAt": "2021-04-20T12:51:21Z",
       "lastCommitAt": "2016-02-19T10:02:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:59.193Z"
+      "collectedAt": "2025-12-11T09:43:11.894Z"
     },
     {
       "id": "31d3d0fe293f4630",
@@ -4559,7 +4623,7 @@
       "updatedAt": "2025-12-03T19:34:03Z",
       "lastCommitAt": "2025-12-11T01:57:23Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:13.518Z"
+      "collectedAt": "2025-12-11T09:44:46.111Z"
     },
     {
       "id": "8647f40d00bf66bd",
@@ -4583,31 +4647,7 @@
       "updatedAt": "2025-12-05T16:06:10Z",
       "lastCommitAt": "2025-12-05T16:06:05Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:30.385Z"
-    },
-    {
-      "id": "d516301d2c84830f",
-      "slug": "sample-deep-insight",
-      "name": "Sample Deep Insight",
-      "description": "",
-      "author": "aws-samples",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/8931462?v=4",
-      "repoUrl": "https://github.com/aws-samples/sample-deep-insight",
-      "repoFullName": "aws-samples/sample-deep-insight",
-      "stars": 12,
-      "forks": 1,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-11-12T00:35:44Z",
-      "updatedAt": "2025-12-10T06:18:04Z",
-      "lastCommitAt": "2025-12-04T07:50:56Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:57.504Z"
+      "collectedAt": "2025-12-11T09:44:56.408Z"
     },
     {
       "id": "bf6748b3966e5284",
@@ -4631,7 +4671,7 @@
       "updatedAt": "2025-12-04T04:55:25Z",
       "lastCommitAt": "2025-10-06T18:06:20Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:55.570Z"
+      "collectedAt": "2025-12-11T09:46:16.884Z"
     },
     {
       "id": "b30295f2251c7e2d",
@@ -4659,7 +4699,7 @@
       "updatedAt": "2025-11-11T07:24:01Z",
       "lastCommitAt": "2025-10-21T05:14:47Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:38.389Z"
+      "collectedAt": "2025-12-11T09:41:37.332Z"
     },
     {
       "id": "33bcc2ad47fb2a26",
@@ -4688,7 +4728,7 @@
       "updatedAt": "2025-11-09T17:00:24Z",
       "lastCommitAt": "2025-11-07T19:53:34Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:38.890Z"
+      "collectedAt": "2025-12-11T09:41:37.833Z"
     },
     {
       "id": "1f25734c50944879",
@@ -4712,7 +4752,7 @@
       "updatedAt": "2022-10-18T07:55:55Z",
       "lastCommitAt": "2019-10-31T12:13:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:50.878Z"
+      "collectedAt": "2025-12-11T09:43:06.550Z"
     },
     {
       "id": "252624ff5eb5698c",
@@ -4736,7 +4776,7 @@
       "updatedAt": "2024-08-17T05:56:44Z",
       "lastCommitAt": "2018-10-13T13:52:39Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:00.181Z"
+      "collectedAt": "2025-12-11T09:43:12.565Z"
     },
     {
       "id": "71e70552709042b1",
@@ -4764,7 +4804,7 @@
       "updatedAt": "2021-04-21T06:35:34Z",
       "lastCommitAt": "2018-08-29T11:18:19Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:04.076Z"
+      "collectedAt": "2025-12-11T09:43:15.219Z"
     },
     {
       "id": "1f231ac4c655a9c3",
@@ -4788,7 +4828,7 @@
       "updatedAt": "2025-12-09T16:12:35Z",
       "lastCommitAt": "2025-12-09T16:12:31Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:56.534Z"
+      "collectedAt": "2025-12-11T09:44:33.454Z"
     },
     {
       "id": "155fe3e650d41c8f",
@@ -4827,7 +4867,7 @@
       "updatedAt": "2025-12-09T18:53:01Z",
       "lastCommitAt": "2025-12-10T19:08:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:01.639Z"
+      "collectedAt": "2025-12-11T09:44:36.156Z"
     },
     {
       "id": "afd425da2dcf6ffb",
@@ -4851,7 +4891,7 @@
       "updatedAt": "2025-12-11T01:31:41Z",
       "lastCommitAt": "2025-12-11T03:25:09Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:27.450Z"
+      "collectedAt": "2025-12-11T09:44:54.351Z"
     },
     {
       "id": "ddf1957f9e0634ef",
@@ -4875,7 +4915,7 @@
       "updatedAt": "2025-09-13T20:52:31Z",
       "lastCommitAt": "2023-09-03T05:18:20Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:14.138Z"
+      "collectedAt": "2025-12-11T09:46:01.547Z"
     },
     {
       "id": "e125a517b6c8159f",
@@ -4904,7 +4944,7 @@
       "updatedAt": "2025-12-08T22:13:58Z",
       "lastCommitAt": "2025-10-23T05:27:22Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:39.392Z"
+      "collectedAt": "2025-12-11T09:41:38.334Z"
     },
     {
       "id": "ad9a76ebf63efb60",
@@ -4941,7 +4981,7 @@
       "updatedAt": "2025-12-02T04:51:54Z",
       "lastCommitAt": "2025-11-19T05:11:02Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:39.893Z"
+      "collectedAt": "2025-12-11T09:41:38.835Z"
     },
     {
       "id": "9752722a31263119",
@@ -4979,7 +5019,7 @@
       "updatedAt": "2025-12-10T17:53:49Z",
       "lastCommitAt": "2025-12-10T17:53:45Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:54.841Z"
+      "collectedAt": "2025-12-11T09:42:32.814Z"
     },
     {
       "id": "324bef40ed10e6c1",
@@ -5006,7 +5046,7 @@
       "updatedAt": "2024-08-12T16:16:33Z",
       "lastCommitAt": "2022-01-19T18:22:08Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:51.801Z"
+      "collectedAt": "2025-12-11T09:43:07.208Z"
     },
     {
       "id": "ba3c9f6fbf5d4618",
@@ -5030,7 +5070,7 @@
       "updatedAt": "2020-10-10T09:12:39Z",
       "lastCommitAt": "2020-10-10T09:12:36Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:58.240Z"
+      "collectedAt": "2025-12-11T09:43:11.204Z"
     },
     {
       "id": "d6a016db7b87cba3",
@@ -5054,7 +5094,7 @@
       "updatedAt": "2022-01-29T07:10:28Z",
       "lastCommitAt": "2018-06-26T12:01:09Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:02.171Z"
+      "collectedAt": "2025-12-11T09:43:13.921Z"
     },
     {
       "id": "4b98c6e3da7f2c08",
@@ -5078,7 +5118,7 @@
       "updatedAt": "2025-09-23T13:08:17Z",
       "lastCommitAt": "2023-01-03T17:59:39Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:06.975Z"
+      "collectedAt": "2025-12-11T09:43:17.908Z"
     },
     {
       "id": "ccf966d03c9436f6",
@@ -5102,7 +5142,7 @@
       "updatedAt": "2025-11-30T08:33:55Z",
       "lastCommitAt": "2025-10-24T14:25:39Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:03.571Z"
+      "collectedAt": "2025-12-11T09:44:36.816Z"
     },
     {
       "id": "999f1a08941384dc",
@@ -5123,10 +5163,10 @@
       "tier": 3,
       "status": "active",
       "createdAt": "2025-10-25T21:31:34Z",
-      "updatedAt": "2025-12-11T08:40:43Z",
-      "lastCommitAt": "2025-12-11T08:40:40Z",
+      "updatedAt": "2025-12-11T09:04:18Z",
+      "lastCommitAt": "2025-12-11T09:04:15Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:29.432Z"
+      "collectedAt": "2025-12-11T09:44:55.752Z"
     },
     {
       "id": "e158faab1f7a29ae",
@@ -5153,7 +5193,7 @@
       "updatedAt": "2024-09-04T20:16:35Z",
       "lastCommitAt": "2023-11-10T20:47:34Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:16.695Z"
+      "collectedAt": "2025-12-11T09:46:02.952Z"
     },
     {
       "id": "6de1ebe124196319",
@@ -5177,7 +5217,7 @@
       "updatedAt": "2025-02-20T03:53:38Z",
       "lastCommitAt": "2020-02-03T04:15:49Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:17.644Z"
+      "collectedAt": "2025-12-11T09:46:18.919Z"
     },
     {
       "id": "e899c23023ed4dc1",
@@ -5219,7 +5259,7 @@
       "updatedAt": "2025-11-20T03:23:09Z",
       "lastCommitAt": "2025-12-09T20:31:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:39.696Z"
+      "collectedAt": "2025-12-11T09:46:50.589Z"
     },
     {
       "id": "37587f03911c93ea",
@@ -5247,7 +5287,7 @@
       "updatedAt": "2025-11-28T01:21:40Z",
       "lastCommitAt": "2025-11-30T13:14:20Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:40.395Z"
+      "collectedAt": "2025-12-11T09:41:39.335Z"
     },
     {
       "id": "98017a636cffb829",
@@ -5276,7 +5316,7 @@
       "updatedAt": "2025-12-09T15:36:49Z",
       "lastCommitAt": "2025-12-07T19:27:00Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:40.897Z"
+      "collectedAt": "2025-12-11T09:41:39.836Z"
     },
     {
       "id": "155b8db2e392b462",
@@ -5320,7 +5360,7 @@
       "updatedAt": "2025-12-04T05:03:31Z",
       "lastCommitAt": "2025-10-21T12:47:18Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:41.402Z"
+      "collectedAt": "2025-12-11T09:41:40.337Z"
     },
     {
       "id": "0a4b6cf5ec4e70b4",
@@ -5356,7 +5396,7 @@
       "updatedAt": "2023-06-07T09:37:04Z",
       "lastCommitAt": "2020-03-04T02:31:32Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:12.167Z"
+      "collectedAt": "2025-12-11T09:43:21.203Z"
     },
     {
       "id": "200c8f49622ccddf",
@@ -5380,7 +5420,7 @@
       "updatedAt": "2024-12-24T02:36:30Z",
       "lastCommitAt": "2024-12-24T02:36:23Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:19.067Z"
+      "collectedAt": "2025-12-11T09:43:26.011Z"
     },
     {
       "id": "5612293ad908dd92",
@@ -5413,7 +5453,31 @@
       "updatedAt": "2024-12-12T07:54:30Z",
       "lastCommitAt": "2024-12-12T07:54:26Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:23.357Z"
+      "collectedAt": "2025-12-11T09:43:28.618Z"
+    },
+    {
+      "id": "4cfb696a370478dd",
+      "slug": "sushichan044-dotfiles",
+      "name": "Dotfiles",
+      "description": "my dotfiles!",
+      "author": "sushichan044",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/71284054?v=4",
+      "repoUrl": "https://github.com/sushichan044/dotfiles",
+      "repoFullName": "sushichan044/dotfiles",
+      "stars": 9,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2024-10-05T09:10:12Z",
+      "updatedAt": "2025-12-10T15:25:07Z",
+      "lastCommitAt": "2025-12-10T22:06:53Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:21.260Z"
     },
     {
       "id": "6069d4aaede03bd6",
@@ -5443,31 +5507,7 @@
       "updatedAt": "2025-12-09T05:54:22Z",
       "lastCommitAt": "2025-12-09T05:54:19Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:06.241Z"
-    },
-    {
-      "id": "0ea29aff3bd2c7b8",
-      "slug": "microsofthackathon2025-agenticcoding",
-      "name": "MicrosoftHackathon2025 AgenticCoding",
-      "description": "Hackathon project to build self-improving agentic coding system",
-      "author": "rysweet",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/18054722?v=4",
-      "repoUrl": "https://github.com/rysweet/MicrosoftHackathon2025-AgenticCoding",
-      "repoFullName": "rysweet/MicrosoftHackathon2025-AgenticCoding",
-      "stars": 9,
-      "forks": 2,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-09-15T19:36:32Z",
-      "updatedAt": "2025-12-09T20:13:16Z",
-      "lastCommitAt": "2025-12-09T20:13:12Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:41.672Z"
+      "collectedAt": "2025-12-11T09:46:20.913Z"
     },
     {
       "id": "cee8dc70fe0d0001",
@@ -5495,7 +5535,7 @@
       "updatedAt": "2025-12-10T13:47:07Z",
       "lastCommitAt": "2025-12-09T19:51:01Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:41.904Z"
+      "collectedAt": "2025-12-11T09:41:40.838Z"
     },
     {
       "id": "ef5e921f06eb8883",
@@ -5526,7 +5566,7 @@
       "updatedAt": "2023-01-10T15:08:55Z",
       "lastCommitAt": "2023-01-18T14:20:27Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:48.458Z"
+      "collectedAt": "2025-12-11T09:43:05.171Z"
     },
     {
       "id": "a521b15bb388ca87",
@@ -5550,7 +5590,7 @@
       "updatedAt": "2024-02-17T03:47:10Z",
       "lastCommitAt": "2023-04-11T22:59:33Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:06.054Z"
+      "collectedAt": "2025-12-11T09:43:17.272Z"
     },
     {
       "id": "1a2399fb54272ccb",
@@ -5574,7 +5614,7 @@
       "updatedAt": "2025-05-31T18:04:41Z",
       "lastCommitAt": "2025-05-31T18:04:35Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:13.237Z"
+      "collectedAt": "2025-12-11T09:43:21.870Z"
     },
     {
       "id": "145c51b1dcb3fb59",
@@ -5598,7 +5638,7 @@
       "updatedAt": "2025-12-07T22:16:24Z",
       "lastCommitAt": "2025-12-07T22:16:21Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:16.137Z"
+      "collectedAt": "2025-12-11T09:43:23.941Z"
     },
     {
       "id": "40012a259a175e30",
@@ -5622,7 +5662,7 @@
       "updatedAt": "2019-07-18T12:06:40Z",
       "lastCommitAt": "2018-01-20T20:52:51Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:17.132Z"
+      "collectedAt": "2025-12-11T09:43:24.594Z"
     },
     {
       "id": "fa605c828457fdb7",
@@ -5657,7 +5697,31 @@
       "updatedAt": "2025-12-09T19:56:08Z",
       "lastCommitAt": "2025-12-10T22:49:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:40.153Z"
+      "collectedAt": "2025-12-11T09:44:23.317Z"
+    },
+    {
+      "id": "8f049714e938f115",
+      "slug": "standards",
+      "name": "Standards",
+      "description": "LLM Software Development Standards Start any project right in 30 seconds. Battle-tested standards from real production systems.",
+      "author": "williamzujkowski",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/14303249?v=4",
+      "repoUrl": "https://github.com/williamzujkowski/standards",
+      "repoFullName": "williamzujkowski/standards",
+      "stars": 8,
+      "forks": 0,
+      "category": "testing",
+      "categories": [
+        "testing"
+      ],
+      "tags": [],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2025-06-08T02:08:19Z",
+      "updatedAt": "2025-11-23T05:23:22Z",
+      "lastCommitAt": "2025-11-15T09:29:00Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:46.792Z"
     },
     {
       "id": "87be838a416328eb",
@@ -5702,41 +5766,17 @@
       "updatedAt": "2025-12-04T11:06:52Z",
       "lastCommitAt": "2025-12-04T11:29:49Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:37.792Z"
+      "collectedAt": "2025-12-11T09:44:48.081Z"
     },
     {
-      "id": "70923fe87f261a96",
-      "slug": "2025-intro-swe",
-      "name": "2025 Intro Swe",
+      "id": "544f5d1d68b69e4e",
+      "slug": "majestic-marketplace",
+      "name": "Majestic Marketplace",
       "description": "",
-      "author": "nibzard",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/6250945?v=4",
-      "repoUrl": "https://github.com/nibzard/2025-intro-swe",
-      "repoFullName": "nibzard/2025-intro-swe",
-      "stars": 8,
-      "forks": 51,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-05T20:14:08Z",
-      "updatedAt": "2025-12-10T19:35:33Z",
-      "lastCommitAt": "2025-12-10T19:35:28Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:29.061Z"
-    },
-    {
-      "id": "8f049714e938f115",
-      "slug": "standards",
-      "name": "Standards",
-      "description": "LLM Software Development Standards Start any project right in 30 seconds. Battle-tested standards from real production systems.",
-      "author": "williamzujkowski",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/14303249?v=4",
-      "repoUrl": "https://github.com/williamzujkowski/standards",
-      "repoFullName": "williamzujkowski/standards",
+      "author": "majesticlabs-dev",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/135144170?v=4",
+      "repoUrl": "https://github.com/majesticlabs-dev/majestic-marketplace",
+      "repoFullName": "majesticlabs-dev/majestic-marketplace",
       "stars": 8,
       "forks": 0,
       "category": "testing",
@@ -5746,11 +5786,35 @@
       "tags": [],
       "tier": 3,
       "status": "active",
-      "createdAt": "2025-06-08T02:08:19Z",
-      "updatedAt": "2025-11-23T05:23:22Z",
-      "lastCommitAt": "2025-11-15T09:29:00Z",
+      "createdAt": "2025-11-26T21:43:21Z",
+      "updatedAt": "2025-12-10T21:22:48Z",
+      "lastCommitAt": "2025-12-10T21:22:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:47.329Z"
+      "collectedAt": "2025-12-11T09:45:26.007Z"
+    },
+    {
+      "id": "3637736eab6b67bb",
+      "slug": "nubook",
+      "name": "NUbook",
+      "description": "The NUbots team handbook and documentation.",
+      "author": "NUbots",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/150660?v=4",
+      "repoUrl": "https://github.com/NUbots/NUbook",
+      "repoFullName": "NUbots/NUbook",
+      "stars": 8,
+      "forks": 5,
+      "category": "writing",
+      "categories": [
+        "writing"
+      ],
+      "tags": [],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2019-08-07T04:07:27Z",
+      "updatedAt": "2025-11-28T01:25:38Z",
+      "lastCommitAt": "2025-12-07T01:54:46Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:00.904Z"
     },
     {
       "id": "121a70ab806c4c04",
@@ -5782,7 +5846,7 @@
       "updatedAt": "2025-12-03T07:30:33Z",
       "lastCommitAt": "2025-11-21T14:58:49Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:42.405Z"
+      "collectedAt": "2025-12-11T09:41:41.339Z"
     },
     {
       "id": "384d449772a16ed1",
@@ -5812,7 +5876,7 @@
       "updatedAt": "2018-12-20T06:06:38Z",
       "lastCommitAt": "2018-07-15T14:17:30Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:10.760Z"
+      "collectedAt": "2025-12-11T09:43:20.551Z"
     },
     {
       "id": "d2962d9b880cbd51",
@@ -5836,7 +5900,7 @@
       "updatedAt": "2024-08-21T00:31:48Z",
       "lastCommitAt": "2024-08-21T00:31:44Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:14.197Z"
+      "collectedAt": "2025-12-11T09:43:22.504Z"
     },
     {
       "id": "744ab46a25ba1a68",
@@ -5860,7 +5924,7 @@
       "updatedAt": "2025-12-10T11:44:22Z",
       "lastCommitAt": "2025-12-10T11:44:17Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:20.465Z"
+      "collectedAt": "2025-12-11T09:43:26.656Z"
     },
     {
       "id": "37fe31ff4682679b",
@@ -5884,7 +5948,7 @@
       "updatedAt": "2025-08-03T02:22:38Z",
       "lastCommitAt": "2024-11-17T13:14:25Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:32.209Z"
+      "collectedAt": "2025-12-11T09:43:34.212Z"
     },
     {
       "id": "8f8a73e394814fe1",
@@ -5908,7 +5972,7 @@
       "updatedAt": "2025-12-11T04:30:31Z",
       "lastCommitAt": "2025-12-11T04:31:03Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:45.146Z"
+      "collectedAt": "2025-12-11T09:45:04.729Z"
     },
     {
       "id": "76348976b37a12eb",
@@ -5932,7 +5996,7 @@
       "updatedAt": "2025-12-10T08:47:20Z",
       "lastCommitAt": "2025-12-08T22:16:22Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:22.483Z"
+      "collectedAt": "2025-12-11T09:45:31.894Z"
     },
     {
       "id": "728846782d056b1f",
@@ -5964,7 +6028,7 @@
       "updatedAt": "2025-12-09T01:49:59Z",
       "lastCommitAt": "2025-12-11T04:14:09Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:42.911Z"
+      "collectedAt": "2025-12-11T09:41:41.840Z"
     },
     {
       "id": "29c25bdd4fe0bcc5",
@@ -5999,7 +6063,7 @@
       "updatedAt": "2025-12-09T16:00:27Z",
       "lastCommitAt": "2025-11-25T19:59:30Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:43.414Z"
+      "collectedAt": "2025-12-11T09:41:42.341Z"
     },
     {
       "id": "97bbbe8513384045",
@@ -6023,7 +6087,7 @@
       "updatedAt": "2024-11-04T07:15:54Z",
       "lastCommitAt": "2021-03-03T19:11:55Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:43.604Z"
+      "collectedAt": "2025-12-11T09:43:02.327Z"
     },
     {
       "id": "f5fc9e7c5355216a",
@@ -6047,7 +6111,7 @@
       "updatedAt": "2024-08-02T12:19:13Z",
       "lastCommitAt": "2023-05-29T06:38:41Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:54.191Z"
+      "collectedAt": "2025-12-11T09:43:08.560Z"
     },
     {
       "id": "17ac18d3999d0890",
@@ -6078,7 +6142,7 @@
       "updatedAt": "2025-09-19T10:26:15Z",
       "lastCommitAt": "2025-10-31T10:03:16Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:01.191Z"
+      "collectedAt": "2025-12-11T09:43:13.282Z"
     },
     {
       "id": "6bc1619610eee75b",
@@ -6102,7 +6166,31 @@
       "updatedAt": "2025-12-02T07:46:18Z",
       "lastCommitAt": "2024-12-19T20:05:32Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:03.108Z"
+      "collectedAt": "2025-12-11T09:43:14.567Z"
+    },
+    {
+      "id": "1825a6bd5149ba16",
+      "slug": "eve-esi-client",
+      "name": "Eve Esi Client",
+      "description": "Auto-generated Swagger client (in java) for the Eve Swagger Interface",
+      "author": "OrbitalEnterprises",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/15793087?v=4",
+      "repoUrl": "https://github.com/OrbitalEnterprises/eve-esi-client",
+      "repoFullName": "OrbitalEnterprises/eve-esi-client",
+      "stars": 6,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "unknown",
+      "createdAt": "2017-01-08T22:48:07Z",
+      "updatedAt": "2023-01-19T11:45:59Z",
+      "lastCommitAt": "2022-05-20T22:53:52Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:22.606Z"
     },
     {
       "id": "f7516d3c6bb29537",
@@ -6126,7 +6214,7 @@
       "updatedAt": "2025-12-03T01:36:48Z",
       "lastCommitAt": "2025-10-18T20:10:57Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:15.484Z"
+      "collectedAt": "2025-12-11T09:44:47.428Z"
     },
     {
       "id": "5dc9c7c1fb312dfe",
@@ -6150,7 +6238,7 @@
       "updatedAt": "2025-12-04T20:32:35Z",
       "lastCommitAt": "2025-12-04T20:32:30Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:18.511Z"
+      "collectedAt": "2025-12-11T09:44:48.752Z"
     },
     {
       "id": "8834282e36e16756",
@@ -6174,7 +6262,7 @@
       "updatedAt": "2025-12-10T21:29:42Z",
       "lastCommitAt": "2025-12-11T01:21:16Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:22.479Z"
+      "collectedAt": "2025-12-11T09:44:50.135Z"
     },
     {
       "id": "a6624c519474cc2c",
@@ -6198,7 +6286,7 @@
       "updatedAt": "2025-12-10T10:34:59Z",
       "lastCommitAt": "2025-12-10T10:34:55Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:24.424Z"
+      "collectedAt": "2025-12-11T09:44:52.234Z"
     },
     {
       "id": "16676664f98bc3a0",
@@ -6222,7 +6310,7 @@
       "updatedAt": "2025-12-11T06:41:07Z",
       "lastCommitAt": "2025-12-11T07:37:20Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:33.315Z"
+      "collectedAt": "2025-12-11T09:44:59.092Z"
     },
     {
       "id": "25db23c2c485299c",
@@ -6246,7 +6334,7 @@
       "updatedAt": "2025-12-09T21:16:25Z",
       "lastCommitAt": "2025-12-10T22:34:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:56.376Z"
+      "collectedAt": "2025-12-11T09:45:13.279Z"
     },
     {
       "id": "ba1954a60ee99046",
@@ -6270,42 +6358,7 @@
       "updatedAt": "2024-09-02T15:46:45Z",
       "lastCommitAt": "2022-12-16T03:17:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:46.389Z"
-    },
-    {
-      "id": "3ca1fdb03e7b2b6b",
-      "slug": "gked2121-skills",
-      "name": "Skills",
-      "description": "47 Production-Ready Claude Code Skills for developers, marketers, sales teams, and business professionals. 32 OneWave AI custom skills + 15 Official Anthropic skills.",
-      "author": "gked2121",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/177286579?v=4",
-      "repoUrl": "https://github.com/gked2121/claude-skills",
-      "repoFullName": "gked2121/claude-skills",
-      "stars": 6,
-      "forks": 3,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [
-        "ai-skills",
-        "ai-tools",
-        "anthropic",
-        "automation",
-        "claude-ai",
-        "claude-code",
-        "developer-tools",
-        "marketing-automation",
-        "productivity",
-        "sales-automation"
-      ],
-      "tier": 3,
-      "status": "maintained",
-      "createdAt": "2025-10-22T07:38:47Z",
-      "updatedAt": "2025-12-08T01:46:00Z",
-      "lastCommitAt": "2025-11-07T05:37:10Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:48.814Z"
+      "collectedAt": "2025-12-11T09:45:43.898Z"
     },
     {
       "id": "0b94daf7bddf09e2",
@@ -6329,7 +6382,7 @@
       "updatedAt": "2025-03-16T21:44:20Z",
       "lastCommitAt": "2024-08-16T22:46:56Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:35.067Z"
+      "collectedAt": "2025-12-11T09:46:04.953Z"
     },
     {
       "id": "a11f2989b8293682",
@@ -6353,55 +6406,31 @@
       "updatedAt": "2025-12-03T21:35:33Z",
       "lastCommitAt": "2025-12-11T03:25:18Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:44.042Z"
+      "collectedAt": "2025-12-11T09:46:52.653Z"
     },
     {
-      "id": "e8a26767d48a787e",
-      "slug": "vscode-sidebar-terminal",
-      "name": "Vscode Sidebar Terminal",
+      "id": "a387d166a484a0a8",
+      "slug": "nates-substack",
+      "name": "Nates Substack",
       "description": "",
-      "author": "s-hiraoku",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/18750282?v=4",
-      "repoUrl": "https://github.com/s-hiraoku/vscode-sidebar-terminal",
-      "repoFullName": "s-hiraoku/vscode-sidebar-terminal",
+      "author": "Exploration-labs",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/212444341?v=4",
+      "repoUrl": "https://github.com/Exploration-labs/Nates-Substack-Skills",
+      "repoFullName": "Exploration-labs/Nates-Substack-Skills",
       "stars": 6,
-      "forks": 3,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-07-04T22:28:28Z",
-      "updatedAt": "2025-12-04T10:22:00Z",
-      "lastCommitAt": "2025-12-11T04:20:21Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:45.421Z"
-    },
-    {
-      "id": "4a21971aa19537a3",
-      "slug": "map-framework",
-      "name": "Map Framework",
-      "description": "",
-      "author": "azalio",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/1963324?v=4",
-      "repoUrl": "https://github.com/azalio/map-framework",
-      "repoFullName": "azalio/map-framework",
-      "stars": 6,
-      "forks": 0,
+      "forks": 1,
       "category": "other",
       "categories": [
         "other"
       ],
       "tags": [],
       "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-06T18:53:34Z",
-      "updatedAt": "2025-12-09T13:36:53Z",
-      "lastCommitAt": "2025-12-09T13:36:47Z",
+      "status": "maintained",
+      "createdAt": "2025-10-18T03:32:11Z",
+      "updatedAt": "2025-12-04T17:22:25Z",
+      "lastCommitAt": "2025-10-24T05:11:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:59.588Z"
+      "collectedAt": "2025-12-11T09:46:58.063Z"
     },
     {
       "id": "c575b87ae4f0831c",
@@ -6436,7 +6465,7 @@
       "updatedAt": "2025-12-11T06:03:36Z",
       "lastCommitAt": "2025-12-09T10:11:36Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:43.917Z"
+      "collectedAt": "2025-12-11T09:41:42.842Z"
     },
     {
       "id": "16e4025aa9876dd2",
@@ -6472,7 +6501,7 @@
       "updatedAt": "2025-12-10T15:32:44Z",
       "lastCommitAt": "2025-12-11T00:50:33Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:44.424Z"
+      "collectedAt": "2025-12-11T09:41:43.343Z"
     },
     {
       "id": "4cebceea586b416d",
@@ -6517,7 +6546,7 @@
       "updatedAt": "2025-12-09T07:05:47Z",
       "lastCommitAt": "2025-12-09T07:05:43Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:44.925Z"
+      "collectedAt": "2025-12-11T09:41:43.843Z"
     },
     {
       "id": "38fc1ea9b2b1da34",
@@ -6548,7 +6577,7 @@
       "updatedAt": "2025-12-09T11:27:14Z",
       "lastCommitAt": "2025-12-08T16:07:30Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:56.379Z"
+      "collectedAt": "2025-12-11T09:42:34.314Z"
     },
     {
       "id": "0f3de3b87432ea77",
@@ -6572,7 +6601,7 @@
       "updatedAt": "2025-02-23T09:35:26Z",
       "lastCommitAt": "2018-12-18T08:30:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:07.904Z"
+      "collectedAt": "2025-12-11T09:43:18.553Z"
     },
     {
       "id": "405618c31d318e96",
@@ -6608,7 +6637,31 @@
       "updatedAt": "2025-11-11T11:44:23Z",
       "lastCommitAt": "2025-12-07T19:20:25Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:35.522Z"
+      "collectedAt": "2025-12-11T09:43:36.207Z"
+    },
+    {
+      "id": "58353bfa89f55baf",
+      "slug": "jamesrochabrun-skills",
+      "name": "Skills",
+      "description": "Claude Code Skills",
+      "author": "jamesrochabrun",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/5378604?v=4",
+      "repoUrl": "https://github.com/jamesrochabrun/skills",
+      "repoFullName": "jamesrochabrun/skills",
+      "stars": 5,
+      "forks": 1,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 3,
+      "status": "active",
+      "createdAt": "2025-10-20T06:51:59Z",
+      "updatedAt": "2025-12-11T06:50:06Z",
+      "lastCommitAt": "2025-12-11T06:50:04Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:44.041Z"
     },
     {
       "id": "a62be4ae355d55ae",
@@ -6632,7 +6685,7 @@
       "updatedAt": "2025-12-09T21:53:22Z",
       "lastCommitAt": "2025-12-10T15:39:33Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:28.465Z"
+      "collectedAt": "2025-12-11T09:44:55.101Z"
     },
     {
       "id": "79e99066f75bab8b",
@@ -6671,7 +6724,7 @@
       "updatedAt": "2025-12-02T09:00:24Z",
       "lastCommitAt": "2025-11-23T10:05:52Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:38.796Z"
+      "collectedAt": "2025-12-11T09:45:00.506Z"
     },
     {
       "id": "4214e8a7cdb5fb7f",
@@ -6695,31 +6748,7 @@
       "updatedAt": "2025-12-09T09:27:42Z",
       "lastCommitAt": "2025-10-20T10:11:16Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:47.105Z"
-    },
-    {
-      "id": "bc832584226beefd",
-      "slug": "ctdio-dotfiles",
-      "name": "Dotfiles",
-      "description": "",
-      "author": "ctdio",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/9613701?v=4",
-      "repoUrl": "https://github.com/ctdio/dotfiles",
-      "repoFullName": "ctdio/dotfiles",
-      "stars": 5,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2016-11-02T15:37:39Z",
-      "updatedAt": "2025-12-01T20:34:00Z",
-      "lastCommitAt": "2025-12-01T20:33:56Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:55.404Z"
+      "collectedAt": "2025-12-11T09:45:06.015Z"
     },
     {
       "id": "2bedec226f426a0f",
@@ -6743,7 +6772,7 @@
       "updatedAt": "2025-12-09T03:09:18Z",
       "lastCommitAt": "2025-12-09T03:09:14Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:03.235Z"
+      "collectedAt": "2025-12-11T09:45:12.634Z"
     },
     {
       "id": "99e2cd23a64cbffc",
@@ -6767,31 +6796,7 @@
       "updatedAt": "2025-12-10T20:15:57Z",
       "lastCommitAt": "2025-12-11T06:04:15Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:11.401Z"
-    },
-    {
-      "id": "58353bfa89f55baf",
-      "slug": "jamesrochabrun-skills",
-      "name": "Skills",
-      "description": "Claude Code Skills",
-      "author": "jamesrochabrun",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/5378604?v=4",
-      "repoUrl": "https://github.com/jamesrochabrun/skills",
-      "repoFullName": "jamesrochabrun/skills",
-      "stars": 5,
-      "forks": 1,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [],
-      "tier": 3,
-      "status": "active",
-      "createdAt": "2025-10-20T06:51:59Z",
-      "updatedAt": "2025-12-11T06:50:06Z",
-      "lastCommitAt": "2025-12-11T06:50:04Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:40.627Z"
+      "collectedAt": "2025-12-11T09:45:23.913Z"
     },
     {
       "id": "d32f1097adfaac70",
@@ -6815,7 +6820,7 @@
       "updatedAt": "2025-12-10T16:59:30Z",
       "lastCommitAt": "2025-12-10T16:59:26Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:48.297Z"
+      "collectedAt": "2025-12-11T09:46:55.988Z"
     },
     {
       "id": "a6e6820eb1dbfa87",
@@ -6845,7 +6850,7 @@
       "updatedAt": "2025-11-02T14:03:20Z",
       "lastCommitAt": "2025-10-22T23:59:35Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:45.426Z"
+      "collectedAt": "2025-12-11T09:41:44.344Z"
     },
     {
       "id": "9e94c21fc6b80113",
@@ -6879,7 +6884,7 @@
       "updatedAt": "2025-11-21T16:23:37Z",
       "lastCommitAt": "2025-11-19T01:05:58Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:45.938Z"
+      "collectedAt": "2025-12-11T09:41:44.845Z"
     },
     {
       "id": "8b3e71cca2e264f9",
@@ -6908,7 +6913,7 @@
       "updatedAt": "2025-12-09T02:34:14Z",
       "lastCommitAt": "2025-11-13T17:02:05Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:46.441Z"
+      "collectedAt": "2025-12-11T09:41:45.346Z"
     },
     {
       "id": "035ced328091c966",
@@ -6937,7 +6942,7 @@
       "updatedAt": "2025-12-09T13:42:00Z",
       "lastCommitAt": "2025-12-09T13:41:57Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:46.942Z"
+      "collectedAt": "2025-12-11T09:41:45.847Z"
     },
     {
       "id": "0f6373d07de51f87",
@@ -6979,7 +6984,7 @@
       "updatedAt": "2025-12-09T03:56:26Z",
       "lastCommitAt": "2025-12-09T03:56:22Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:47.445Z"
+      "collectedAt": "2025-12-11T09:41:46.348Z"
     },
     {
       "id": "3660cc4a17c9c2ce",
@@ -7022,7 +7027,7 @@
       "updatedAt": "2025-12-11T07:46:56Z",
       "lastCommitAt": "2025-12-11T07:46:52Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:57.407Z"
+      "collectedAt": "2025-12-11T09:42:35.316Z"
     },
     {
       "id": "dca4050a08b6568a",
@@ -7049,7 +7054,7 @@
       "updatedAt": "2025-09-01T06:46:45Z",
       "lastCommitAt": "2025-05-17T10:24:31Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:09.825Z"
+      "collectedAt": "2025-12-11T09:43:19.887Z"
     },
     {
       "id": "cb6d3a77105d2179",
@@ -7078,7 +7083,7 @@
       "updatedAt": "2025-12-05T02:18:29Z",
       "lastCommitAt": "2025-12-05T02:18:26Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:29.712Z"
+      "collectedAt": "2025-12-11T09:43:32.699Z"
     },
     {
       "id": "93f640abc1d060d2",
@@ -7102,7 +7107,7 @@
       "updatedAt": "2025-10-27T20:58:03Z",
       "lastCommitAt": "2025-10-27T20:57:59Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:41.607Z"
+      "collectedAt": "2025-12-11T09:43:40.370Z"
     },
     {
       "id": "3480dceb5c741bde",
@@ -7131,31 +7136,55 @@
       "updatedAt": "2025-11-17T08:45:10Z",
       "lastCommitAt": "2025-12-09T11:14:16Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:57.692Z"
+      "collectedAt": "2025-12-11T09:43:50.976Z"
     },
     {
-      "id": "77a32ff5d057de31",
-      "slug": "ghe-marketplace",
-      "name": "Ghe Marketplace",
-      "description": "GHE (GitHub-Elements) - Persistent memory plugin for Claude Code using GitHub Issues (Warning: this project is an early Alpha! 🚧🚧🚧)",
-      "author": "Emasoft",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/713559?v=4",
-      "repoUrl": "https://github.com/Emasoft/ghe-marketplace",
-      "repoFullName": "Emasoft/ghe-marketplace",
+      "id": "15487b9f158b8568",
+      "slug": "developer-content",
+      "name": "Developer Content",
+      "description": "",
+      "author": "Lightprotocol",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/92580952?v=4",
+      "repoUrl": "https://github.com/Lightprotocol/developer-content",
+      "repoFullName": "Lightprotocol/developer-content",
       "stars": 4,
-      "forks": 0,
-      "category": "coding",
+      "forks": 5,
+      "category": "writing",
       "categories": [
-        "coding"
+        "writing"
       ],
       "tags": [],
       "tier": 4,
       "status": "active",
-      "createdAt": "2025-12-03T15:56:45Z",
-      "updatedAt": "2025-12-11T03:05:49Z",
-      "lastCommitAt": "2025-12-07T19:22:12Z",
+      "createdAt": "2024-03-29T22:33:22Z",
+      "updatedAt": "2025-11-13T01:01:26Z",
+      "lastCommitAt": "2025-11-13T01:01:22Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:34.745Z"
+      "collectedAt": "2025-12-11T09:43:53.025Z"
+    },
+    {
+      "id": "145c91471dadec04",
+      "slug": "c3",
+      "name": "C3",
+      "description": "C3 (Context-Container-Component) architecture design methodology plugin for Claude Code",
+      "author": "lagz0ne",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/15101444?v=4",
+      "repoUrl": "https://github.com/lagz0ne/c3-skill",
+      "repoFullName": "lagz0ne/c3-skill",
+      "stars": 4,
+      "forks": 0,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-11-21T03:12:41Z",
+      "updatedAt": "2025-12-11T04:03:30Z",
+      "lastCommitAt": "2025-12-09T10:28:13Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:45.464Z"
     },
     {
       "id": "ab8de21401defcb5",
@@ -7179,31 +7208,55 @@
       "updatedAt": "2025-12-11T05:56:04Z",
       "lastCommitAt": "2025-11-21T14:53:24Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:40.214Z"
+      "collectedAt": "2025-12-11T09:45:01.213Z"
     },
     {
-      "id": "7b32d861e251d5a6",
-      "slug": "droid-tings",
-      "name": "Droid Tings",
-      "description": "Comprehensive collection of 100+ custom Droids & 300+ Skills for FactoryAI Droid system",
-      "author": "ovachiever",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/144160007?v=4",
-      "repoUrl": "https://github.com/ovachiever/droid-tings",
-      "repoFullName": "ovachiever/droid-tings",
+      "id": "b7f06fc6313c9f9c",
+      "slug": "community-patterns",
+      "name": "Community Patterns",
+      "description": "A repo for patterns created by the communtiy",
+      "author": "jkomoros",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/12029?v=4",
+      "repoUrl": "https://github.com/jkomoros/community-patterns",
+      "repoFullName": "jkomoros/community-patterns",
       "stars": 4,
-      "forks": 0,
-      "category": "ai-ml",
+      "forks": 5,
+      "category": "other",
       "categories": [
-        "ai-ml"
+        "other"
       ],
       "tags": [],
       "tier": 4,
       "status": "active",
-      "createdAt": "2025-11-24T16:23:48Z",
-      "updatedAt": "2025-12-06T11:46:21Z",
-      "lastCommitAt": "2025-11-25T21:44:12Z",
+      "createdAt": "2025-11-15T19:28:21Z",
+      "updatedAt": "2025-12-11T00:40:21Z",
+      "lastCommitAt": "2025-12-11T02:33:46Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:44.197Z"
+      "collectedAt": "2025-12-11T09:45:04.094Z"
+    },
+    {
+      "id": "77d69d2f8fc2b7c7",
+      "slug": "arsenal",
+      "name": "Arsenal",
+      "description": "",
+      "author": "cncorp",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/8052627?v=4",
+      "repoUrl": "https://github.com/cncorp/arsenal",
+      "repoFullName": "cncorp/arsenal",
+      "stars": 4,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-09-19T23:51:53Z",
+      "updatedAt": "2025-12-10T18:14:03Z",
+      "lastCommitAt": "2025-12-10T18:14:00Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:14.041Z"
     },
     {
       "id": "de29ccee03cac147",
@@ -7227,7 +7280,7 @@
       "updatedAt": "2025-11-25T16:40:59Z",
       "lastCommitAt": "2025-11-25T14:36:56Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:59.383Z"
+      "collectedAt": "2025-12-11T09:45:15.967Z"
     },
     {
       "id": "8b063f7bae378aad",
@@ -7260,31 +7313,7 @@
       "updatedAt": "2025-11-27T18:13:52Z",
       "lastCommitAt": "2025-11-28T17:55:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:04.221Z"
-    },
-    {
-      "id": "15487b9f158b8568",
-      "slug": "developer-content",
-      "name": "Developer Content",
-      "description": "",
-      "author": "Lightprotocol",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/92580952?v=4",
-      "repoUrl": "https://github.com/Lightprotocol/developer-content",
-      "repoFullName": "Lightprotocol/developer-content",
-      "stars": 4,
-      "forks": 5,
-      "category": "writing",
-      "categories": [
-        "writing"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "active",
-      "createdAt": "2024-03-29T22:33:22Z",
-      "updatedAt": "2025-11-13T01:01:26Z",
-      "lastCommitAt": "2025-11-13T01:01:22Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:33.037Z"
+      "collectedAt": "2025-12-11T09:45:19.265Z"
     },
     {
       "id": "4f9502f75ebf7bfb",
@@ -7308,7 +7337,7 @@
       "updatedAt": "2025-12-10T08:58:49Z",
       "lastCommitAt": "2025-12-10T08:58:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:33.357Z"
+      "collectedAt": "2025-12-11T09:46:48.462Z"
     },
     {
       "id": "be4e8ae44ffce438",
@@ -7329,58 +7358,10 @@
       "tier": 4,
       "status": "active",
       "createdAt": "2025-10-15T22:45:00Z",
-      "updatedAt": "2025-12-11T08:50:51Z",
-      "lastCommitAt": "2025-12-11T09:02:36Z",
+      "updatedAt": "2025-12-11T09:42:07Z",
+      "lastCommitAt": "2025-12-11T09:42:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:49.251Z"
-    },
-    {
-      "id": "162d872bf238b81e",
-      "slug": "python-modern-template",
-      "name": "Python Modern Template",
-      "description": "A comprehensive Copier template for modern Python projects with quality enforcement, AI-assisted development, Docker support, and extensive tooling. Features   TDD workflows, multi-AI integration, and",
-      "author": "Atyantik",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/3055502?v=4",
-      "repoUrl": "https://github.com/Atyantik/python-modern-template",
-      "repoFullName": "Atyantik/python-modern-template",
-      "stars": 4,
-      "forks": 0,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "maintained",
-      "createdAt": "2025-11-02T17:05:40Z",
-      "updatedAt": "2025-11-06T09:46:56Z",
-      "lastCommitAt": "2025-11-06T09:46:52Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:50.238Z"
-    },
-    {
-      "id": "f0b6f36a93457abb",
-      "slug": "marketplace",
-      "name": "Marketplace",
-      "description": "Marketplace de plugins pour Claude Code : dev tools (Git, Symfony, PHPStan, API Platform), customization (hooks, output styles) et documentation interactive",
-      "author": "atournayre",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/4262077?v=4",
-      "repoUrl": "https://github.com/atournayre/claude-marketplace",
-      "repoFullName": "atournayre/claude-marketplace",
-      "stars": 4,
-      "forks": 0,
-      "category": "writing",
-      "categories": [
-        "writing"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "active",
-      "createdAt": "2025-10-19T09:11:15Z",
-      "updatedAt": "2025-12-08T13:31:16Z",
-      "lastCommitAt": "2025-12-08T13:31:12Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:51.198Z"
+      "collectedAt": "2025-12-11T09:46:57.357Z"
     },
     {
       "id": "eb2c0b9793eab133",
@@ -7415,7 +7396,31 @@
       "updatedAt": "2025-12-11T00:30:28Z",
       "lastCommitAt": "2025-12-11T00:30:25Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:56.748Z"
+      "collectedAt": "2025-12-11T09:47:03.439Z"
+    },
+    {
+      "id": "f95ce614bb769126",
+      "slug": "csheng-dot",
+      "name": "Dot",
+      "description": "Self-use Claude Code rules / settings / permissions / commands, use claude command to sync rules for Droid/OpenCode/Codex/Qwen/Cursor/Copilot. Not fully tested, use at your own risk.",
+      "author": "CsHeng",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/1481956?v=4",
+      "repoUrl": "https://github.com/CsHeng/dot-claude",
+      "repoFullName": "CsHeng/dot-claude",
+      "stars": 4,
+      "forks": 0,
+      "category": "testing",
+      "categories": [
+        "testing"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-10-18T05:18:58Z",
+      "updatedAt": "2025-11-28T09:39:11Z",
+      "lastCommitAt": "2025-11-28T09:39:07Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:47:06.734Z"
     },
     {
       "id": "a2fe66a738792da9",
@@ -7458,7 +7463,7 @@
       "updatedAt": "2025-12-11T07:49:59Z",
       "lastCommitAt": "2025-12-11T07:49:56Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:47.960Z"
+      "collectedAt": "2025-12-11T09:41:46.849Z"
     },
     {
       "id": "f5c61b994f52f9d7",
@@ -7491,7 +7496,7 @@
       "updatedAt": "2025-12-10T22:24:40Z",
       "lastCommitAt": "2025-11-27T20:10:08Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:48.460Z"
+      "collectedAt": "2025-12-11T09:41:47.350Z"
     },
     {
       "id": "cc677100f0329127",
@@ -7515,7 +7520,7 @@
       "updatedAt": "2017-08-28T22:03:48Z",
       "lastCommitAt": "2017-09-05T19:52:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:57:45.095Z"
+      "collectedAt": "2025-12-11T09:43:03.073Z"
     },
     {
       "id": "6bf6e315ec777131",
@@ -7539,7 +7544,7 @@
       "updatedAt": "2025-12-10T12:38:57Z",
       "lastCommitAt": "2025-12-10T12:39:37Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:21.402Z"
+      "collectedAt": "2025-12-11T09:43:27.318Z"
     },
     {
       "id": "3872491b25f9713a",
@@ -7563,7 +7568,7 @@
       "updatedAt": "2023-05-23T14:15:45Z",
       "lastCommitAt": "2024-06-18T00:47:34Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:24.311Z"
+      "collectedAt": "2025-12-11T09:43:29.245Z"
     },
     {
       "id": "9f4683855a38eb35",
@@ -7590,7 +7595,7 @@
       "updatedAt": "2022-07-27T15:59:55Z",
       "lastCommitAt": "2023-03-17T12:05:17Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:26.749Z"
+      "collectedAt": "2025-12-11T09:43:30.614Z"
     },
     {
       "id": "9e2999312de6b6a3",
@@ -7620,7 +7625,7 @@
       "updatedAt": "2025-10-02T09:34:44Z",
       "lastCommitAt": "2025-10-02T09:34:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:30.787Z"
+      "collectedAt": "2025-12-11T09:43:33.516Z"
     },
     {
       "id": "a85973032ffce6ca",
@@ -7644,7 +7649,7 @@
       "updatedAt": "2025-12-01T11:47:47Z",
       "lastCommitAt": "2025-12-01T11:47:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:33.646Z"
+      "collectedAt": "2025-12-11T09:43:34.876Z"
     },
     {
       "id": "1c0a1c3f22ee0062",
@@ -7668,7 +7673,7 @@
       "updatedAt": "2018-03-27T07:21:22Z",
       "lastCommitAt": "2017-07-12T01:52:25Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:40.637Z"
+      "collectedAt": "2025-12-11T09:43:39.692Z"
     },
     {
       "id": "3ad7a3f6b2eead66",
@@ -7692,31 +7697,7 @@
       "updatedAt": "2025-08-16T08:14:15Z",
       "lastCommitAt": "2025-06-19T09:51:08Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:59.693Z"
-    },
-    {
-      "id": "033ff182f20c091d",
-      "slug": "yars",
-      "name": "YARS",
-      "description": "YARS - Yet Another Robot Simulator",
-      "author": "kzahedi",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/7888193?v=4",
-      "repoUrl": "https://github.com/kzahedi/YARS",
-      "repoFullName": "kzahedi/YARS",
-      "stars": 3,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "maintained",
-      "createdAt": "2016-07-27T17:30:54Z",
-      "updatedAt": "2025-11-03T15:54:59Z",
-      "lastCommitAt": "2025-11-03T15:54:40Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:31.341Z"
+      "collectedAt": "2025-12-11T09:43:53.722Z"
     },
     {
       "id": "1b2ea0f879c02f1b",
@@ -7740,19 +7721,19 @@
       "updatedAt": "2025-12-08T02:55:24Z",
       "lastCommitAt": "2025-12-03T12:19:56Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:32.275Z"
+      "collectedAt": "2025-12-11T09:44:57.717Z"
     },
     {
-      "id": "5e8360a2f753dc06",
-      "slug": "some-claude-skills",
-      "name": "Some_claude_skills",
-      "description": "Claude skills that make my life easier.",
-      "author": "erichowens",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2093678?v=4",
-      "repoUrl": "https://github.com/erichowens/some_claude_skills",
-      "repoFullName": "erichowens/some_claude_skills",
+      "id": "fe325dd05a7e0780",
+      "slug": "config",
+      "name": "Config",
+      "description": "",
+      "author": "thkt",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/36068828?v=4",
+      "repoUrl": "https://github.com/thkt/claude-config",
+      "repoFullName": "thkt/claude-config",
       "stars": 3,
-      "forks": 1,
+      "forks": 0,
       "category": "other",
       "categories": [
         "other"
@@ -7760,11 +7741,11 @@
       "tags": [],
       "tier": 4,
       "status": "active",
-      "createdAt": "2025-11-16T02:15:10Z",
-      "updatedAt": "2025-12-09T20:18:24Z",
-      "lastCommitAt": "2025-12-09T20:18:20Z",
+      "createdAt": "2025-08-06T04:39:30Z",
+      "updatedAt": "2025-12-11T05:55:59Z",
+      "lastCommitAt": "2025-12-11T05:55:56Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:35.696Z"
+      "collectedAt": "2025-12-11T09:45:07.355Z"
     },
     {
       "id": "f9d19f0e9f7eca2a",
@@ -7788,7 +7769,7 @@
       "updatedAt": "2025-12-08T07:29:12Z",
       "lastCommitAt": "2025-12-06T21:40:03Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:58.431Z"
+      "collectedAt": "2025-12-11T09:45:15.318Z"
     },
     {
       "id": "7a5210ef2980c810",
@@ -7809,10 +7790,34 @@
       "tier": 4,
       "status": "active",
       "createdAt": "2025-10-29T20:57:17Z",
-      "updatedAt": "2025-12-11T01:15:39Z",
-      "lastCommitAt": "2025-12-11T01:15:35Z",
+      "updatedAt": "2025-12-11T09:25:38Z",
+      "lastCommitAt": "2025-12-11T09:25:34Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:21.529Z"
+      "collectedAt": "2025-12-11T09:45:31.240Z"
+    },
+    {
+      "id": "8f2f76862ba458c6",
+      "slug": "my-docs",
+      "name": "My Docs",
+      "description": "平时的文档整理",
+      "author": "oudeqi",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/18047957?v=4",
+      "repoUrl": "https://github.com/oudeqi/my-docs",
+      "repoFullName": "oudeqi/my-docs",
+      "stars": 3,
+      "forks": 1,
+      "category": "documentation",
+      "categories": [
+        "documentation"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "unknown",
+      "createdAt": "2017-10-02T17:13:19Z",
+      "updatedAt": "2020-05-15T08:20:16Z",
+      "lastCommitAt": "2020-05-15T08:20:14Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:03.635Z"
     },
     {
       "id": "297e9a90f1408594",
@@ -7836,7 +7841,7 @@
       "updatedAt": "2024-09-11T02:23:04Z",
       "lastCommitAt": "2023-02-23T12:36:13Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:07.197Z"
+      "collectedAt": "2025-12-11T09:46:28.441Z"
     },
     {
       "id": "727bf2deba00f53f",
@@ -7868,7 +7873,7 @@
       "updatedAt": "2025-08-07T12:22:40Z",
       "lastCommitAt": "2025-07-25T03:39:51Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:12.191Z"
+      "collectedAt": "2025-12-11T09:46:32.474Z"
     },
     {
       "id": "2a5757eca4a4ef2c",
@@ -7892,7 +7897,7 @@
       "updatedAt": "2025-12-10T17:15:40Z",
       "lastCommitAt": "2025-12-10T17:15:36Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:46.406Z"
+      "collectedAt": "2025-12-11T09:46:54.696Z"
     },
     {
       "id": "174a859045106ed7",
@@ -7916,40 +7921,31 @@
       "updatedAt": "2025-11-25T20:40:15Z",
       "lastCommitAt": "2025-11-25T20:40:11Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:55.802Z"
+      "collectedAt": "2025-12-11T09:47:02.751Z"
     },
     {
-      "id": "0d1ef93ddb1d7618",
-      "slug": "cwtch",
-      "name": "Cwtch",
-      "description": "Cwtch - Helpful utilities for Claude Code. Manage multiple profiles, check your usage, deploy your army of agents. 🤖",
-      "author": "agh",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/385878?v=4",
-      "repoUrl": "https://github.com/agh/cwtch",
-      "repoFullName": "agh/cwtch",
-      "stars": 2,
-      "forks": 0,
-      "category": "devops",
+      "id": "5e8360a2f753dc06",
+      "slug": "some-claude-skills",
+      "name": "Some_claude_skills",
+      "description": "Claude skills that make my life easier.",
+      "author": "erichowens",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/2093678?v=4",
+      "repoUrl": "https://github.com/erichowens/some_claude_skills",
+      "repoFullName": "erichowens/some_claude_skills",
+      "stars": 3,
+      "forks": 1,
+      "category": "other",
       "categories": [
-        "devops"
+        "other"
       ],
-      "tags": [
-        "bash",
-        "claude",
-        "claude-ai",
-        "claude-api",
-        "claude-code",
-        "claude-skills",
-        "claudecode",
-        "utility"
-      ],
+      "tags": [],
       "tier": 4,
       "status": "active",
-      "createdAt": "2025-12-07T20:26:06Z",
-      "updatedAt": "2025-12-08T01:31:42Z",
-      "lastCommitAt": "2025-12-08T01:10:45Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:49.476Z"
+      "createdAt": "2025-11-16T02:15:10Z",
+      "updatedAt": "2025-12-09T20:18:24Z",
+      "lastCommitAt": "2025-12-09T20:18:20Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:47:04.074Z"
     },
     {
       "id": "ca4d57f8f4f5dfeb",
@@ -7992,7 +7988,40 @@
       "updatedAt": "2025-12-11T07:48:48Z",
       "lastCommitAt": "2025-12-11T07:48:45Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:49.976Z"
+      "collectedAt": "2025-12-11T09:41:47.851Z"
+    },
+    {
+      "id": "0d1ef93ddb1d7618",
+      "slug": "cwtch",
+      "name": "Cwtch",
+      "description": "Cwtch - Helpful utilities for Claude Code. Manage multiple profiles, check your usage, deploy your army of agents. 🤖",
+      "author": "agh",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/385878?v=4",
+      "repoUrl": "https://github.com/agh/cwtch",
+      "repoFullName": "agh/cwtch",
+      "stars": 2,
+      "forks": 0,
+      "category": "devops",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "bash",
+        "claude",
+        "claude-ai",
+        "claude-api",
+        "claude-code",
+        "claude-skills",
+        "claudecode",
+        "utility"
+      ],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-12-07T20:26:06Z",
+      "updatedAt": "2025-12-08T01:31:42Z",
+      "lastCommitAt": "2025-12-08T01:10:45Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:48.852Z"
     },
     {
       "id": "abcc07fbbaa9194a",
@@ -8029,7 +8058,72 @@
       "updatedAt": "2025-12-07T13:31:04Z",
       "lastCommitAt": "2025-12-03T03:12:39Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:50.480Z"
+      "collectedAt": "2025-12-11T09:41:49.353Z"
+    },
+    {
+      "id": "fa7d69d7e43494de",
+      "slug": "wiggle-claude",
+      "name": "Wiggle Claude",
+      "description": "🎬 Animate static logos effortlessly with professional motion design patterns, generating Lottie JSON, GIFs, and MP4s for stunning visual effects.",
+      "author": "Maryanohit549",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/229528533?v=4",
+      "repoUrl": "https://github.com/Maryanohit549/wiggle-claude-skill",
+      "repoFullName": "Maryanohit549/wiggle-claude-skill",
+      "stars": 2,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ai",
+        "animation",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-desktop",
+        "claude-skills",
+        "logo",
+        "lottie",
+        "lottie-animation",
+        "lottie-animations"
+      ],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-11-02T15:34:45Z",
+      "updatedAt": "2025-12-11T07:47:52Z",
+      "lastCommitAt": "2025-12-11T07:47:48Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:49.854Z"
+    },
+    {
+      "id": "a56478a3d7c3deaa",
+      "slug": "agent-skills",
+      "name": "Agent_skills",
+      "description": "Enable any AI Agent to gain Skills capability with one click, driving Agent self-evolution",
+      "author": "nemori-ai",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/217738644?v=4",
+      "repoUrl": "https://github.com/nemori-ai/agent_skills",
+      "repoFullName": "nemori-ai/agent_skills",
+      "stars": 2,
+      "forks": 0,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [
+        "agent",
+        "claude-skills",
+        "memory",
+        "self-evolving"
+      ],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-12-02T02:25:00Z",
+      "updatedAt": "2025-12-11T08:49:09Z",
+      "lastCommitAt": "2025-12-11T05:57:45Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:50.355Z"
     },
     {
       "id": "a76ca2cfb615d5e3",
@@ -8069,72 +8163,7 @@
       "updatedAt": "2025-12-07T19:38:58Z",
       "lastCommitAt": "2025-11-20T23:48:26Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:50.981Z"
-    },
-    {
-      "id": "fa7d69d7e43494de",
-      "slug": "wiggle-claude",
-      "name": "Wiggle Claude",
-      "description": "🎬 Animate static logos effortlessly with professional motion design patterns, generating Lottie JSON, GIFs, and MP4s for stunning visual effects.",
-      "author": "Maryanohit549",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/229528533?v=4",
-      "repoUrl": "https://github.com/Maryanohit549/wiggle-claude-skill",
-      "repoFullName": "Maryanohit549/wiggle-claude-skill",
-      "stars": 2,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [
-        "ai",
-        "animation",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-desktop",
-        "claude-skills",
-        "logo",
-        "lottie",
-        "lottie-animation",
-        "lottie-animations"
-      ],
-      "tier": 4,
-      "status": "active",
-      "createdAt": "2025-11-02T15:34:45Z",
-      "updatedAt": "2025-12-11T07:47:52Z",
-      "lastCommitAt": "2025-12-11T07:47:48Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:51.485Z"
-    },
-    {
-      "id": "a56478a3d7c3deaa",
-      "slug": "agent-skills",
-      "name": "Agent_skills",
-      "description": "Enable any AI Agent to gain Skills capability with one click, driving Agent self-evolution",
-      "author": "nemori-ai",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/217738644?v=4",
-      "repoUrl": "https://github.com/nemori-ai/agent_skills",
-      "repoFullName": "nemori-ai/agent_skills",
-      "stars": 2,
-      "forks": 0,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [
-        "agent",
-        "claude-skills",
-        "memory",
-        "self-evolving"
-      ],
-      "tier": 4,
-      "status": "active",
-      "createdAt": "2025-12-02T02:25:00Z",
-      "updatedAt": "2025-12-11T08:49:09Z",
-      "lastCommitAt": "2025-12-11T05:57:45Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:51.998Z"
+      "collectedAt": "2025-12-11T09:41:50.856Z"
     },
     {
       "id": "2d701989ff053994",
@@ -8179,7 +8208,7 @@
       "updatedAt": "2025-11-21T12:57:11Z",
       "lastCommitAt": "2025-11-21T12:57:07Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:52.501Z"
+      "collectedAt": "2025-12-11T09:41:51.357Z"
     },
     {
       "id": "c8bc88671f1ee150",
@@ -8207,7 +8236,7 @@
       "updatedAt": "2025-11-19T07:50:41Z",
       "lastCommitAt": "2025-11-11T13:10:26Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:53.015Z"
+      "collectedAt": "2025-12-11T09:41:51.858Z"
     },
     {
       "id": "187444be8522a9b6",
@@ -8241,7 +8270,7 @@
       "updatedAt": "2025-11-23T15:37:57Z",
       "lastCommitAt": "2025-11-08T23:53:45Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:53.516Z"
+      "collectedAt": "2025-12-11T09:41:52.359Z"
     },
     {
       "id": "94a87c175cd564f3",
@@ -8270,7 +8299,7 @@
       "updatedAt": "2025-10-31T03:30:17Z",
       "lastCommitAt": "2025-10-25T10:29:51Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:54.019Z"
+      "collectedAt": "2025-12-11T09:41:52.860Z"
     },
     {
       "id": "20e0f316045b03c6",
@@ -8296,7 +8325,7 @@
       "updatedAt": "2025-12-08T05:32:57Z",
       "lastCommitAt": "2025-10-22T19:42:14Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:54.535Z"
+      "collectedAt": "2025-12-11T09:41:53.361Z"
     },
     {
       "id": "37a875f312a2bc9f",
@@ -8339,7 +8368,7 @@
       "updatedAt": "2025-12-11T07:47:04Z",
       "lastCommitAt": "2025-12-11T07:47:01Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:58.440Z"
+      "collectedAt": "2025-12-11T09:42:36.317Z"
     },
     {
       "id": "569a80623841f407",
@@ -8363,7 +8392,7 @@
       "updatedAt": "2017-11-17T06:40:25Z",
       "lastCommitAt": "2023-12-15T20:29:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:08.847Z"
+      "collectedAt": "2025-12-11T09:43:19.233Z"
     },
     {
       "id": "ca4dfdd3d6c79902",
@@ -8387,7 +8416,7 @@
       "updatedAt": "2025-07-15T07:26:17Z",
       "lastCommitAt": "2025-04-10T00:22:05Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:15.186Z"
+      "collectedAt": "2025-12-11T09:43:23.245Z"
     },
     {
       "id": "c831697db526ebba",
@@ -8422,7 +8451,7 @@
       "updatedAt": "2025-12-09T23:34:14Z",
       "lastCommitAt": "2021-09-02T15:44:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:27.739Z"
+      "collectedAt": "2025-12-11T09:43:31.269Z"
     },
     {
       "id": "859c05eeab813dee",
@@ -8446,7 +8475,7 @@
       "updatedAt": "2025-11-14T12:56:34Z",
       "lastCommitAt": "2025-11-14T12:56:31Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:34.588Z"
+      "collectedAt": "2025-12-11T09:43:35.541Z"
     },
     {
       "id": "7b2275478d48b726",
@@ -8470,31 +8499,7 @@
       "updatedAt": "2022-11-01T19:02:34Z",
       "lastCommitAt": "2021-10-21T08:36:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:58.714Z"
-    },
-    {
-      "id": "432b8f0746e98677",
-      "slug": "seckill",
-      "name": "Seckill",
-      "description": "fork from spring-boot-seckill",
-      "author": "shougao",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/3098585?v=4",
-      "repoUrl": "https://github.com/shougao/seckill",
-      "repoFullName": "shougao/seckill",
-      "stars": 2,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "unknown",
-      "createdAt": "2018-11-14T13:11:30Z",
-      "updatedAt": "2018-11-24T13:57:37Z",
-      "lastCommitAt": "2018-11-14T13:17:51Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:00.648Z"
+      "collectedAt": "2025-12-11T09:43:52.293Z"
     },
     {
       "id": "12fcde254f16ae53",
@@ -8518,7 +8523,31 @@
       "updatedAt": "2025-12-11T00:33:00Z",
       "lastCommitAt": "2025-12-11T00:32:56Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:01.641Z"
+      "collectedAt": "2025-12-11T09:43:54.439Z"
+    },
+    {
+      "id": "432b8f0746e98677",
+      "slug": "seckill",
+      "name": "Seckill",
+      "description": "fork from spring-boot-seckill",
+      "author": "shougao",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/3098585?v=4",
+      "repoUrl": "https://github.com/shougao/seckill",
+      "repoFullName": "shougao/seckill",
+      "stars": 2,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "unknown",
+      "createdAt": "2018-11-14T13:11:30Z",
+      "updatedAt": "2018-11-24T13:57:37Z",
+      "lastCommitAt": "2018-11-14T13:17:51Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:43:55.116Z"
     },
     {
       "id": "616721078d930eb0",
@@ -8542,7 +8571,7 @@
       "updatedAt": "2024-04-26T14:28:43Z",
       "lastCommitAt": "2024-07-02T14:22:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:17.068Z"
+      "collectedAt": "2025-12-11T09:44:03.954Z"
     },
     {
       "id": "fef41bbe5ad583e8",
@@ -8566,31 +8595,7 @@
       "updatedAt": "2025-08-10T10:33:04Z",
       "lastCommitAt": "2025-08-01T11:58:27Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:28.473Z"
-    },
-    {
-      "id": "e1de3668b9f65f5f",
-      "slug": "data-md-dse",
-      "name": "Data Md Dse",
-      "description": "Markdown optimized for the Draw Steel Elements Obsidian Plugin for MCDM's Draw Steel TTRPG Rules and Bestiary",
-      "author": "SteelCompendium",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/180801052?v=4",
-      "repoUrl": "https://github.com/SteelCompendium/data-md-dse",
-      "repoFullName": "SteelCompendium/data-md-dse",
-      "stars": 2,
-      "forks": 1,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "maintained",
-      "createdAt": "2024-10-11T17:37:57Z",
-      "updatedAt": "2025-12-04T04:55:12Z",
-      "lastCommitAt": "2025-10-06T18:06:20Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:37.757Z"
+      "collectedAt": "2025-12-11T09:44:30.049Z"
     },
     {
       "id": "b511f240aac1c97b",
@@ -8614,57 +8619,7 @@
       "updatedAt": "2025-11-04T02:49:45Z",
       "lastCommitAt": "2025-11-04T02:49:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:45.111Z"
-    },
-    {
-      "id": "bbafb54ece515c10",
-      "slug": "alndalygithubio",
-      "name": "Alndaly.github.io",
-      "description": "Kinda的个人网站",
-      "author": "Alndaly",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/71250227?v=4",
-      "repoUrl": "https://github.com/Alndaly/alndaly.github.io",
-      "repoFullName": "Alndaly/alndaly.github.io",
-      "stars": 2,
-      "forks": 0,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [
-        "blog"
-      ],
-      "tier": 4,
-      "status": "maintained",
-      "createdAt": "2021-03-13T10:28:29Z",
-      "updatedAt": "2025-03-19T15:31:56Z",
-      "lastCommitAt": "2025-03-19T15:34:22Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:49.175Z"
-    },
-    {
-      "id": "6c89a3c976224ed7",
-      "slug": "playfab-mcp-server",
-      "name": "Playfab Mcp Server",
-      "description": "PlayFab MCP server with CI/CD and release-please",
-      "author": "akiojin",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/965624?v=4",
-      "repoUrl": "https://github.com/akiojin/playfab-mcp-server",
-      "repoFullName": "akiojin/playfab-mcp-server",
-      "stars": 2,
-      "forks": 1,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [],
-      "tier": 4,
-      "status": "active",
-      "createdAt": "2025-04-02T07:06:24Z",
-      "updatedAt": "2025-12-08T17:45:42Z",
-      "lastCommitAt": "2025-12-08T17:45:38Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:25.400Z"
+      "collectedAt": "2025-12-11T09:44:34.777Z"
     },
     {
       "id": "73fc391f70042924",
@@ -8688,7 +8643,7 @@
       "updatedAt": "2025-12-07T00:46:26Z",
       "lastCommitAt": "2025-12-07T00:46:22Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:41.188Z"
+      "collectedAt": "2025-12-11T09:45:01.888Z"
     },
     {
       "id": "afc42cbfbeaa81ac",
@@ -8712,7 +8667,55 @@
       "updatedAt": "2025-11-14T19:32:55Z",
       "lastCommitAt": "2025-11-11T22:46:15Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:42.220Z"
+      "collectedAt": "2025-12-11T09:45:02.648Z"
+    },
+    {
+      "id": "764df105b6750ae0",
+      "slug": "command-and-control",
+      "name": "Command And Control",
+      "description": "Claude command & AI agent creation best practices and templates",
+      "author": "enuno",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/6727752?v=4",
+      "repoUrl": "https://github.com/enuno/claude-command-and-control",
+      "repoFullName": "enuno/claude-command-and-control",
+      "stars": 2,
+      "forks": 0,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-11-11T04:31:35Z",
+      "updatedAt": "2025-12-10T06:31:21Z",
+      "lastCommitAt": "2025-12-10T06:31:18Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:10.006Z"
+    },
+    {
+      "id": "44ce4afbee62f8a2",
+      "slug": "camoneart-code",
+      "name": "Code",
+      "description": "Subagents, Agent Skills, and Custom slash commands collection for Claude Code.",
+      "author": "camoneart",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/106678583?v=4",
+      "repoUrl": "https://github.com/camoneart/claude-code",
+      "repoFullName": "camoneart/claude-code",
+      "stars": 2,
+      "forks": 1,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "maintained",
+      "createdAt": "2025-08-23T15:08:37Z",
+      "updatedAt": "2025-11-04T15:49:41Z",
+      "lastCommitAt": "2025-11-04T15:49:37Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:11.320Z"
     },
     {
       "id": "0bfbddf84bd386f1",
@@ -8736,7 +8739,36 @@
       "updatedAt": "2025-12-09T07:48:40Z",
       "lastCommitAt": "2025-12-09T03:26:21Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:12.346Z"
+      "collectedAt": "2025-12-11T09:45:24.594Z"
+    },
+    {
+      "id": "8c62880c80c6bb8b",
+      "slug": "shiqingqicom",
+      "name": "Shiqingqi.com",
+      "description": "👋 Qingqi Shi's personal website",
+      "author": "QingqiShi",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/6232457?v=4",
+      "repoUrl": "https://github.com/QingqiShi/shiqingqi.com",
+      "repoFullName": "QingqiShi/shiqingqi.com",
+      "stars": 2,
+      "forks": 1,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "personal-website",
+        "react",
+        "resume",
+        "typescript"
+      ],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2015-07-08T04:21:38Z",
+      "updatedAt": "2025-12-04T01:45:53Z",
+      "lastCommitAt": "2025-12-09T15:04:19Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:26.648Z"
     },
     {
       "id": "1837994f1f7e9ffc",
@@ -8760,7 +8792,7 @@
       "updatedAt": "2025-12-02T20:05:21Z",
       "lastCommitAt": "2025-12-02T20:05:17Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:18.039Z"
+      "collectedAt": "2025-12-11T09:45:29.324Z"
     },
     {
       "id": "39204230aa246b90",
@@ -8784,7 +8816,7 @@
       "updatedAt": "2025-11-17T22:02:50Z",
       "lastCommitAt": "2025-11-17T22:02:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:23.425Z"
+      "collectedAt": "2025-12-11T09:45:35.894Z"
     },
     {
       "id": "58ac123ea50b4aae",
@@ -8808,7 +8840,7 @@
       "updatedAt": "2025-12-10T22:02:02Z",
       "lastCommitAt": "2025-12-10T05:36:41Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:27.167Z"
+      "collectedAt": "2025-12-11T09:45:37.884Z"
     },
     {
       "id": "52dede765c344d39",
@@ -8832,7 +8864,7 @@
       "updatedAt": "2025-11-27T08:20:20Z",
       "lastCommitAt": "2025-11-21T10:45:06Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:40.057Z"
+      "collectedAt": "2025-12-11T09:45:40.543Z"
     },
     {
       "id": "b2fd79a2a9eb6db3",
@@ -8856,7 +8888,7 @@
       "updatedAt": "2025-03-27T08:02:15Z",
       "lastCommitAt": "2022-12-16T00:43:41Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:45.432Z"
+      "collectedAt": "2025-12-11T09:45:43.225Z"
     },
     {
       "id": "2544b3bd6bd0fae3",
@@ -8880,7 +8912,7 @@
       "updatedAt": "2025-11-24T07:46:32Z",
       "lastCommitAt": "2025-11-17T19:29:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:50.749Z"
+      "collectedAt": "2025-12-11T09:45:45.206Z"
     },
     {
       "id": "2c5aef816c41747b",
@@ -8904,7 +8936,7 @@
       "updatedAt": "2025-11-26T04:52:47Z",
       "lastCommitAt": "2025-12-02T01:30:24Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:58.285Z"
+      "collectedAt": "2025-12-11T09:45:48.522Z"
     },
     {
       "id": "f43ab72fbabe07f7",
@@ -8928,7 +8960,34 @@
       "updatedAt": "2025-11-21T08:27:01Z",
       "lastCommitAt": "2025-11-09T05:20:32Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:03.770Z"
+      "collectedAt": "2025-12-11T09:45:53.923Z"
+    },
+    {
+      "id": "9aa478ee15e886f8",
+      "slug": "squareone",
+      "name": "Squareone",
+      "description": "The landing page for the Rubin Science Platform",
+      "author": "lsst-sqre",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/10158560?v=4",
+      "repoUrl": "https://github.com/lsst-sqre/squareone",
+      "repoFullName": "lsst-sqre/squareone",
+      "stars": 2,
+      "forks": 1,
+      "category": "devops",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "nextjs",
+        "rubin-science-platform"
+      ],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2021-01-07T17:03:49Z",
+      "updatedAt": "2025-12-11T00:07:04Z",
+      "lastCommitAt": "2025-12-11T01:10:04Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:51.988Z"
     },
     {
       "id": "8354c0b8ff943b8f",
@@ -8952,7 +9011,55 @@
       "updatedAt": "2025-11-26T07:22:33Z",
       "lastCommitAt": "2025-11-26T07:22:54Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:54.727Z"
+      "collectedAt": "2025-12-11T09:47:00.687Z"
+    },
+    {
+      "id": "b9c7a733c6842308",
+      "slug": "tizee-dotfiles",
+      "name": "Dotfiles",
+      "description": "just dotfiles",
+      "author": "tizee",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/33030965?v=4",
+      "repoUrl": "https://github.com/tizee/dotfiles",
+      "repoFullName": "tizee/dotfiles",
+      "stars": 2,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2021-06-04T13:07:01Z",
+      "updatedAt": "2025-12-10T16:17:15Z",
+      "lastCommitAt": "2025-12-10T16:17:11Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:47:06.086Z"
+    },
+    {
+      "id": "2ba8d71fa1771b9d",
+      "slug": "td",
+      "name": "Td",
+      "description": "Treasure Data Skills for Claude Code",
+      "author": "treasure-data",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/747746?v=4",
+      "repoUrl": "https://github.com/treasure-data/td-skills",
+      "repoFullName": "treasure-data/td-skills",
+      "stars": 2,
+      "forks": 4,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 4,
+      "status": "active",
+      "createdAt": "2025-10-21T07:16:21Z",
+      "updatedAt": "2025-12-10T22:58:18Z",
+      "lastCommitAt": "2025-12-10T22:58:16Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:47:08.812Z"
     },
     {
       "id": "b59296d50dbcc2f4",
@@ -8985,7 +9092,7 @@
       "updatedAt": "2025-11-07T23:22:19Z",
       "lastCommitAt": "2025-11-07T01:07:13Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:55.050Z"
+      "collectedAt": "2025-12-11T09:41:53.861Z"
     },
     {
       "id": "982cd6bee1800ac4",
@@ -9028,7 +9135,7 @@
       "updatedAt": "2025-12-11T07:49:09Z",
       "lastCommitAt": "2025-12-11T07:49:05Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:55.553Z"
+      "collectedAt": "2025-12-11T09:41:54.362Z"
     },
     {
       "id": "ade75fd18ed2764a",
@@ -9059,38 +9166,7 @@
       "updatedAt": "2025-11-22T17:36:25Z",
       "lastCommitAt": "2025-11-16T16:36:59Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:56.065Z"
-    },
-    {
-      "id": "f5151df279fec645",
-      "slug": "azure-ml-finetuning-eval",
-      "name": "Azure Ml Finetuning Eval",
-      "description": "🤖 Automate Azure ML finetuning with the LLM skill. 🔧",
-      "author": "kimtth",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/13846660?v=4",
-      "repoUrl": "https://github.com/kimtth/azure-ml-finetuning-eval-skills",
-      "repoFullName": "kimtth/azure-ml-finetuning-eval-skills",
-      "stars": 1,
-      "forks": 0,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [
-        "azure-ai",
-        "azure-machine-learning",
-        "claude-skills",
-        "experimental",
-        "github-copilot",
-        "ms-foundry"
-      ],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2025-12-07T03:38:49Z",
-      "updatedAt": "2025-12-11T01:49:06Z",
-      "lastCommitAt": "2025-12-11T01:49:03Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:56.567Z"
+      "collectedAt": "2025-12-11T09:41:54.863Z"
     },
     {
       "id": "29ef46f99ab7bf80",
@@ -9118,40 +9194,7 @@
       "updatedAt": "2025-10-30T14:27:26Z",
       "lastCommitAt": "2025-10-28T14:04:43Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:57.067Z"
-    },
-    {
-      "id": "7d33723ba18c828c",
-      "slug": "ai-project-template",
-      "name": "Ai_project_template",
-      "description": "template for projects that you plan on having one or more different AI Assistants working in, and attempting to keep co-ordinated",
-      "author": "wrm3",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/54277556?v=4",
-      "repoUrl": "https://github.com/wrm3/ai_project_template",
-      "repoFullName": "wrm3/ai_project_template",
-      "stars": 1,
-      "forks": 0,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-skills",
-        "cursor",
-        "cursor-ai",
-        "cursor-ide",
-        "cursorai"
-      ],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2025-10-19T19:03:41Z",
-      "updatedAt": "2025-11-15T10:01:54Z",
-      "lastCommitAt": "2025-11-18T11:49:07Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:57.585Z"
+      "collectedAt": "2025-12-11T09:41:55.364Z"
     },
     {
       "id": "2bcb4080d646a3f1",
@@ -9194,7 +9237,7 @@
       "updatedAt": "2025-12-11T07:49:01Z",
       "lastCommitAt": "2025-12-11T07:48:58Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:58.099Z"
+      "collectedAt": "2025-12-11T09:41:55.865Z"
     },
     {
       "id": "980042ccb39e1f55",
@@ -9237,7 +9280,71 @@
       "updatedAt": "2025-12-11T07:46:46Z",
       "lastCommitAt": "2025-12-11T07:46:42Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:58.611Z"
+      "collectedAt": "2025-12-11T09:41:56.366Z"
+    },
+    {
+      "id": "f5151df279fec645",
+      "slug": "azure-ml-finetuning-eval",
+      "name": "Azure Ml Finetuning Eval",
+      "description": "🤖 Automate Azure ML finetuning with the LLM skill. 🔧",
+      "author": "kimtth",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/13846660?v=4",
+      "repoUrl": "https://github.com/kimtth/azure-ml-finetuning-eval-skills",
+      "repoFullName": "kimtth/azure-ml-finetuning-eval-skills",
+      "stars": 1,
+      "forks": 0,
+      "category": "devops",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "azure-ai",
+        "azure-machine-learning",
+        "claude-skills",
+        "experimental",
+        "github-copilot",
+        "ms-foundry"
+      ],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-12-07T03:38:49Z",
+      "updatedAt": "2025-12-11T01:49:06Z",
+      "lastCommitAt": "2025-12-11T01:49:03Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:56.867Z"
+    },
+    {
+      "id": "7d33723ba18c828c",
+      "slug": "ai-project-template",
+      "name": "Ai_project_template",
+      "description": "template for projects that you plan on having one or more different AI Assistants working in, and attempting to keep co-ordinated",
+      "author": "wrm3",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/54277556?v=4",
+      "repoUrl": "https://github.com/wrm3/ai_project_template",
+      "repoFullName": "wrm3/ai_project_template",
+      "stars": 1,
+      "forks": 0,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-skills",
+        "cursor",
+        "cursor-ai",
+        "cursor-ide",
+        "cursorai"
+      ],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-10-19T19:03:41Z",
+      "updatedAt": "2025-11-15T10:01:54Z",
+      "lastCommitAt": "2025-11-18T11:49:07Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:41:57.368Z"
     },
     {
       "id": "2eca6226f8fd18ee",
@@ -9266,7 +9373,7 @@
       "updatedAt": "2025-10-30T14:26:52Z",
       "lastCommitAt": "2025-10-28T18:21:15Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:59.115Z"
+      "collectedAt": "2025-12-11T09:41:57.869Z"
     },
     {
       "id": "8a3f19dcf8555732",
@@ -9303,7 +9410,7 @@
       "updatedAt": "2025-10-30T14:28:04Z",
       "lastCommitAt": "2025-10-24T02:55:41Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:55:59.615Z"
+      "collectedAt": "2025-12-11T09:41:58.370Z"
     },
     {
       "id": "2a4cf05cd35b4cf0",
@@ -9337,7 +9444,7 @@
       "updatedAt": "2025-12-05T11:12:34Z",
       "lastCommitAt": "2025-11-19T15:29:51Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:00.130Z"
+      "collectedAt": "2025-12-11T09:41:58.871Z"
     },
     {
       "id": "25c5a781d64a1751",
@@ -9380,7 +9487,7 @@
       "updatedAt": "2025-12-11T07:47:57Z",
       "lastCommitAt": "2025-12-11T07:47:54Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:00.632Z"
+      "collectedAt": "2025-12-11T09:41:59.372Z"
     },
     {
       "id": "0fac9d701cc3be75",
@@ -9423,36 +9530,7 @@
       "updatedAt": "2025-12-11T07:50:10Z",
       "lastCommitAt": "2025-12-11T07:50:07Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:01.133Z"
-    },
-    {
-      "id": "b0f6a3052ceb6cd4",
-      "slug": "autumnsgrove-claudeskills",
-      "name": "ClaudeSkills",
-      "description": "Skills for Claude.ai and Claude Code",
-      "author": "AutumnsGrove",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/35852011?v=4",
-      "repoUrl": "https://github.com/AutumnsGrove/ClaudeSkills",
-      "repoFullName": "AutumnsGrove/ClaudeSkills",
-      "stars": 1,
-      "forks": 0,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [
-        "claude",
-        "claude-code",
-        "claude-plugin",
-        "claude-skills"
-      ],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2025-10-26T00:14:59Z",
-      "updatedAt": "2025-12-02T19:42:18Z",
-      "lastCommitAt": "2025-10-26T00:57:12Z",
-      "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:01.634Z"
+      "collectedAt": "2025-12-11T09:41:59.873Z"
     },
     {
       "id": "1a6b58d484fbb8c1",
@@ -9488,7 +9566,36 @@
       "updatedAt": "2025-10-21T09:39:53Z",
       "lastCommitAt": "2025-10-19T17:39:07Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:02.137Z"
+      "collectedAt": "2025-12-11T09:42:00.374Z"
+    },
+    {
+      "id": "b0f6a3052ceb6cd4",
+      "slug": "autumnsgrove-claudeskills",
+      "name": "ClaudeSkills",
+      "description": "Skills for Claude.ai and Claude Code",
+      "author": "AutumnsGrove",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/35852011?v=4",
+      "repoUrl": "https://github.com/AutumnsGrove/ClaudeSkills",
+      "repoFullName": "AutumnsGrove/ClaudeSkills",
+      "stars": 1,
+      "forks": 0,
+      "category": "ai-ml",
+      "categories": [
+        "ai-ml"
+      ],
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills"
+      ],
+      "tier": 5,
+      "status": "maintained",
+      "createdAt": "2025-10-26T00:14:59Z",
+      "updatedAt": "2025-12-02T19:42:18Z",
+      "lastCommitAt": "2025-10-26T00:57:12Z",
+      "source": "github-topic",
+      "collectedAt": "2025-12-11T09:42:00.874Z"
     },
     {
       "id": "86ae8d410c053acc",
@@ -9517,7 +9624,7 @@
       "updatedAt": "2025-12-08T22:20:49Z",
       "lastCommitAt": "2025-12-08T22:01:00Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:02.639Z"
+      "collectedAt": "2025-12-11T09:42:01.375Z"
     },
     {
       "id": "c48485e6a4be260e",
@@ -9560,7 +9667,7 @@
       "updatedAt": "2025-12-11T07:51:07Z",
       "lastCommitAt": "2025-12-11T07:51:03Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:03.141Z"
+      "collectedAt": "2025-12-11T09:42:01.876Z"
     },
     {
       "id": "d3a7a3401985327d",
@@ -9590,7 +9697,7 @@
       "updatedAt": "2025-12-06T14:59:46Z",
       "lastCommitAt": "2025-11-29T12:27:21Z",
       "source": "github-topic",
-      "collectedAt": "2025-12-11T08:56:59.970Z"
+      "collectedAt": "2025-12-11T09:42:37.820Z"
     },
     {
       "id": "b09696dfa0a051c8",
@@ -9614,7 +9721,7 @@
       "updatedAt": "2025-06-23T14:34:46Z",
       "lastCommitAt": "2025-11-22T14:58:48Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:25.340Z"
+      "collectedAt": "2025-12-11T09:43:29.942Z"
     },
     {
       "id": "a1ae25fe9710ed31",
@@ -9638,7 +9745,7 @@
       "updatedAt": "2018-10-06T20:01:34Z",
       "lastCommitAt": "2018-10-06T20:01:32Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:28.765Z"
+      "collectedAt": "2025-12-11T09:43:32.031Z"
     },
     {
       "id": "0a62c908bee1c879",
@@ -9662,7 +9769,7 @@
       "updatedAt": "2025-12-10T17:45:50Z",
       "lastCommitAt": "2025-12-10T17:45:46Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:37.556Z"
+      "collectedAt": "2025-12-11T09:43:37.634Z"
     },
     {
       "id": "29a48f8aa66c1922",
@@ -9686,7 +9793,7 @@
       "updatedAt": "2024-06-14T06:31:13Z",
       "lastCommitAt": "2020-09-21T18:07:27Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:58:39.681Z"
+      "collectedAt": "2025-12-11T09:43:39.050Z"
     },
     {
       "id": "95ba399b278162db",
@@ -9710,7 +9817,7 @@
       "updatedAt": "2025-12-05T03:28:46Z",
       "lastCommitAt": "2025-04-23T17:09:27Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:05.068Z"
+      "collectedAt": "2025-12-11T09:43:57.165Z"
     },
     {
       "id": "88403151ada9d034",
@@ -9734,7 +9841,7 @@
       "updatedAt": "2024-06-05T15:27:02Z",
       "lastCommitAt": "2024-06-05T15:27:11Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:07.930Z"
+      "collectedAt": "2025-12-11T09:43:58.518Z"
     },
     {
       "id": "4b7b5f833510e33d",
@@ -9758,7 +9865,7 @@
       "updatedAt": "2025-05-03T17:25:58Z",
       "lastCommitAt": "2025-05-03T17:25:54Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:11.178Z"
+      "collectedAt": "2025-12-11T09:44:00.574Z"
     },
     {
       "id": "857dbaa42037d81f",
@@ -9782,7 +9889,31 @@
       "updatedAt": "2025-11-20T13:31:20Z",
       "lastCommitAt": "2025-11-20T13:36:42Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:14.121Z"
+      "collectedAt": "2025-12-11T09:44:02.587Z"
+    },
+    {
+      "id": "eac20d905c611f0a",
+      "slug": "leles-standard-of-combat",
+      "name": "Leles Standard Of Combat",
+      "description": "",
+      "author": "Uomocosa",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/40992585?v=4",
+      "repoUrl": "https://github.com/Uomocosa/Leles-Standard-of-Combat",
+      "repoFullName": "Uomocosa/Leles-Standard-of-Combat",
+      "stars": 1,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-01-16T23:15:37Z",
+      "updatedAt": "2025-08-07T16:13:04Z",
+      "lastCommitAt": "2025-12-01T10:24:45Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:08.048Z"
     },
     {
       "id": "ebd718ec4a3fc2e9",
@@ -9806,7 +9937,7 @@
       "updatedAt": "2025-04-20T16:43:38Z",
       "lastCommitAt": "2025-04-20T16:43:35Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:22.379Z"
+      "collectedAt": "2025-12-11T09:44:10.211Z"
     },
     {
       "id": "e311e4490c2f0a6d",
@@ -9833,31 +9964,7 @@
       "updatedAt": "2025-08-13T16:12:42Z",
       "lastCommitAt": "2025-08-13T16:13:57Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:26.388Z"
-    },
-    {
-      "id": "69d06f6f35681653",
-      "slug": "docspanruitop",
-      "name": "Docs.panrui.top",
-      "description": "",
-      "author": "wesweet",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/21313491?v=4",
-      "repoUrl": "https://github.com/wesweet/docs.panrui.top",
-      "repoFullName": "wesweet/docs.panrui.top",
-      "stars": 1,
-      "forks": 0,
-      "category": "documentation",
-      "categories": [
-        "documentation"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2023-07-04T06:18:44Z",
-      "updatedAt": "2025-01-16T14:59:46Z",
-      "lastCommitAt": "2025-01-16T14:59:45Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:31.879Z"
+      "collectedAt": "2025-12-11T09:44:12.400Z"
     },
     {
       "id": "805bf764b10fc040",
@@ -9884,17 +9991,41 @@
       "updatedAt": "2020-03-02T14:39:31Z",
       "lastCommitAt": "2020-03-02T14:39:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T08:59:32.835Z"
+      "collectedAt": "2025-12-11T09:44:17.137Z"
     },
     {
-      "id": "eac20d905c611f0a",
-      "slug": "leles-standard-of-combat",
-      "name": "Leles Standard Of Combat",
+      "id": "69d06f6f35681653",
+      "slug": "docspanruitop",
+      "name": "Docs.panrui.top",
       "description": "",
-      "author": "Uomocosa",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/40992585?v=4",
-      "repoUrl": "https://github.com/Uomocosa/Leles-Standard-of-Combat",
-      "repoFullName": "Uomocosa/Leles-Standard-of-Combat",
+      "author": "wesweet",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/21313491?v=4",
+      "repoUrl": "https://github.com/wesweet/docs.panrui.top",
+      "repoFullName": "wesweet/docs.panrui.top",
+      "stars": 1,
+      "forks": 0,
+      "category": "documentation",
+      "categories": [
+        "documentation"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "maintained",
+      "createdAt": "2023-07-04T06:18:44Z",
+      "updatedAt": "2025-01-16T14:59:46Z",
+      "lastCommitAt": "2025-01-16T14:59:45Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:44:51.510Z"
+    },
+    {
+      "id": "59075680ad75f7e3",
+      "slug": "tools",
+      "name": "Tools",
+      "description": "Collection of tools",
+      "author": "dave1010",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/50682?v=4",
+      "repoUrl": "https://github.com/dave1010/tools",
+      "repoFullName": "dave1010/tools",
       "stars": 1,
       "forks": 0,
       "category": "other",
@@ -9904,11 +10035,41 @@
       "tags": [],
       "tier": 5,
       "status": "active",
-      "createdAt": "2025-01-16T23:15:37Z",
-      "updatedAt": "2025-08-07T16:13:04Z",
-      "lastCommitAt": "2025-12-01T10:24:45Z",
+      "createdAt": "2025-10-24T06:12:45Z",
+      "updatedAt": "2025-12-11T08:25:57Z",
+      "lastCommitAt": "2025-12-11T08:50:45Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:00.645Z"
+      "collectedAt": "2025-12-11T09:44:58.410Z"
+    },
+    {
+      "id": "bc782f4a642ccac0",
+      "slug": "codewarden",
+      "name": "Codewarden",
+      "description": "Claude Code plugin for enforcing code quality, accessibility, and security standards in TypeScript/React/Next.js projects",
+      "author": "Tylerbryy",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/104282235?v=4",
+      "repoUrl": "https://github.com/Tylerbryy/codewarden",
+      "repoFullName": "Tylerbryy/codewarden",
+      "stars": 1,
+      "forks": 0,
+      "category": "devops",
+      "categories": [
+        "devops"
+      ],
+      "tags": [
+        "claude-code",
+        "claude-code-plugin",
+        "code-quality",
+        "developer-tools",
+        "nextjs"
+      ],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-12-10T12:48:14Z",
+      "updatedAt": "2025-12-10T15:15:08Z",
+      "lastCommitAt": "2025-12-10T13:52:09Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:03.432Z"
     },
     {
       "id": "cd2b1c49a4436db6",
@@ -9932,35 +10093,31 @@
       "updatedAt": "2025-12-02T03:34:09Z",
       "lastCommitAt": "2025-12-02T03:34:06Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:46.117Z"
+      "collectedAt": "2025-12-11T09:45:05.374Z"
     },
     {
-      "id": "a56c7761ce9e0b5f",
-      "slug": "ctx-plugin",
-      "name": "Ctx Plugin",
-      "description": "Claude context manager",
-      "author": "NickCrew",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/22551361?v=4",
-      "repoUrl": "https://github.com/NickCrew/claude-ctx-plugin",
-      "repoFullName": "NickCrew/claude-ctx-plugin",
+      "id": "c08fef6ceb364d05",
+      "slug": "superpowers-sdd",
+      "name": "Superpowers Sdd",
+      "description": "Specification-Driven Development with Process Discipline for Claude Code",
+      "author": "rhuss",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/99080?v=4",
+      "repoUrl": "https://github.com/rhuss/cc-superpowers-sdd",
+      "repoFullName": "rhuss/cc-superpowers-sdd",
       "stars": 1,
       "forks": 1,
-      "category": "other",
+      "category": "testing",
       "categories": [
-        "other"
+        "testing"
       ],
-      "tags": [
-        "ai",
-        "ai-agents",
-        "claude"
-      ],
+      "tags": [],
       "tier": 5,
       "status": "active",
-      "createdAt": "2025-10-17T05:08:29Z",
-      "updatedAt": "2025-12-10T22:58:00Z",
-      "lastCommitAt": "2025-12-10T22:57:54Z",
+      "createdAt": "2025-11-10T10:42:10Z",
+      "updatedAt": "2025-11-14T16:55:35Z",
+      "lastCommitAt": "2025-11-14T16:55:32Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:00:54.370Z"
+      "collectedAt": "2025-12-11T09:45:09.343Z"
     },
     {
       "id": "367c5c089eca4028",
@@ -9997,7 +10154,7 @@
       "updatedAt": "2025-12-04T17:09:49Z",
       "lastCommitAt": "2025-12-04T17:09:43Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:05.212Z"
+      "collectedAt": "2025-12-11T09:45:19.914Z"
     },
     {
       "id": "3680d3389e72f411",
@@ -10021,7 +10178,7 @@
       "updatedAt": "2025-11-24T14:51:04Z",
       "lastCommitAt": "2025-11-24T14:51:01Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:09.499Z"
+      "collectedAt": "2025-12-11T09:45:22.591Z"
     },
     {
       "id": "033804c9ddf103f8",
@@ -10045,55 +10202,7 @@
       "updatedAt": "2025-10-27T00:00:12Z",
       "lastCommitAt": "2025-10-26T22:01:28Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:16.145Z"
-    },
-    {
-      "id": "0610431388b5c184",
-      "slug": "ai-chrome-extension",
-      "name": "Ai Chrome Extension",
-      "description": "",
-      "author": "DNYoussef",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130602884?v=4",
-      "repoUrl": "https://github.com/DNYoussef/ai-chrome-extension",
-      "repoFullName": "DNYoussef/ai-chrome-extension",
-      "stars": 1,
-      "forks": 0,
-      "category": "ai-ml",
-      "categories": [
-        "ai-ml"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2025-10-31T16:29:56Z",
-      "updatedAt": "2025-12-10T03:11:48Z",
-      "lastCommitAt": "2025-10-31T16:30:01Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:30.522Z"
-    },
-    {
-      "id": "764aeae5a6272815",
-      "slug": "uuta-dotfiles",
-      "name": "Dotfiles",
-      "description": "",
-      "author": "uuta",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/11177906?v=4",
-      "repoUrl": "https://github.com/uuta/dotfiles",
-      "repoFullName": "uuta/dotfiles",
-      "stars": 1,
-      "forks": 1,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2024-07-05T05:18:56Z",
-      "updatedAt": "2025-12-08T00:56:58Z",
-      "lastCommitAt": "2025-12-05T10:14:23Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:36.070Z"
+      "collectedAt": "2025-12-11T09:45:27.969Z"
     },
     {
       "id": "65a495a7ea128245",
@@ -10117,31 +10226,7 @@
       "updatedAt": "2025-12-01T08:59:31Z",
       "lastCommitAt": "2025-12-03T02:48:33Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:42.056Z"
-    },
-    {
-      "id": "73c28434511912be",
-      "slug": "data-rules-md-dse",
-      "name": "Data Rules Md Dse",
-      "description": "Markdown for MCDM's Draw Steel TTRPG Rules for Draw Steel Elements plugin",
-      "author": "SteelCompendium",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/180801052?v=4",
-      "repoUrl": "https://github.com/SteelCompendium/data-rules-md-dse",
-      "repoFullName": "SteelCompendium/data-rules-md-dse",
-      "stars": 1,
-      "forks": 0,
-      "category": "devops",
-      "categories": [
-        "devops"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2025-08-20T20:36:09Z",
-      "updatedAt": "2025-10-21T20:26:28Z",
-      "lastCommitAt": "2025-10-06T18:06:00Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:47.874Z"
+      "collectedAt": "2025-12-11T09:45:39.876Z"
     },
     {
       "id": "472cc62641eb97d6",
@@ -10165,7 +10250,7 @@
       "updatedAt": "2025-10-28T02:46:16Z",
       "lastCommitAt": "2025-10-28T02:46:12Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:49.803Z"
+      "collectedAt": "2025-12-11T09:45:44.531Z"
     },
     {
       "id": "43bec52e6c68da9e",
@@ -10189,7 +10274,7 @@
       "updatedAt": "2025-12-11T01:27:23Z",
       "lastCommitAt": "2025-12-10T05:48:24Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:01:57.319Z"
+      "collectedAt": "2025-12-11T09:45:47.865Z"
     },
     {
       "id": "926ffce923966f5f",
@@ -10213,7 +10298,31 @@
       "updatedAt": "2025-12-09T02:53:09Z",
       "lastCommitAt": "2025-12-09T02:53:04Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:01.373Z"
+      "collectedAt": "2025-12-11T09:45:51.958Z"
+    },
+    {
+      "id": "0aaa337d459ca44d",
+      "slug": "source-of-truth-monorepo",
+      "name": "Source Of Truth Monorepo",
+      "description": "Unified Source-of-Truth monorepo consolidating 53 repositories across FlashFusion ecosystem",
+      "author": "Krosebrook",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/214532761?v=4",
+      "repoUrl": "https://github.com/Krosebrook/source-of-truth-monorepo",
+      "repoFullName": "Krosebrook/source-of-truth-monorepo",
+      "stars": 1,
+      "forks": 1,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-10-27T06:49:24Z",
+      "updatedAt": "2025-11-29T18:57:48Z",
+      "lastCommitAt": "2025-11-29T18:57:45Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:45:55.972Z"
     },
     {
       "id": "7aa2660e262e914a",
@@ -10243,175 +10352,7 @@
       "updatedAt": "2025-06-11T23:37:28Z",
       "lastCommitAt": "2025-05-05T17:23:08Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:20.810Z"
-    },
-    {
-      "id": "2d265a159931660b",
-      "slug": "jxtechbook",
-      "name": "Jxtechbook",
-      "description": "",
-      "author": "Chao-Xi",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/16005674?v=4",
-      "repoUrl": "https://github.com/Chao-Xi/jxtechbook",
-      "repoFullName": "Chao-Xi/jxtechbook",
-      "stars": 1,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2025-08-20T11:54:06Z",
-      "updatedAt": "2025-12-10T00:05:44Z",
-      "lastCommitAt": "2025-12-10T00:06:08Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:26.002Z"
-    },
-    {
-      "id": "aed048a6fe82fdce",
-      "slug": "geometry-course",
-      "name": "Geometry Course",
-      "description": "A learning graph for a high-school geometry course.   This graph is being used to test our new learning-graph viewers and editors.",
-      "author": "dmccreary",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/674055?v=4",
-      "repoUrl": "https://github.com/dmccreary/geometry-course",
-      "repoFullName": "dmccreary/geometry-course",
-      "stars": 1,
-      "forks": 0,
-      "category": "testing",
-      "categories": [
-        "testing"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2024-11-21T15:15:30Z",
-      "updatedAt": "2025-12-11T04:46:25Z",
-      "lastCommitAt": "2025-12-11T04:46:22Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:30.970Z"
-    },
-    {
-      "id": "7e11ba75e7481c07",
-      "slug": "firstmile-deals-pipeline",
-      "name": "Firstmile Deals Pipeline",
-      "description": "Nebuchadnezzar v3.0 - Multi-Agent Sales Pipeline System",
-      "author": "WalkerVVV",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/197841232?v=4",
-      "repoUrl": "https://github.com/WalkerVVV/firstmile-deals-pipeline",
-      "repoFullName": "WalkerVVV/firstmile-deals-pipeline",
-      "stars": 1,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2025-10-24T05:03:03Z",
-      "updatedAt": "2025-12-09T02:39:54Z",
-      "lastCommitAt": "2025-12-10T01:40:13Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:35.995Z"
-    },
-    {
-      "id": "05009d964f432624",
-      "slug": "ryanbramgithubio",
-      "name": "Ryanbram.github.io",
-      "description": "Game Designer",
-      "author": "RyanBram",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/4508389?v=4",
-      "repoUrl": "https://github.com/RyanBram/ryanbram.github.io",
-      "repoFullName": "RyanBram/ryanbram.github.io",
-      "stars": 1,
-      "forks": 0,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2019-07-01T05:30:34Z",
-      "updatedAt": "2025-11-29T14:14:01Z",
-      "lastCommitAt": "2025-11-29T14:13:58Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:45.419Z"
-    },
-    {
-      "id": "c54cfa41c3488b6c",
-      "slug": "academic-athletics-saas",
-      "name": "Academic Athletics Saas",
-      "description": "",
-      "author": "drgaciw",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/18266596?v=4",
-      "repoUrl": "https://github.com/drgaciw/academic-athletics-saas",
-      "repoFullName": "drgaciw/academic-athletics-saas",
-      "stars": 1,
-      "forks": 0,
-      "category": "other",
-      "categories": [
-        "other"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "active",
-      "createdAt": "2025-11-09T00:42:26Z",
-      "updatedAt": "2025-12-01T19:02:31Z",
-      "lastCommitAt": "2025-11-26T08:14:38Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:57.606Z"
-    },
-    {
-      "id": "d9b6f7269c93480d",
-      "slug": "sky-beargithubio",
-      "name": "Sky Bear.github.io",
-      "description": "",
-      "author": "sky-bear",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/37959646?v=4",
-      "repoUrl": "https://github.com/sky-bear/sky-bear.github.io",
-      "repoFullName": "sky-bear/sky-bear.github.io",
-      "stars": 1,
-      "forks": 0,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2019-08-29T02:26:49Z",
-      "updatedAt": "2025-10-20T01:43:24Z",
-      "lastCommitAt": "2025-10-20T01:43:18Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:02:59.540Z"
-    },
-    {
-      "id": "9a147502443b7076",
-      "slug": "pillar69githubio",
-      "name": "Pillar69.github.io",
-      "description": "",
-      "author": "pillar69",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/12994159?v=4",
-      "repoUrl": "https://github.com/pillar69/pillar69.github.io",
-      "repoFullName": "pillar69/pillar69.github.io",
-      "stars": 1,
-      "forks": 0,
-      "category": "coding",
-      "categories": [
-        "coding"
-      ],
-      "tags": [],
-      "tier": 5,
-      "status": "maintained",
-      "createdAt": "2016-05-25T04:48:27Z",
-      "updatedAt": "2025-06-19T04:04:13Z",
-      "lastCommitAt": "2025-06-19T04:04:10Z",
-      "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:13.599Z"
+      "collectedAt": "2025-12-11T09:46:05.701Z"
     },
     {
       "id": "dac265654fddc3b1",
@@ -10435,7 +10376,175 @@
       "updatedAt": "2025-08-26T07:00:40Z",
       "lastCommitAt": "2025-08-26T07:00:37Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:03:25.097Z"
+      "collectedAt": "2025-12-11T09:46:08.399Z"
+    },
+    {
+      "id": "2d265a159931660b",
+      "slug": "jxtechbook",
+      "name": "Jxtechbook",
+      "description": "",
+      "author": "Chao-Xi",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/16005674?v=4",
+      "repoUrl": "https://github.com/Chao-Xi/jxtechbook",
+      "repoFullName": "Chao-Xi/jxtechbook",
+      "stars": 1,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-08-20T11:54:06Z",
+      "updatedAt": "2025-12-10T00:05:44Z",
+      "lastCommitAt": "2025-12-10T00:06:08Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:09.763Z"
+    },
+    {
+      "id": "05009d964f432624",
+      "slug": "ryanbramgithubio",
+      "name": "Ryanbram.github.io",
+      "description": "Game Designer",
+      "author": "RyanBram",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/4508389?v=4",
+      "repoUrl": "https://github.com/RyanBram/ryanbram.github.io",
+      "repoFullName": "RyanBram/ryanbram.github.io",
+      "stars": 1,
+      "forks": 0,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2019-07-01T05:30:34Z",
+      "updatedAt": "2025-11-29T14:14:01Z",
+      "lastCommitAt": "2025-11-29T14:13:58Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:26.437Z"
+    },
+    {
+      "id": "aed048a6fe82fdce",
+      "slug": "geometry-course",
+      "name": "Geometry Course",
+      "description": "A learning graph for a high-school geometry course.   This graph is being used to test our new learning-graph viewers and editors.",
+      "author": "dmccreary",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/674055?v=4",
+      "repoUrl": "https://github.com/dmccreary/geometry-course",
+      "repoFullName": "dmccreary/geometry-course",
+      "stars": 1,
+      "forks": 0,
+      "category": "testing",
+      "categories": [
+        "testing"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2024-11-21T15:15:30Z",
+      "updatedAt": "2025-12-11T04:46:25Z",
+      "lastCommitAt": "2025-12-11T04:46:22Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:29.110Z"
+    },
+    {
+      "id": "c54cfa41c3488b6c",
+      "slug": "academic-athletics-saas",
+      "name": "Academic Athletics Saas",
+      "description": "",
+      "author": "drgaciw",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/18266596?v=4",
+      "repoUrl": "https://github.com/drgaciw/academic-athletics-saas",
+      "repoFullName": "drgaciw/academic-athletics-saas",
+      "stars": 1,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-11-09T00:42:26Z",
+      "updatedAt": "2025-12-01T19:02:31Z",
+      "lastCommitAt": "2025-11-26T08:14:38Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:40.838Z"
+    },
+    {
+      "id": "d9b6f7269c93480d",
+      "slug": "sky-beargithubio",
+      "name": "Sky Bear.github.io",
+      "description": "",
+      "author": "sky-bear",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/37959646?v=4",
+      "repoUrl": "https://github.com/sky-bear/sky-bear.github.io",
+      "repoFullName": "sky-bear/sky-bear.github.io",
+      "stars": 1,
+      "forks": 0,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "maintained",
+      "createdAt": "2019-08-29T02:26:49Z",
+      "updatedAt": "2025-10-20T01:43:24Z",
+      "lastCommitAt": "2025-10-20T01:43:18Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:42.262Z"
+    },
+    {
+      "id": "9a147502443b7076",
+      "slug": "pillar69githubio",
+      "name": "Pillar69.github.io",
+      "description": "",
+      "author": "pillar69",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/12994159?v=4",
+      "repoUrl": "https://github.com/pillar69/pillar69.github.io",
+      "repoFullName": "pillar69/pillar69.github.io",
+      "stars": 1,
+      "forks": 0,
+      "category": "coding",
+      "categories": [
+        "coding"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "maintained",
+      "createdAt": "2016-05-25T04:48:27Z",
+      "updatedAt": "2025-06-19T04:04:13Z",
+      "lastCommitAt": "2025-06-19T04:04:10Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:47.145Z"
+    },
+    {
+      "id": "7e11ba75e7481c07",
+      "slug": "firstmile-deals-pipeline",
+      "name": "Firstmile Deals Pipeline",
+      "description": "Nebuchadnezzar v3.0 - Multi-Agent Sales Pipeline System",
+      "author": "WalkerVVV",
+      "authorAvatar": "https://avatars.githubusercontent.com/u/197841232?v=4",
+      "repoUrl": "https://github.com/WalkerVVV/firstmile-deals-pipeline",
+      "repoFullName": "WalkerVVV/firstmile-deals-pipeline",
+      "stars": 1,
+      "forks": 0,
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "tags": [],
+      "tier": 5,
+      "status": "active",
+      "createdAt": "2025-10-24T05:03:03Z",
+      "updatedAt": "2025-12-09T02:39:54Z",
+      "lastCommitAt": "2025-12-10T01:40:13Z",
+      "source": "github-search",
+      "collectedAt": "2025-12-11T09:46:54.026Z"
     },
     {
       "id": "23ac11e6a66bfeee",
@@ -10470,7 +10579,7 @@
       "updatedAt": "2025-11-20T12:47:33Z",
       "lastCommitAt": "2025-11-18T19:05:57Z",
       "source": "github-search",
-      "collectedAt": "2025-12-11T09:04:00.521Z"
+      "collectedAt": "2025-12-11T09:47:07.397Z"
     }
   ]
 }
