@@ -23,7 +23,7 @@
   "updatedAt": "2025-12-11T09:40:52Z",
   "lastCommitAt": "2025-12-11T09:40:48Z",
   "source": "github-search",
-  "collectedAt": "2025-12-11T09:46:29.803Z",
+  "collectedAt": "2025-12-12T03:42:48.782Z",
   "authorUrl": "https://github.com/adobe",
   "license": "Apache-2.0",
   "readme": "# Project Helix Website\n[www.aem.live](https://www.aem.live)\n\n[![codecov](https://codecov.io/gh/adobe/helix-website/branch/main/graph/badge.svg?token=If90y6KMqx)](https://codecov.io/gh/adobe/helix-website)\n## Introduction\nThis repo is what powers the helix website.\n\n## Developing\nInstall the Helix CLI:\n\n    sudo npm install -g @adobe/aem-cli\n    \nRun it in this repo:\n\n    aem up\n\nWhile site preview is authenticated, run below command for local development:\n\n    npx @adobe/aem-cli up --url https://main--helix-website--adobe.aem.live/\n\n    \n## Testing\n### Install dependencies:\n\n    npm install\n### Run tests:\n\n    npm test\n### Watch tests:\n\n    npm test:watch\n    \nThis will run through all your tests, but then only run against any changed tests.\n\n\n",

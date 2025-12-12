@@ -1,0 +1,36 @@
+{
+  "id": "cefa1ad82f78144f",
+  "slug": "azurlane",
+  "name": "AzurLane",
+  "description": "Azur Lane Resources",
+  "author": "Fernando2603",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/81207411?v=4",
+  "repoUrl": "https://github.com/Fernando2603/AzurLane",
+  "repoFullName": "Fernando2603/AzurLane",
+  "stars": 84,
+  "forks": 9,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "api",
+    "azur-lane",
+    "azurlane",
+    "azurlane-api"
+  ],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2021-09-24T02:59:11Z",
+  "updatedAt": "2025-12-11T23:42:09Z",
+  "lastCommitAt": "2025-12-11T23:42:04Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-12T03:39:39.566Z",
+  "authorUrl": "https://github.com/Fernando2603",
+  "license": null,
+  "readme": "# AzurLane\n![](versions/REPOSITORY.svg)\n![](versions/EN.svg)\n![](versions/BGM.svg)\n![](versions/CIPHER.svg)\n![](versions/CV.svg)\n![](versions/L2D.svg)\n![](versions/MANGA.svg)\n![](versions/PAINTING.svg)\n![](versions/PIC.svg)\n\nAzur Lane Resources\n\n> [!IMPORTANT]\n> Only `EN` server assets are available\n\n> [!CAUTION]\n> This repository is quite large, and it's not recommended to clone it entirely.\n> Instead, consider fetching the JSON file or using a [sparse checkout](/docs/SPARSE_CHECKOUT.md).\n\n> [!TIP]\n> The repository will check for updates every day at `23:00 UTC`.\n\n> [!NOTE]\n> The dataset itself doesn't have version control, but it sync with the current game version.\n\n\n## Docs\n- [CHANGELOG](/docs/CHANGELOG.md)\n- [BGM](/docs/BGM.md)\n- [SKIN](/docs/SKIN.md)\n- [SKILL](/docs/SKILL.md)\n- [EQUIPMENT](/docs/EQUIPMENT.md)\n- [MEOWFFICER](/docs/MEOWFFICER.md)\n- [VOICELINE](/docs/VOICELINE.md)\n- [list of missing voiceline audio](/docs/MISSING_VOICELINE.md)\n- [git sparse-checkout how-to](/docs/SPARSE_CHECKOUT.md)\n\n## Repository Size\nRepository contains 54224 files with a size of 9.91 GB (10644951968 B).\n\n### Audio\nContains 37836 files with a size of 3.90 GB (4188528121 B).\n\n- **BGM:**\n  Contains 435 files with a size of 934.78 MB (980190360 B).\n\n- **Voiceline:**\n  Contains 2018 skins voiceline, 37401 files with a size of 2.99 GB (3208337761 B).\n\n### Images\nContains 16327 files with a size of 5.96 GB (6394937333 B).\n\n- **Background:**\n  Contains 104 files with a size of 66.65 MB (69883283 B).\n\n- **Equipment:**\n  Contains 1126 files with a size of 13.24 MB (13878726 B).\n\n- **Meowfficer:**\n  Contains 17 characters, 26 skills, and 91 talents assets with a total of 168 files and a combined size of 8.80 MB (9231640 B).\n\n- **Skills:**\n  Contains 1467 files with a size of 31.70 MB (33243056 B).\n\n- **Skins:**\n  Contains 2036 skins, 13120 files with a size of 5.82 GB (6247805523 B).\n\n  - **painting:**\n    Contains 2940 files with a size of 5.50 GB (5902459091 B).\n  - **banner:**\n    Contains 2036 files with a size of 59.02 MB (61881830 B).\n  - **chibi:**\n    Contains 2036 files with a size of 71.52 MB (74989082 B).\n  - **icon:**\n    Contains 2036 files with a size of 41.47 MB (43480159 B).\n  - **qicon:**\n    Contains 2036 files with a size of 32.16 MB (33725557 B).\n  - **shipyard:**\n    Contains 2036 files with a size of 125.19 MB (131269804 B).\n\n> [!NOTE]\n> Assets without auto-update are not included.\n\n## Fetch\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/bgm.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/bgm_link.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/equipment.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/equipment_icon.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/equipment_skill.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/equip_icon.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/hulltype.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/meowfficer.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/meowfficer_list.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/meowfficer_talent.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/meowfficer_talent_list.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/nationality.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/ship_skin.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/ship_skin_list.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/skill.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/skill_icon.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/skin.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/skin_list.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/voiceline.json\n```\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/voicelink.json\n```\n\n## Replace Missing File (Wild Card)\n- [unknown.json](https://github.com/Fernando2603/AzurLane/blob/main/unknown.json)\n```\nhttps://raw.githubusercontent.com/Fernando2603/AzurLane/main/unknown.json\n```",
+  "installCommand": "git clone https://github.com/Fernando2603/AzurLane ~/.claude/skills/azurlane",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
