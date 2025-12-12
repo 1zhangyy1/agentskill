@@ -76,7 +76,7 @@ export function categorizeByKeywords(text: string): Category {
  * 从仓库名提取 Skill 名称
  */
 export function extractSkillName(repoName: string): string {
-  let name = repoName
+  const name = repoName
     .replace(/^(claude-|cc-|skill-|skills-)/i, '')
     .replace(/(-skill|-skills|-claude|-code)$/i, '')
     .replace(/-/g, ' ')

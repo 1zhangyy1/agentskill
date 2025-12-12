@@ -1,5 +1,5 @@
 import { Octokit } from '@octokit/rest'
-import { SkillSummary, SkillDetail, DataSource, Category } from '../../src/types'
+import { SkillSummary, SkillDetail, DataSource } from '../../src/types'
 import {
   generateSkillId,
   categorizeByKeywords,
@@ -7,6 +7,32 @@ import {
   sleep
 } from '../utils/helpers'
 import { calculateTier, inferStatus } from '../utils/quality'
+
+type RepoOwnerLike = {
+  login: string
+  avatar_url: string
+}
+
+type RepoLike = {
+  full_name: string
+  name: string
+  description: string | null
+  html_url: string
+  owner: RepoOwnerLike
+  stargazers_count: number
+  forks_count: number
+  topics?: string[]
+  archived?: boolean
+  created_at: string
+  updated_at: string
+  pushed_at: string
+  license?: { spdx_id?: string | null } | null
+  default_branch?: string
+}
+
+function getErrorMessage(err: unknown): string {
+  return err instanceof Error ? err.message : String(err)
+}
 
 export class GitHubCollector {
   private octokit: Octokit
@@ -41,13 +67,13 @@ export class GitHubCollector {
 
         for (const repo of response.data.items) {
           try {
-            const skill = await this.transformRepo(repo, 'github-topic')
+            const skill = await this.transformRepo(repo as unknown as RepoLike, 'github-topic')
             if (skill) {
               skills.push(skill)
               console.log(`    ✓ ${repo.full_name} (⭐${repo.stargazers_count})`)
             }
-          } catch (err: any) {
-            console.log(`    ✗ ${repo.full_name}: ${err.message}`)
+          } catch (err: unknown) {
+            console.log(`    ✗ ${repo.full_name}: ${getErrorMessage(err)}`)
           }
           await sleep(500) // 小延迟
         }
@@ -56,8 +82,8 @@ export class GitHubCollector {
         page++
         await sleep(this.requestDelay)
       }
-    } catch (err: any) {
-      console.error(`  Error collecting topic ${topic}:`, err.message)
+    } catch (err: unknown) {
+      console.error(`  Error collecting topic ${topic}:`, getErrorMessage(err))
     }
 
     console.log(`  Total from ${topic}: ${skills.length}`)
@@ -139,8 +165,8 @@ export class GitHubCollector {
 
         await sleep(300)
       }
-    } catch (err: any) {
-      console.error('  Error collecting anthropics/skills:', err.message)
+    } catch (err: unknown) {
+      console.error('  Error collecting anthropics/skills:', getErrorMessage(err))
     }
 
     console.log(`  Total from anthropics/skills: ${skills.length}`)
@@ -185,13 +211,13 @@ export class GitHubCollector {
               repo: item.repository.name
             })
 
-            const skill = await this.transformRepo(repo, 'github-search')
+            const skill = await this.transformRepo(repo as unknown as RepoLike, 'github-search')
             if (skill) {
               skills.push(skill)
               console.log(`    ✓ ${repoFullName} (⭐${repo.stargazers_count})`)
             }
-          } catch (err: any) {
-            console.log(`    ✗ ${repoFullName}: ${err.message}`)
+          } catch (err: unknown) {
+            console.log(`    ✗ ${repoFullName}: ${getErrorMessage(err)}`)
           }
 
           await sleep(500)
@@ -201,8 +227,8 @@ export class GitHubCollector {
         page++
         await sleep(this.requestDelay)
       }
-    } catch (err: any) {
-      console.error('  Error searching by filename:', err.message)
+    } catch (err: unknown) {
+      console.error('  Error searching by filename:', getErrorMessage(err))
     }
 
     console.log(`  Total from filename search: ${skills.length}`)
@@ -213,7 +239,7 @@ export class GitHubCollector {
    * 将 GitHub 仓库转换为 SkillSummary
    */
   private async transformRepo(
-    repo: any,
+    repo: RepoLike,
     source: DataSource
   ): Promise<SkillSummary | null> {
     // 过滤低质量仓库
@@ -344,8 +370,8 @@ export class GitHubCollector {
         hasMarketplaceJson,
         skillPath
       }
-    } catch (err: any) {
-      console.error(`Error getting detail for ${skill.slug}:`, err.message)
+    } catch (err: unknown) {
+      console.error(`Error getting detail for ${skill.slug}:`, getErrorMessage(err))
       return null
     }
   }

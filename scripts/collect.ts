@@ -2,7 +2,7 @@ import * as dotenv from 'dotenv'
 import * as fs from 'fs/promises'
 import * as path from 'path'
 import { GitHubCollector } from './collectors/github'
-import { SkillSummary, SkillDetail, SkillsIndex, DataSource, QualityTier, Category } from '../src/types'
+import { SkillSummary, SkillsIndex, DataSource, QualityTier, Category } from '../src/types'
 import { generateSlug } from './utils/helpers'
 
 // 加载环境变量
@@ -160,8 +160,9 @@ async function main() {
         detailCount++
         console.log(`  ✓ ${skill.slug}`)
       }
-    } catch (err: any) {
-      console.log(`  ✗ ${skill.slug}: ${err.message}`)
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err)
+      console.log(`  ✗ ${skill.slug}: ${message}`)
     }
   }
 

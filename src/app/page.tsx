@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const revalidate = 3600 // 每小时重新验证
 
 export default async function HomePage() {
-  const { skills, total, lastUpdated } = await getSkillsIndex()
+  const { skills, total } = await getSkillsIndex()
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

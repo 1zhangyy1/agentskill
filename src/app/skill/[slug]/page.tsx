@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, Star, GitFork, ExternalLink, Copy, Check, Calendar, User } from 'lucide-react'
+import { ArrowLeft, Star, GitFork, ExternalLink, Calendar, User } from 'lucide-react'
 import { getSkillDetail, getAllSkillSlugs } from '@/lib/skills'
 import { Badge } from '@/components/ui'
 import { CATEGORIES } from '@/lib/constants'
