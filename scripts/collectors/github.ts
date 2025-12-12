@@ -264,7 +264,7 @@ export class GitHubCollector {
       categories: [category],
       tags: repo.topics || [],
       tier: calculateTier(repo.stargazers_count, repo.pushed_at),
-      status: inferStatus(repo.archived, repo.pushed_at),
+      status: inferStatus(Boolean(repo.archived), repo.pushed_at),
       createdAt: repo.created_at,
       updatedAt: repo.updated_at,
       lastCommitAt: repo.pushed_at,
