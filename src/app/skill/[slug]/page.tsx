@@ -3,11 +3,47 @@ import Link from 'next/link'
 import { ArrowLeft, Star, GitFork, ExternalLink, Calendar, User } from 'lucide-react'
 import { getSkillDetail, getAllSkillSlugs } from '@/lib/skills'
 import { Badge } from '@/components/ui'
-import { CATEGORIES } from '@/lib/constants'
+import { CATEGORIES, SITE_CONFIG } from '@/lib/constants'
 import { CopyButton } from './CopyButton'
+import type { Metadata } from 'next'
 
 interface SkillPageProps {
   params: Promise<{ slug: string }>
+}
+
+// 动态生成每个 Skill 页面的 metadata
+export async function generateMetadata({ params }: SkillPageProps): Promise<Metadata> {
+  const { slug } = await params
+  const skill = await getSkillDetail(slug)
+
+  if (!skill) {
+    return {
+      title: 'Skill Not Found',
+    }
+  }
+
+  const title = `${skill.name} - Claude Code Skill`
+  const description = skill.description
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${SITE_CONFIG.url}/skill/${slug}`,
+      type: 'article',
+      authors: [skill.author],
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
+    alternates: {
+      canonical: `${SITE_CONFIG.url}/skill/${slug}`,
+    },
+  }
 }
 
 export async function generateStaticParams() {

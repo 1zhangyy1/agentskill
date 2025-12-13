@@ -16,8 +16,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: SITE_CONFIG.name,
+  title: {
+    default: `${SITE_CONFIG.name} - Claude Code Skill Marketplace`,
+    template: `%s | ${SITE_CONFIG.name}`,
+  },
   description: SITE_CONFIG.description,
+  keywords: SITE_CONFIG.keywords,
+  authors: [{ name: 'AgentSkill Team' }],
+  creator: 'AgentSkill',
+  metadataBase: new URL(SITE_CONFIG.url),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: SITE_CONFIG.url,
+    siteName: SITE_CONFIG.name,
+    title: `${SITE_CONFIG.name} - Claude Code Skill Marketplace`,
+    description: SITE_CONFIG.description,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE_CONFIG.name} - Claude Code Skill Marketplace`,
+    description: SITE_CONFIG.description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: SITE_CONFIG.url,
+  },
 };
 
 export default function RootLayout({

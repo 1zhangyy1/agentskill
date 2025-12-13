@@ -35,8 +35,9 @@ export function categorizeByKeywords(text: string): Category {
 // 站点信息
 export const SITE_CONFIG = {
   name: 'AgentSkill',
-  description: 'Discover and share Claude Code Skills',
-  descriptionZh: '发现和分享 Claude Code Skills',
-  url: 'https://agentskill.dev',
+  description: 'Discover and share Claude Code Skills to enhance your AI-powered development workflow',
+  descriptionZh: '发现和分享 Claude Code Skills，提升 AI 辅助开发效率',
+  url: 'https://www.agentskill.space',
   github: 'https://github.com/yourusername/agentskill',
+  keywords: ['Claude Code', 'AI Skills', 'Claude Skills', 'AI Development', 'Anthropic', 'Code Assistant'],
 }
