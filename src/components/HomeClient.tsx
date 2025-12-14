@@ -26,9 +26,9 @@ export function HomeClient({ skills }: HomeClientProps) {
   }, [skills, debouncedSearch, category, sort])
 
   return (
-    <>
+    <div className="space-y-10">
       {/* Search */}
-      <div className="max-w-2xl mx-auto mb-8">
+      <div className="max-w-2xl mx-auto animate-rise">
         <SearchBar
           value={search}
           onChange={setSearch}
@@ -37,7 +37,7 @@ export function HomeClient({ skills }: HomeClientProps) {
       </div>
 
       {/* Filter Bar */}
-      <div className="mb-8">
+      <div className="animate-rise delay-1">
         <FilterBar
           category={category}
           sort={sort}
@@ -47,14 +47,16 @@ export function HomeClient({ skills }: HomeClientProps) {
       </div>
 
       {/* Results Count */}
-      <div className="mb-4">
-        <p className="text-sm text-[#6B7280]">
-          {filteredSkills.length} skill{filteredSkills.length !== 1 ? 's' : ''} found
+      <div className="flex items-center gap-3 animate-rise delay-2">
+        <div className="w-2 h-2 bg-[#E8634A] rounded-full" />
+        <p className="text-sm text-[#5C5C5C]">
+          <span className="font-medium text-[#1A1A1A]">{filteredSkills.length}</span>
+          {' '}skill{filteredSkills.length !== 1 ? 's' : ''} found
         </p>
       </div>
 
       {/* Skill List */}
       <SkillList skills={filteredSkills} />
-    </>
+    </div>
   )
 }

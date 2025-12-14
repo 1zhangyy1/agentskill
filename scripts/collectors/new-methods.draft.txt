@@ -1,0 +1,147 @@
+// 新增的采集方法，需要添加到 GitHubCollector 类中
+
+/**
+ * 采集官方 anthropics/claude-code/plugins
+ */
+async collectOfficialPlugins(): Promise<SkillSummary[]> {
+  console.log('\n📦 Collecting from anthropics/claude-code/plugins')
+  const skills: SkillSummary[] = []
+
+  try {
+    const { data: repo } = await this.octokit.rest.repos.get({
+      owner: 'anthropics',
+      repo: 'claude-code'
+    })
+
+    const { data: contents } = await this.octokit.rest.repos.getContent({
+      owner: 'anthropics',
+      repo: 'claude-code',
+      path: 'plugins'
+    })
+
+    if (!Array.isArray(contents)) {
+      console.log('  No plugins directory found')
+      return skills
+    }
+
+    for (const item of contents) {
+      if (item.type !== 'dir') continue
+
+      try {
+        let pluginInfo: { name?: string; description?: string } = {}
+        try {
+          const { data: marketplaceJson } = await this.octokit.rest.repos.getContent({
+            owner: 'anthropics',
+            repo: 'claude-code',
+            path: `plugins/${item.name}/marketplace.json`
+          })
+          if ('content' in marketplaceJson) {
+            const content = Buffer.from(marketplaceJson.content, 'base64').toString('utf-8')
+            pluginInfo = JSON.parse(content)
+          }
+        } catch {
+          // 没有 marketplace.json
+        }
+
+        const skillName = pluginInfo.name || extractSkillName(item.name)
+        const description = pluginInfo.description || `Official Claude Code plugin: ${item.name}`
+
+        const skill: SkillSummary = {
+          id: generateSkillId('anthropics/claude-code', item.name),
+          slug: '',
+          name: skillName,
+          description,
+          author: 'anthropics',
+          authorAvatar: repo.owner.avatar_url,
+          repoUrl: `https://github.com/anthropics/claude-code/tree/main/plugins/${item.name}`,
+          repoFullName: 'anthropics/claude-code',
+          stars: repo.stargazers_count,
+          forks: repo.forks_count,
+          category: categorizeByKeywords(skillName + ' ' + description),
+          categories: [categorizeByKeywords(skillName + ' ' + description)],
+          tags: ['official', 'anthropic', 'plugin'],
+          tier: 1,
+          status: 'active',
+          createdAt: repo.created_at,
+          updatedAt: repo.updated_at,
+          lastCommitAt: repo.pushed_at,
+          source: 'anthropics-official',
+          collectedAt: new Date().toISOString()
+        }
+
+        skills.push(skill)
+        console.log(`  ✓ ${item.name}`)
+      } catch {
+        // 跳过无效目录
+      }
+
+      await sleep(300)
+    }
+  } catch (err: unknown) {
+    console.error('  Error collecting official plugins:', getErrorMessage(err))
+  }
+
+  console.log(`  Total from official plugins: ${skills.length}`)
+  return skills
+}
+
+/**
+ * 搜索包含 marketplace.json 的仓库（高质量优先采集）
+ */
+async collectByMarketplaceJson(maxPages: number = 10): Promise<SkillSummary[]> {
+  console.log('\n📦 Collecting by filename:marketplace.json')
+  const skills: SkillSummary[] = []
+  const seenRepos = new Set<string>()
+
+  try {
+    let page = 1
+    const perPage = 100
+
+    while (page <= maxPages) {
+      console.log(`  Page ${page}...`)
+
+      const response = await this.octokit.rest.search.code({
+        q: 'filename:marketplace.json path:/',
+        per_page: perPage,
+        page
+      })
+
+      for (const item of response.data.items) {
+        const repoFullName = item.repository.full_name
+
+        if (seenRepos.has(repoFullName)) continue
+        seenRepos.add(repoFullName)
+
+        if (repoFullName === 'anthropics/skills' || repoFullName === 'anthropics/claude-code') continue
+
+        try {
+          const { data: repo } = await this.octokit.rest.repos.get({
+            owner: item.repository.owner.login,
+            repo: item.repository.name
+          })
+
+          const skill = await this.transformRepo(repo as unknown as RepoLike, 'github-search')
+          if (skill) {
+            skill.tags = [...skill.tags, 'marketplace']
+            if (skill.tier > 1) skill.tier = (skill.tier - 1) as 1 | 2 | 3 | 4 | 5
+            skills.push(skill)
+            console.log(`    ✓ ${repoFullName} (⭐${repo.stargazers_count}) [marketplace]`)
+          }
+        } catch (err: unknown) {
+          console.log(`    ✗ ${repoFullName}: ${getErrorMessage(err)}`)
+        }
+
+        await sleep(500)
+      }
+
+      if (response.data.items.length < perPage) break
+      page++
+      await sleep(this.requestDelay)
+    }
+  } catch (err: unknown) {
+    console.error('  Error searching by marketplace.json:', getErrorMessage(err))
+  }
+
+  console.log(`  Total from marketplace.json search: ${skills.length}`)
+  return skills
+}

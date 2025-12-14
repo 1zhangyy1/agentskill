@@ -17,11 +17,14 @@ export function FilterBar({ category, sort, onCategoryChange, onSortChange }: Fi
       <div className="flex flex-wrap gap-2">
         <button
           onClick={() => onCategoryChange('')}
-          className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-            category === ''
-              ? 'bg-[#1A1A1A] text-white'
-              : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
-          }`}
+          className={`
+            px-4 py-2 text-sm font-medium rounded-full border-2
+            transition-all duration-200
+            ${category === ''
+              ? 'bg-[#1A1A1A] border-[#1A1A1A] text-white'
+              : 'bg-transparent border-[#E8E4DE] text-[#5C5C5C] hover:border-[#1A1A1A] hover:text-[#1A1A1A]'
+            }
+          `}
         >
           All
         </button>
@@ -29,11 +32,14 @@ export function FilterBar({ category, sort, onCategoryChange, onSortChange }: Fi
           <button
             key={cat.value}
             onClick={() => onCategoryChange(cat.value)}
-            className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-              category === cat.value
-                ? 'bg-[#1A1A1A] text-white'
-                : 'bg-[#F3F4F6] text-[#6B7280] hover:bg-[#E5E7EB]'
-            }`}
+            className={`
+              px-4 py-2 text-sm font-medium rounded-full border-2
+              transition-all duration-200
+              ${category === cat.value
+                ? 'bg-[#1A1A1A] border-[#1A1A1A] text-white'
+                : 'bg-transparent border-[#E8E4DE] text-[#5C5C5C] hover:border-[#1A1A1A] hover:text-[#1A1A1A]'
+              }
+            `}
           >
             {cat.label}
           </button>
@@ -41,12 +47,24 @@ export function FilterBar({ category, sort, onCategoryChange, onSortChange }: Fi
       </div>
 
       {/* Sort Select */}
-      <div className="flex items-center space-x-2 sm:ml-auto">
-        <span className="text-sm text-[#6B7280]">Sort by:</span>
+      <div className="flex items-center gap-3 sm:ml-auto">
+        <span className="text-sm text-[#8C8C8C]">Sort</span>
         <select
           value={sort}
           onChange={(e) => onSortChange(e.target.value as SortOption)}
-          className="px-3 py-1.5 text-sm bg-white border border-[#E5E5E5] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#D97706] focus:border-transparent"
+          className="
+            px-4 py-2
+            text-sm font-medium
+            bg-transparent
+            border-2 border-[#E8E4DE]
+            rounded-full
+            text-[#1A1A1A]
+            cursor-pointer
+            focus:outline-none
+            focus:border-[#1A1A1A]
+            hover:border-[#1A1A1A]
+            transition-colors duration-200
+          "
         >
           {SORT_OPTIONS.map((option) => (
             <option key={option.value} value={option.value}>

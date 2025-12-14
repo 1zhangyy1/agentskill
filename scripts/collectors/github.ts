@@ -54,7 +54,7 @@ export class GitHubCollector {
       const perPage = 100
       let hasMore = true
 
-      while (hasMore && page <= 10) { // 最多 1000 个结果
+      while (hasMore && page <= 10) {
         console.log(`  Page ${page}...`)
 
         const response = await this.octokit.rest.search.repos({
@@ -75,7 +75,7 @@ export class GitHubCollector {
           } catch (err: unknown) {
             console.log(`    ✗ ${repo.full_name}: ${getErrorMessage(err)}`)
           }
-          await sleep(500) // 小延迟
+          await sleep(500)
         }
 
         hasMore = response.data.items.length === perPage
@@ -98,13 +98,11 @@ export class GitHubCollector {
     const skills: SkillSummary[] = []
 
     try {
-      // 获取仓库信息
       const { data: repo } = await this.octokit.rest.repos.get({
         owner: 'anthropics',
         repo: 'skills'
       })
 
-      // 获取根目录内容
       const { data: contents } = await this.octokit.rest.repos.getContent({
         owner: 'anthropics',
         repo: 'skills',
@@ -116,12 +114,10 @@ export class GitHubCollector {
         return skills
       }
 
-      // 遍历每个目录，查找 SKILL.md
       for (const item of contents) {
         if (item.type !== 'dir') continue
 
         try {
-          // 检查是否有 SKILL.md
           const { data: skillMd } = await this.octokit.rest.repos.getContent({
             owner: 'anthropics',
             repo: 'skills',
@@ -135,7 +131,7 @@ export class GitHubCollector {
 
             const skill: SkillSummary = {
               id: generateSkillId('anthropics/skills', item.name),
-              slug: '', // 后续生成
+              slug: '',
               name: skillName,
               description,
               author: 'anthropics',
@@ -147,7 +143,7 @@ export class GitHubCollector {
               category: categorizeByKeywords(skillName + ' ' + description),
               categories: [categorizeByKeywords(skillName + ' ' + description)],
               tags: ['official', 'anthropic'],
-              tier: 1, // 官方都是 Tier 1
+              tier: 1,
               status: 'active',
               createdAt: repo.created_at,
               updatedAt: repo.updated_at,
@@ -174,6 +170,152 @@ export class GitHubCollector {
   }
 
   /**
+   * 采集官方 anthropics/claude-code/plugins
+   */
+  async collectOfficialPlugins(): Promise<SkillSummary[]> {
+    console.log('\n📦 Collecting from anthropics/claude-code/plugins')
+    const skills: SkillSummary[] = []
+
+    try {
+      const { data: repo } = await this.octokit.rest.repos.get({
+        owner: 'anthropics',
+        repo: 'claude-code'
+      })
+
+      const { data: contents } = await this.octokit.rest.repos.getContent({
+        owner: 'anthropics',
+        repo: 'claude-code',
+        path: 'plugins'
+      })
+
+      if (!Array.isArray(contents)) {
+        console.log('  No plugins directory found')
+        return skills
+      }
+
+      for (const item of contents) {
+        if (item.type !== 'dir') continue
+
+        try {
+          let pluginInfo: { name?: string; description?: string } = {}
+          try {
+            const { data: marketplaceJson } = await this.octokit.rest.repos.getContent({
+              owner: 'anthropics',
+              repo: 'claude-code',
+              path: `plugins/${item.name}/marketplace.json`
+            })
+            if ('content' in marketplaceJson) {
+              const content = Buffer.from(marketplaceJson.content, 'base64').toString('utf-8')
+              pluginInfo = JSON.parse(content)
+            }
+          } catch {
+            // 没有 marketplace.json
+          }
+
+          const skillName = pluginInfo.name || extractSkillName(item.name)
+          const description = pluginInfo.description || `Official Claude Code plugin: ${item.name}`
+
+          const skill: SkillSummary = {
+            id: generateSkillId('anthropics/claude-code', item.name),
+            slug: '',
+            name: skillName,
+            description,
+            author: 'anthropics',
+            authorAvatar: repo.owner.avatar_url,
+            repoUrl: `https://github.com/anthropics/claude-code/tree/main/plugins/${item.name}`,
+            repoFullName: 'anthropics/claude-code',
+            stars: repo.stargazers_count,
+            forks: repo.forks_count,
+            category: categorizeByKeywords(skillName + ' ' + description),
+            categories: [categorizeByKeywords(skillName + ' ' + description)],
+            tags: ['official', 'anthropic', 'plugin'],
+            tier: 1,
+            status: 'active',
+            createdAt: repo.created_at,
+            updatedAt: repo.updated_at,
+            lastCommitAt: repo.pushed_at,
+            source: 'anthropics-official',
+            collectedAt: new Date().toISOString()
+          }
+
+          skills.push(skill)
+          console.log(`  ✓ ${item.name}`)
+        } catch {
+          // 跳过无效目录
+        }
+
+        await sleep(300)
+      }
+    } catch (err: unknown) {
+      console.error('  Error collecting official plugins:', getErrorMessage(err))
+    }
+
+    console.log(`  Total from official plugins: ${skills.length}`)
+    return skills
+  }
+
+  /**
+   * 搜索包含 marketplace.json 的仓库（高质量优先采集）
+   */
+  async collectByMarketplaceJson(maxPages: number = 10): Promise<SkillSummary[]> {
+    console.log('\n📦 Collecting by filename:marketplace.json')
+    const skills: SkillSummary[] = []
+    const seenRepos = new Set<string>()
+
+    try {
+      let page = 1
+      const perPage = 100
+
+      while (page <= maxPages) {
+        console.log(`  Page ${page}...`)
+
+        const response = await this.octokit.rest.search.code({
+          q: 'filename:marketplace.json path:/',
+          per_page: perPage,
+          page
+        })
+
+        for (const item of response.data.items) {
+          const repoFullName = item.repository.full_name
+
+          if (seenRepos.has(repoFullName)) continue
+          seenRepos.add(repoFullName)
+
+          if (repoFullName === 'anthropics/skills' || repoFullName === 'anthropics/claude-code') continue
+
+          try {
+            const { data: repo } = await this.octokit.rest.repos.get({
+              owner: item.repository.owner.login,
+              repo: item.repository.name
+            })
+
+            const skill = await this.transformRepo(repo as unknown as RepoLike, 'github-search')
+            if (skill) {
+              skill.tags = [...skill.tags, 'marketplace']
+              if (skill.tier > 1) skill.tier = (skill.tier - 1) as 1 | 2 | 3 | 4 | 5
+              skills.push(skill)
+              console.log(`    ✓ ${repoFullName} (⭐${repo.stargazers_count}) [marketplace]`)
+            }
+          } catch (err: unknown) {
+            console.log(`    ✗ ${repoFullName}: ${getErrorMessage(err)}`)
+          }
+
+          await sleep(500)
+        }
+
+        if (response.data.items.length < perPage) break
+        page++
+        await sleep(this.requestDelay)
+      }
+    } catch (err: unknown) {
+      console.error('  Error searching by marketplace.json:', getErrorMessage(err))
+    }
+
+    console.log(`  Total from marketplace.json search: ${skills.length}`)
+    return skills
+  }
+
+  /**
    * 搜索包含 SKILL.md 的仓库
    */
   async collectByFilename(): Promise<SkillSummary[]> {
@@ -185,7 +327,7 @@ export class GitHubCollector {
       let page = 1
       const perPage = 100
 
-      while (page <= 5) { // 搜索前 500 个结果
+      while (page <= 10) {
         console.log(`  Page ${page}...`)
 
         const response = await this.octokit.rest.search.code({
@@ -197,15 +339,12 @@ export class GitHubCollector {
         for (const item of response.data.items) {
           const repoFullName = item.repository.full_name
 
-          // 跳过已处理的仓库
           if (seenRepos.has(repoFullName)) continue
           seenRepos.add(repoFullName)
 
-          // 跳过官方仓库（已单独处理）
           if (repoFullName === 'anthropics/skills') continue
 
           try {
-            // 获取仓库详情
             const { data: repo } = await this.octokit.rest.repos.get({
               owner: item.repository.owner.login,
               repo: item.repository.name
@@ -242,7 +381,6 @@ export class GitHubCollector {
     repo: RepoLike,
     source: DataSource
   ): Promise<SkillSummary | null> {
-    // 过滤低质量仓库
     if (repo.stargazers_count < 1) return null
     if (repo.archived && repo.stargazers_count < 10) return null
 
@@ -251,7 +389,7 @@ export class GitHubCollector {
 
     return {
       id: generateSkillId(repo.full_name),
-      slug: '', // 后续生成
+      slug: '',
       name: extractSkillName(repo.name),
       description: description.substring(0, 200),
       author: repo.owner.login,
@@ -273,17 +411,11 @@ export class GitHubCollector {
     }
   }
 
-  /**
-   * 从 README 提取名称
-   */
   private extractNameFromReadme(content: string): string | null {
     const match = content.match(/^#\s+(.+)$/m)
     return match ? match[1].trim() : null
   }
 
-  /**
-   * 从 README 提取描述
-   */
   private extractDescriptionFromReadme(content: string): string {
     const lines = content.split('\n')
     let description = ''
@@ -303,20 +435,15 @@ export class GitHubCollector {
     return description.trim().substring(0, 200) || 'No description available'
   }
 
-  /**
-   * 获取 Skill 详情（包含 README 内容）
-   */
   async getSkillDetail(skill: SkillSummary): Promise<SkillDetail | null> {
     try {
       const [owner, repo] = skill.repoFullName.split('/')
 
-      // 获取仓库信息
       const { data: repoData } = await this.octokit.rest.repos.get({
         owner,
         repo
       })
 
-      // 尝试获取 SKILL.md
       let readme = ''
       let skillPath = ''
 
@@ -331,7 +458,6 @@ export class GitHubCollector {
           skillPath = 'SKILL.md'
         }
       } catch {
-        // 尝试 README.md
         try {
           const { data: readmeMd } = await this.octokit.rest.repos.getContent({
             owner,
@@ -347,7 +473,6 @@ export class GitHubCollector {
         }
       }
 
-      // 检查是否有 marketplace.json
       let hasMarketplaceJson = false
       try {
         await this.octokit.rest.repos.getContent({

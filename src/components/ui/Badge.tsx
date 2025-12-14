@@ -6,12 +6,12 @@ interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
 const Badge = forwardRef<HTMLSpanElement, BadgeProps>(
   ({ className = '', variant = 'default', children, ...props }, ref) => {
-    const baseStyles = 'inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium'
+    const baseStyles = 'inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium transition-colors'
 
     const variants = {
-      default: 'bg-[#F3F4F6] text-[#6B7280]',
-      primary: 'bg-[#FEF3C7] text-[#D97706]',
-      secondary: 'bg-[#E5E7EB] text-[#374151]',
+      default: 'bg-[#F5F5F4] text-[#78716C] border border-transparent',
+      primary: 'bg-[#FEF3E2] text-[#D97706] border border-amber-200/50',
+      secondary: 'bg-white text-[#292524] border border-[#E7E5E4]',
     }
 
     return (
