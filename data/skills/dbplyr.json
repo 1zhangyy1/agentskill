@@ -1,0 +1,34 @@
+{
+  "id": "34e6a24309c11266",
+  "slug": "dbplyr",
+  "name": "Dbplyr",
+  "description": "Database (DBI) backend for dplyr",
+  "author": "tidyverse",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/22032646?v=4",
+  "repoUrl": "https://github.com/tidyverse/dbplyr",
+  "repoFullName": "tidyverse/dbplyr",
+  "stars": 491,
+  "forks": 184,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "database",
+    "r"
+  ],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2017-03-28T20:29:16Z",
+  "updatedAt": "2025-12-12T22:37:56Z",
+  "lastCommitAt": "2025-12-12T22:58:16Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:55:38.351Z",
+  "authorUrl": "https://github.com/tidyverse",
+  "license": "NOASSERTION",
+  "readme": "\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n\n# dbplyr <a href='https://dbplyr.tidyverse.org'><img src='man/figures/logo.png' align=\"right\" height=\"139\" /></a>\n\n<!-- badges: start -->\n\n[![CRAN\nstatus](https://www.r-pkg.org/badges/version/dbplyr)](https://cran.r-project.org/package=dbplyr)\n[![R-CMD-check](https://github.com/tidyverse/dbplyr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tidyverse/dbplyr/actions/workflows/R-CMD-check.yaml)\n[![Codecov test\ncoverage](https://codecov.io/gh/tidyverse/dbplyr/graph/badge.svg)](https://app.codecov.io/gh/tidyverse/dbplyr)\n<!-- badges: end -->\n\n## Overview\n\ndbplyr is the database backend for [dplyr](https://dplyr.tidyverse.org).\nIt allows you to use remote database tables as if they are in-memory\ndata frames by automatically converting dplyr code into SQL.\n\nTo learn more about why you might use dbplyr instead of writing SQL, see\n`vignette(\"sql\")`. To learn more about the details of the SQL\ntranslation, see `vignette(\"translation-verb\")` and\n`vignette(\"translation-function\")`.\n\n## Installation\n\n``` r\n# The easiest way to get dbplyr is to install the whole tidyverse:\ninstall.packages(\"tidyverse\")\n\n# Alternatively, install just dbplyr:\ninstall.packages(\"dbplyr\")\n\n# Or the development version from GitHub:\n# install.packages(\"pak\")\npak::pak(\"tidyverse/dbplyr\")\n```\n\n## Usage\n\ndbplyr is designed to work with database tables as if they were local\ndata frames. To demonstrate this I’ll first create an in-memory SQLite\ndatabase and copy over a dataset:\n\n``` r\nlibrary(dplyr, warn.conflicts = FALSE)\n\ncon <- DBI::dbConnect(RSQLite::SQLite(), \":memory:\")\ncopy_to(con, mtcars)\n```\n\nNote that you don’t actually need to load dbplyr with `library(dbplyr)`;\ndplyr automatically loads it for you when it sees you working with a\ndatabase. Database connections are coordinated by the DBI package. Learn\nmore at <https://dbi.r-dbi.org/>\n\nNow you can retrieve a table using `tbl()` (see `?tbl_dbi` for more\ndetails). Printing it just retrieves the first few rows:\n\n``` r\nmtcars2 <- tbl(con, \"mtcars\")\nmtcars2\n#> # Source:   table<`mtcars`> [?? x 11]\n#> # Database: sqlite 3.50.4 [:memory:]\n#>      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb\n#>    <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>\n#>  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4\n#>  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4\n#>  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1\n#>  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1\n#>  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2\n#>  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1\n#>  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4\n#>  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2\n#>  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2\n#> 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4\n#> # ℹ more rows\n```\n\nAll dplyr calls are evaluated lazily, generating SQL that is only sent\nto the database when you request the data.\n\n``` r\n# lazily generates query\nsummary <- mtcars2 |> \n  group_by(cyl) |> \n  summarise(mpg = mean(mpg, na.rm = TRUE)) |> \n  arrange(desc(mpg))\n\n# see query\nsummary |> show_query()\n#> <SQL>\n#> SELECT `cyl`, AVG(`mpg`) AS `mpg`\n#> FROM `mtcars`\n#> GROUP BY `cyl`\n#> ORDER BY `mpg` DESC\n\n# execute query and retrieve results\nsummary |> collect()\n#> # A tibble: 3 × 2\n#>     cyl   mpg\n#>   <dbl> <dbl>\n#> 1     4  26.7\n#> 2     6  19.7\n#> 3     8  15.1\n```\n\n## Code of Conduct\n\nPlease note that the dbplyr project is released with a [Contributor Code\nof Conduct](https://dbplyr.tidyverse.org/CODE_OF_CONDUCT.html). By\ncontributing to this project, you agree to abide by its terms.\n",
+  "installCommand": "git clone https://github.com/tidyverse/dbplyr ~/.claude/skills/dbplyr",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

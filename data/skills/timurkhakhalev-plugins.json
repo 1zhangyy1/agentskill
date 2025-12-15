@@ -1,0 +1,31 @@
+{
+  "id": "dc6f51e5f466b852",
+  "slug": "timurkhakhalev-plugins",
+  "name": "Plugins",
+  "description": "My own Claude Code Plugins Marketplace",
+  "author": "timurkhakhalev",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/2836521?v=4",
+  "repoUrl": "https://github.com/timurkhakhalev/cc-plugins",
+  "repoFullName": "timurkhakhalev/cc-plugins",
+  "stars": 7,
+  "forks": 0,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-11-05T06:41:04Z",
+  "updatedAt": "2025-12-14T14:12:36Z",
+  "lastCommitAt": "2025-12-14T14:12:33Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:50:02.555Z",
+  "authorUrl": "https://github.com/timurkhakhalev",
+  "license": null,
+  "readme": "# Timur Khakhalev's Claude Code Plugin Marketplace\n\nPersonal marketplace for Claude Code plugins.\n\n## Installation\n\n1. Run Claude Code:\n\n```bash\nclaude\n```\n\n2. Add this marketplace:\n\n```\n/plugin marketplace add https://github.com/timur-khakhalev/cc-plugins\n```\n\n3. Install a plugin:\n\n```\n/plugin install steerings-generator@timur-khakhalev-marketplace\n```\n\n4. Restart Claude Code\n\n5. Start using the plugin\n\n## Available Plugins\n\n### steerings-generator\n\nExtract tacit engineering knowledge through guided interviews and generate structured steerings.\n\n**Keywords:** steerings, knowledge-extraction, conventions, tacit-knowledge, documentation\n",
+  "installCommand": "git clone https://github.com/timurkhakhalev/cc-plugins ~/.claude/skills/timurkhakhalev-plugins",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "613e407e41e48906",
+  "slug": "atris",
+  "name": "Atris",
+  "description": "a self improvement system for agents",
+  "author": "atrislabs",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/63672820?v=4",
+  "repoUrl": "https://github.com/atrislabs/atris",
+  "repoFullName": "atrislabs/atris",
+  "stars": 26,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2025-10-20T20:43:58Z",
+  "updatedAt": "2025-12-13T11:42:48Z",
+  "lastCommitAt": "2025-12-13T11:42:45Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:54:08.479Z",
+  "authorUrl": "https://github.com/atrislabs",
+  "license": null,
+  "readme": "# atris\n\n**atris** is a self improving context layer for your agent. Works with coding agents like Claude Code and Cursor.\n\n## For Coding Agents\n\n**If you're a coding agent (Claude Code, Cursor, Windsurf, Copilot, etc.) reading this:**\n\nWhen the user asks to build/plan/fix something, run:\n```bash\natris\n```\n\nFollow the instructions in the output. The full protocol is in `atris.md`.\n\n---\n\n## Install\n\n```bash\nnpm install -g atris\n```\n\n## Quick Start\n\n```bash\ncd your-project\natris init    # Creates atris/ folder\natris         # Loads context, ready to build\n```\n\nThen describe what you want to build. The agent will:\n0. (Optional) Explore with `atris brainstorm` if uncertain\n1. Show you a visualization\n2. Wait for approval\n3. Create `atris/features/[name]/idea.md` + `build.md`\n4. Execute step by step\n5. Review and update docs (2-pass)\n\nCommands: `brainstorm` (optional) → `plan` → `do` → `review`\n\nWorks with: Claude Code, Cursor, Windsurf, GitHub Copilot, any agent.\n\n## Update\n\n```bash\nnpm update -g atris\natris update\n```\n\n---\n\n## Latest Updates\n\n\nSee [releases](https://github.com/atrislabs/atris.md/releases) for full changelog.\n\n---\n\n**License:** MIT | **Repo:** [github.com/atrislabs/atris.md](https://github.com/atrislabs/atris.git)\n",
+  "installCommand": "git clone https://github.com/atrislabs/atris ~/.claude/skills/atris",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

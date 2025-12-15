@@ -1,0 +1,31 @@
+{
+  "id": "db1e058bfcc1b744",
+  "slug": "0xbigboss-code",
+  "name": "Code",
+  "description": "Comprehensive configuration system for Claude Code with intelligent development workflows and automated memory management",
+  "author": "0xBigBoss",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/95193764?v=4",
+  "repoUrl": "https://github.com/0xBigBoss/claude-code",
+  "repoFullName": "0xBigBoss/claude-code",
+  "stars": 5,
+  "forks": 1,
+  "category": "automation",
+  "categories": [
+    "automation"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-06-28T00:09:29Z",
+  "updatedAt": "2025-12-14T18:08:38Z",
+  "lastCommitAt": "2025-12-14T18:08:35Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:54:17.183Z",
+  "authorUrl": "https://github.com/0xBigBoss",
+  "license": "Apache-2.0",
+  "readme": "# Claude Code Configuration\n\nA comprehensive configuration system for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that provides intelligent development workflows, automated memory management, and specialized commands for enhanced AI-assisted coding.\n\n## Features\n\n- **Intelligent Development Workflow**: Implements test-driven development, automated quality checks, and proper branching strategies\n- **Project Memory Management**: Automatic context preservation between sessions using `.memory/` files\n- **Specialized Commands**: Pre-built commands for git workflows and issue resolution\n- **Expert Subagents**: Two specialized AI subagents for focused expertise in testing and quality assurance\n- **Quality Assurance**: Built-in support for linting, type checking, and testing workflows\n- **Documentation Standards**: Consistent technical writing guidelines\n\n## What's Included\n\n- **CLAUDE.md**: Core operating instructions and development principles\n- **commands/**: Specialized command templates\n  - `git-commit.md`: Git commit workflow automation\n  - `fix-issue.md`: Issue resolution workflow\n- **agents/**: Specialized subagents for focused development tasks\n  - `tdd.md`: Test-Driven Development implementation\n  - `qa.md`: Quality assurance and error resolution\n\n## Installation\n\n1. **Clone or download** this repository to your local machine.\n\n2. **Backup existing configuration** (if any):\n\n```bash\n# Create backup directory\nmkdir -p ~/.claude-backup\n\n# Backup existing files if they exist\n[ -f ~/.claude/CLAUDE.md ] && cp ~/.claude/CLAUDE.md ~/.claude-backup/\n[ -d ~/.claude/commands ] && cp -r ~/.claude/commands ~/.claude-backup/\n```\n\n3. **Install the configuration**:\n\n```bash\n# Create .claude directory\nmkdir -p ~/.claude\n\n# Option 1: Use the install script (recommended)\n./scripts/install-symlinks.sh\n\n# Option 2: Create symlinks manually\nln -sf \"$(pwd)/CLAUDE.md\" ~/.claude/CLAUDE.md\nln -sf \"$(pwd)/commands\" ~/.claude/commands\nln -sf \"$(pwd)/agents\" ~/.claude/agents\n```\n\n## Usage\n\nOnce installed, Claude Code will automatically load these configurations. The system will:\n\n- Apply development best practices to all coding tasks\n- Set up project memory management in new projects\n- Provide access to specialized commands via the command system\n- Enforce quality standards and testing workflows\n\n### Key Workflows\n\n1. **Project Setup**: Automatically creates `.memory/` folder and imports for context preservation\n2. **Development**: Follows TDD principles with automated quality checks\n3. **Git Workflows**: Automated commit message generation and issue resolution\n\n### Specialized Subagents\n\nThe configuration includes two specialized subagents for focused development tasks:\n\n- **tdd**: Test-Driven Development implementation. Use when implementing features from specifications or requirements. Follows strict Red-Green-Refactor cycles with verification at each step.\n\n- **qa**: Quality assurance and error resolution. Use to fix failing tests, lint errors, type errors, and maintain code quality standards. Takes an uncompromising approach to eliminating quality violations.\n\nEach agent operates with strict verification requirements, requiring concrete evidence and validation for all actions.\n\n### SDLC Subagent Flow\n\nFor comprehensive software development lifecycle coverage, chain subagents in this sequence:\n\n1. **tdd** → Implement features using test-driven development\n2. **qa** → Validate code quality and resolve all errors\n\nThis flow ensures verified implementation and uncompromising quality.\n\n## Configuration Details\n\n### Core Principles\n\n- Always use available tools for verification\n- Ask clarifying questions for ambiguous requests\n- Maintain project memory between sessions\n- Follow test-driven development practices\n- Implement proper error handling and logging\n\n### Memory Management\n\nThe system automatically sets up persistent memory using:\n\n- `engineering-log.md`: Chronological work journal\n- `architecture-decisions.md`: Design choices and rationale\n- `patterns-discovered.md`: Discovered code patterns\n- `issues-solutions.md`: Problems and solutions\n- `todo-next-steps.md`: Pending tasks\n\n## Contributing\n\nContributions are welcome! Please ensure any modifications:\n\n1. Follow the established documentation style (third person for technical docs, second person for instructions)\n2. Include proper error handling and logging\n3. Add appropriate tests and validation\n4. Update memory files for significant changes\n\n## Author\n\nCreated by Allen Eubank (Big Boss)\n\n## License\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n",
+  "installCommand": "git clone https://github.com/0xBigBoss/claude-code ~/.claude/skills/0xbigboss-code",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

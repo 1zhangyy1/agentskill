@@ -1,0 +1,31 @@
+{
+  "id": "cc8160401c73a5c3",
+  "slug": "robbyt-skills",
+  "name": "Skills",
+  "description": "Skills and Plugins for Claude Code",
+  "author": "robbyt",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/58051?v=4",
+  "repoUrl": "https://github.com/robbyt/claude-skills",
+  "repoFullName": "robbyt/claude-skills",
+  "stars": 26,
+  "forks": 0,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2025-11-20T20:57:51Z",
+  "updatedAt": "2025-12-15T03:11:12Z",
+  "lastCommitAt": "2025-12-15T03:11:09Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:56:00.461Z",
+  "authorUrl": "https://github.com/robbyt",
+  "license": null,
+  "readme": "# Claude Skills Marketplace\n\nA collection of Claude Code skills and plugins.\n\n> **Note:** This marketplace is under active development and has not yet reached a stable release. Skills may be renamed, reorganized, or change considerably. A stable release is expected soon.\n\n## Installation\n\n```bash\n/plugin marketplace add robbyt/claude-skills\n```\n\nAfter adding the marketplace, run `/exit` and restart Claude Code with `claude --continue`.\n\nTo install individual skills:\n1. Run `/plugin plugins`\n2. Select `Browse and install plugins`\n3. Select the `robbyt-claude-skills` marketplace\n\nTo update skills:\n1. Run `/plugin plugins`\n2. Select `Manage and uninstall plugins`\n3. Select `robbyt-claude-skills`\n4. Select the plugins to update\n\n## Requirements\n\nSome plugins require the following tools:\n\n- `uv` - Python package installer and runner ([installation guide](https://docs.astral.sh/uv/getting-started/installation/))\n- `jq` - JSON processor for parsing tool input\n\n### Tool Versions\n\nExternal formatters are called directly from your PATH:\n- `ruff` - Python formatter (install via `uv sync`)\n- `black` - Python formatter (install via `uv sync`)\n- `gofmt` - Go formatter (version matches your installed Go)\n- `swiftformat` - Swift formatter (install via `brew install swiftformat`)\n\nFor reproducible formatting, pin tool versions in your project's dependency files (`pyproject.toml`, `go.mod`, etc.).\n\n## Security\n\nClaude Code plugins can contain scripts that run on your local computer. Only install plugins from sources you trust. Consider enabling the sandbox feature: `/sandbox` (see [sandboxing docs](https://docs.claude.com/en/docs/claude-code/sandboxing))\n\n## Available Plugins\n\n### [claude-md](plugins/claude-md/)\n\nTools for managing CLAUDE.md memory files. Includes `reflect` skill for analyzing conversation history to improve memory files. Trigger with `reflect on this session` or `reflect on this conversation`.\n\n[Read more →](plugins/claude-md/README.md)\n\n### [gemini](plugins/gemini/)\n\nIntegrates the Gemini CLI for code reviews, web search via Google Search, plan review, and codebase analysis. Includes four skills: `web-search`, `diff-review`, `plan-review`, and `codebase-analysis`. Trigger with `use gemini to ...` or `ask gemini ...`.\n\n**Requirements:** Gemini CLI v0.17.0+ ([installation guide](https://github.com/google-gemini/gemini-cli)) with authentication configured.\n\n[Read more →](plugins/gemini/README.md)\n\n### [gh-cli](plugins/gh-cli/)\n\nInteracts with GitHub using the gh CLI for PR management, issues, repository operations, GitHub Actions, and viewing GitHub file links. Triggers on `gh` mentions or GitHub operations such as viewing a `github.com` link.\n\n**Requirements:** GitHub CLI ([installation guide](https://cli.github.com/)) with authentication configured (`gh auth login`).\n\n[Read more →](plugins/gh-cli/README.md)\n\n### [go-formatter](plugins/go-formatter/)\n\nFormats Go files with `gofmt` after Write/Edit/MultiEdit operations. Runs as a PostToolUse hook.\n\n[Read more →](plugins/go-formatter/README.md)\n\n### [go-style-guide](plugins/go-style-guide/)\n\nReviews Go code against a style guide combining Google and Uber Go style guides. Identifies issues not typically found by static analysis. Trigger with `review this Go code` or `review my PR`.\n\n[Read more →](plugins/go-style-guide/README.md)\n\n### [python-formatter-black](plugins/python-formatter-black/)\n\nFormats Python files with `black` after Write/Edit/MultiEdit operations. Runs as a PostToolUse hook.\n\n[Read more →](plugins/python-formatter-black/README.md)\n\n### [python-formatter-ruff](plugins/python-formatter-ruff/)\n\nFormats Python files with `ruff` after Write/Edit/MultiEdit operations. Runs as a PostToolUse hook. Ruff formats faster than Black.\n\n**Note:** Do not enable both `python-formatter-ruff` and `python-formatter-black` simultaneously, as both will attempt to format the same files.\n\n[Read more →](plugins/python-formatter-ruff/README.md)\n\n### [swift-formatter](plugins/swift-formatter/)\n\nFormats Swift files with `swiftformat` after Write/Edit/MultiEdit operations. Runs as a PostToolUse hook. Falls back to `swift format` (built-in) if swiftformat is not installed.\n\n**Requirements:** `swiftformat` (install via `brew install swiftformat`) or Swift toolchain\n\n[Read more →](plugins/swift-formatter/README.md)\n\n## Development\n\nTo use locally during development:\n\n```bash\n/plugin marketplace add /path/to/claude-skills\n/plugin install claude-md\n```\n\n## License\n\nMIT\n",
+  "installCommand": "git clone https://github.com/robbyt/claude-skills ~/.claude/skills/robbyt-skills",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

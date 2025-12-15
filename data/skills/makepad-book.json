@@ -1,0 +1,31 @@
+{
+  "id": "3982af732adc65b5",
+  "slug": "makepad-book",
+  "name": "Makepad Book",
+  "description": "A book for makepad, want to quickly and easily to help you use makepad.",
+  "author": "Project-Robius-China",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/187943463?v=4",
+  "repoUrl": "https://github.com/Project-Robius-China/makepad-book",
+  "repoFullName": "Project-Robius-China/makepad-book",
+  "stars": 35,
+  "forks": 9,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2024-11-09T14:11:00Z",
+  "updatedAt": "2025-12-10T13:01:52Z",
+  "lastCommitAt": "2025-12-10T13:01:47Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:55:28.651Z",
+  "authorUrl": "https://github.com/Project-Robius-China",
+  "license": null,
+  "readme": "# Makepad Book\n\n<div align=\"center\">\n    <picture>\n        <img src=\"./docs/public/robius-logo-680-CN.png\" width=\"30%\" alt=\"logo\">\n    </picture>\n\n[Website][Robius] | [Documentation] | [Contributing]\n</div>\n\n[Robius]: https://robius.rs/\n[Documentation]: https://project-robius-china.github.io/makepad-book/\n[Contributing]: https://project-robius-china.github.io/makepad-book/contribute/index\n\n## Introduction\n\nThe Book of Makepad, aimed at Makepad application developers and contributors, systematically introduces various aspects of the Rust cross-platform Makepad UI framework.\n\n## Contribute\n\n> **Note**: Please checkout the `preview` branch for the latest changes, and base your work on it.\n\nPlease read the [contributing guide](https://project-robius-china.github.io/makepad-book/contribute/index).\n",
+  "installCommand": "git clone https://github.com/Project-Robius-China/makepad-book ~/.claude/skills/makepad-book",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "bd281addd5464d4f",
+  "slug": "dots",
+  "name": "Dots",
+  "description": "dotfiles driven development",
+  "author": "ssiumha",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/20818517?v=4",
+  "repoUrl": "https://github.com/ssiumha/dots",
+  "repoFullName": "ssiumha/dots",
+  "stars": 7,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "dotfiles"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2017-01-31T11:13:41Z",
+  "updatedAt": "2025-12-02T05:29:48Z",
+  "lastCommitAt": "2025-12-02T05:29:42Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:54:18.561Z",
+  "authorUrl": "https://github.com/ssiumha",
+  "license": null,
+  "readme": "# dots\n\n## Install\n\n```\n# require ruby\nrake install:all\n```\n",
+  "installCommand": "git clone https://github.com/ssiumha/dots ~/.claude/skills/dots",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

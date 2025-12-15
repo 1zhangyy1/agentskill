@@ -1,0 +1,31 @@
+{
+  "id": "bf2a0c05ce1cc43c",
+  "slug": "project-scaffolder",
+  "name": "Project Scaffolder",
+  "description": "",
+  "author": "fltman",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/102783063?v=4",
+  "repoUrl": "https://github.com/fltman/project-scaffolder",
+  "repoFullName": "fltman/project-scaffolder",
+  "stars": 43,
+  "forks": 16,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2025-12-06T06:31:22Z",
+  "updatedAt": "2025-12-13T05:53:48Z",
+  "lastCommitAt": "2025-12-06T06:33:11Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-15T03:52:10.082Z",
+  "authorUrl": "https://github.com/fltman",
+  "license": null,
+  "readme": "",
+  "installCommand": "git clone https://github.com/fltman/project-scaffolder ~/.claude/skills/project-scaffolder",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}
