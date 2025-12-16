@@ -8,7 +8,7 @@
   "repoUrl": "https://github.com/SteelCompendium/data-md",
   "repoFullName": "SteelCompendium/data-md",
   "stars": 12,
-  "forks": 10,
+  "forks": 11,
   "category": "devops",
   "categories": [
     "devops"
@@ -20,7 +20,7 @@
   "updatedAt": "2025-12-12T16:48:32Z",
   "lastCommitAt": "2025-12-12T16:48:42Z",
   "source": "github-search",
-  "collectedAt": "2025-12-15T03:51:32.012Z",
+  "collectedAt": "2025-12-16T03:43:44.966Z",
   "authorUrl": "https://github.com/SteelCompendium",
   "license": "NOASSERTION",
   "readme": "# Steel Compendium Markdown\n\n_The Steel Compendium is an independent product published under the DRAW STEEL Creator License and is not affiliated with MCDM Productions, LLC. DRAW STEEL © 2024 MCDM Productions, LLC._\n\nThis repo contains markdown-formatted data from the Draw Steel Heroes Book, Monster book, and other materials.\n\nPlease use this [form to report bugs](https://docs.google.com/forms/d/e/1FAIpQLSc6m-pZ0NLt2EArE-Tcxr-XbAPMyhu40ANHJKtyRvvwBd2LSw/viewform?usp=sharing&ouid=105036387964900154878) if you find them!",

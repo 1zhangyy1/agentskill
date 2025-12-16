@@ -1,0 +1,31 @@
+{
+  "id": "f99615f3679ff055",
+  "slug": "code-skills-stripe",
+  "name": "Code Skills Stripe",
+  "description": "",
+  "author": "IncomeStreamSurfer",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/104167496?v=4",
+  "repoUrl": "https://github.com/IncomeStreamSurfer/claude-code-skills-stripe",
+  "repoFullName": "IncomeStreamSurfer/claude-code-skills-stripe",
+  "stars": 8,
+  "forks": 7,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "maintained",
+  "createdAt": "2025-11-13T11:29:31Z",
+  "updatedAt": "2025-12-05T00:36:57Z",
+  "lastCommitAt": "2025-11-13T15:20:54Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-16T03:45:25.142Z",
+  "authorUrl": "https://github.com/IncomeStreamSurfer",
+  "license": null,
+  "readme": "",
+  "installCommand": "git clone https://github.com/IncomeStreamSurfer/claude-code-skills-stripe ~/.claude/skills/code-skills-stripe",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}

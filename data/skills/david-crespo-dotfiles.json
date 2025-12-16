@@ -20,7 +20,7 @@
   "updatedAt": "2025-12-14T20:23:37Z",
   "lastCommitAt": "2025-12-12T23:13:27Z",
   "source": "github-search",
-  "collectedAt": "2025-12-15T03:50:01.124Z",
+  "collectedAt": "2025-12-16T03:42:10.064Z",
   "authorUrl": "https://github.com/david-crespo",
   "license": "MIT",
   "readme": "# dotfiles\n\n`install.sh` is a good guide to how things work because it sets up all the symlinks. \n\n**Note:** `.helix` and `deno.jsonc` are not dotfiles; they are config files for this repo.\n",

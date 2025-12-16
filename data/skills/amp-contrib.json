@@ -1,0 +1,31 @@
+{
+  "id": "2350714f7f3a8199",
+  "slug": "amp-contrib",
+  "name": "Amp Contrib",
+  "description": "This is a repository for custom slash commands and tools that are not part of the core Amp agentic coding tool",
+  "author": "sourcegraph",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/3979584?v=4",
+  "repoUrl": "https://github.com/sourcegraph/amp-contrib",
+  "repoFullName": "sourcegraph/amp-contrib",
+  "stars": 8,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-08-29T18:33:07Z",
+  "updatedAt": "2025-12-14T02:14:36Z",
+  "lastCommitAt": "2025-12-11T05:33:56Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-16T03:46:25.990Z",
+  "authorUrl": "https://github.com/sourcegraph",
+  "license": null,
+  "readme": "# amp-contrib\n\nThis repository contains unofficial\n[slash commands](https://ampcode.com/news/custom-slash-commands) and\n[toolbox](https://ampcode.com/manual#toolboxes) tools that are not built-in to\nthe [Amp](https://ampcode.com) agentic coding tool.\n\n## Slash commands\n\nSlash commands allow allow you to insert pre-defined or dynamically-generated\ntext into the prompt input.\n\nThey are defined in a repository's `.agents/commands` directory and can be\nmarkdown files or use Amp's experimental\nsupport for executable scripts, which begin with, for example `#!/usr/bin/env bash`\n\n# Amp Toolbox Templates\n\nTemplates for creating custom tools that extend Amp. See the [Amp Owner's Manual](https://ampcode.com/manual#toolboxes) for complete documentation.\n\n## Quick Start\n\n1. **Set up your toolbox directory:**\n\n   ```bash\n   export AMP_TOOLBOX=/path/to/your/toolbox\n   mkdir -p $AMP_TOOLBOX\n   ```\n\n2. **Copy and customize a template:**\n\n   ```bash\n   cp tool-template.js $AMP_TOOLBOX/my-custom-tool\n   chmod +x $AMP_TOOLBOX/my-custom-tool\n   ```\n\n3. **Edit the template:**\n   - Update `name` and `description`\n   - Modify parameters and logic\n\n## Available Templates\n\n### Basic Templates\n\n- **`tool-template.js`** - Node.js with simple key-value parameters\n- **`tool-template.py`** - Python with simple key-value parameters  \n- **`tool-template.sh`** - Bash with simple key-value parameters\n- **`tool-template-json.js`** - Node.js with JSON schema for complex parameters\n\n## Testing Toolbox Implementations\n\nTest the `describe` action:\n\n```bash\n# JavaScript template\nTOOLBOX_ACTION=describe ./tool-template.js\n\n# Python template  \nTOOLBOX_ACTION=describe ./tool-template.py\n\n# Bash template\nTOOLBOX_ACTION=describe ./tool-template.sh\n\n# JSON schema template\nTOOLBOX_ACTION=describe ./tool-template-json.js\n```\n\nTest the `execute` action:\n\n```bash\n# Simple templates (external service integration)\necho \"text: hello world\" | TOOLBOX_ACTION=execute ./tool-template.js\necho \"text: hello world\" | TOOLBOX_ACTION=execute ./tool-template.py  \necho \"text: hello world\" | TOOLBOX_ACTION=execute ./tool-template.sh\n\n# JSON template (complex data to external service)\necho '{\"files\": [\"test.txt\", \"data.csv\"], \"options\": {\"verbose\": true, \"format\": \"json\", \"priority\": 8}}' | TOOLBOX_ACTION=execute ./tool-template-json.js\n```\n",
+  "installCommand": "git clone https://github.com/sourcegraph/amp-contrib ~/.claude/skills/amp-contrib",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

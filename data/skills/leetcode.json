@@ -20,7 +20,7 @@
   "updatedAt": "2025-07-13T05:17:57Z",
   "lastCommitAt": "2025-07-13T05:17:55Z",
   "source": "github-search",
-  "collectedAt": "2025-12-15T03:53:27.294Z",
+  "collectedAt": "2025-12-16T03:46:19.471Z",
   "authorUrl": "https://github.com/fangzhzh",
   "license": null,
   "readme": "This is a repo for all my computer science knowledge, including algorithm, system design and more.\n\n* [algorithm](./algorithm)\n* [system design](./systemDesign)\n* [meta](./metaInterview.md)\n* [csFAQ](./csFAQ)",

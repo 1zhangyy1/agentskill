@@ -1,0 +1,31 @@
+{
+  "id": "396a50de5c9576c5",
+  "slug": "coot",
+  "name": "Coot",
+  "description": "Software for macromolecular model-building",
+  "author": "pemsley",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/13886714?v=4",
+  "repoUrl": "https://github.com/pemsley/coot",
+  "repoFullName": "pemsley/coot",
+  "stars": 151,
+  "forks": 53,
+  "category": "ai-ml",
+  "categories": [
+    "ai-ml"
+  ],
+  "tags": [],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2015-08-24T13:03:24Z",
+  "updatedAt": "2025-12-15T23:06:28Z",
+  "lastCommitAt": "2025-12-15T23:06:23Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-16T03:41:52.647Z",
+  "authorUrl": "https://github.com/pemsley",
+  "license": "GPL-3.0",
+  "readme": "# *Coot*\n\n![Ubuntu binary build badge](https://github.com/pemsley/coot/actions/workflows/build-coot-ubuntu.yml/badge.svg)\n![chapi binary build badge](https://github.com/pemsley/coot/actions/workflows/build-libcootapi-ubuntu.yml/badge.svg)\n![macOS binary build badge](https://github.com/pemsley/coot/actions/workflows/build-coot-macos.yml/badge.svg)\n![macOS chapi binary build badge](https://github.com/pemsley/coot/actions/workflows/build-libcootapi-macos.yml/badge.svg)\n[![Powered by RDKit](https://img.shields.io/badge/Powered%20by-RDKit-3838ff.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEXc3NwUFP8UPP9kZP+MjP+0tP////9ZXZotAAAAAXRSTlMAQObYZgAAAAFiS0dEBmFmuH0AAAAHdElNRQfmAwsPGi+MyC9RAAAAQElEQVQI12NgQABGQUEBMENISUkRLKBsbGwEEhIyBgJFsICLC0iIUdnExcUZwnANQWfApKCK4doRBsKtQFgKAQC5Ww1JEHSEkAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMy0xMVQxNToyNjo0NyswMDowMDzr2J4AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDMtMTFUMTU6MjY6NDcrMDA6MDBNtmAiAAAAAElFTkSuQmCC)](https://www.rdkit.org/)\n[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3129/)\n\n*Coot* is a toolkit for Macromolecular Crystallography and\nmodel-building.  *Coot* uses GTK widgets\nmmdb, clipper, and OpenGL to provide interactive tools for model-building,\nrefinement and validation.\n\n## Installation\n\n### APT (Debian)\n\nInstall to run using commands below.\n\n```shell\n# Add sid (Debian's unstable package repo)\necho \"deb http://deb.debian.org/debian unstable main\" | sudo tee -a /etc/apt/sources.list\nsudo apt update\nsudo apt install coot\ncoot\n```\n\n### Flatpak (Linux)\n\n![Flathub version](https://img.shields.io/flathub/v/io.github.pemsley.coot.svg?logo=flatpak&logoColor=white&color=blue&style=flat)\n\n<div>\n  <a href=\"https://flathub.org/apps/io.github.pemsley.coot\">\n    <img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.svg' align=\"right\"/>\n  </a>\n</div>\n\nAfter [installing Flatpak and registering Flathub](https://flatpak.org/setup/), run the commands below.\n\n```shell\nflatpak install flathub io.github.pemsley.coot\n\n# Simply click Coot's icon in the menu, or\nflatpak run io.github.pemsley.coot\n```\n\nTo install the beta build (more recent but possibly less stable), [register flahub-beta repository](https://github.com/flathub/io.github.pemsley.coot?tab=readme-ov-file#beta-build) and then run the commands below.\n\n```shell\nflatpak install flathub-beta io.github.pemsley.coot\n\n# Simply click Coot's icon in the menu, or\nflatpak run io.github.pemsley.coot//beta\n```\n\nYou can see the flatpak manifest [here](https://github.com/flathub/io.github.pemsley.coot).\n\n### Homebrew (MacOS / Linux)\n\nAfter [installing Homebrew](https://brew.sh/), run the commands below.\n\n```shell\nbrew install brewsci/bio/coot\ncoot\n```\n\nTo install the latest development version (bleeding edge), run the commands below.\n\n```shell\nbrew install --HEAD brewsci/bio/coot\ncoot\n```\n\n### Windows\n\nDownload the installer for WinCoot from [here](https://bernhardcl.github.io/coot/wincoot-download.html).\n\n### As a component of CCP4 Suite (Linux / MacOS / Windows)\n\nCoot-1 can be installed by using the package manager included in the CCP4 suite.\n\nCCP4 suite is can be downloaded from [CCP4 Download pages](https://www.ccp4.ac.uk/download/).\n\n## Building from source\n\nSee [this](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/web/build-install-coot-from-scratch.html).\n\n## Documentation\n\n- [Coot Documentation](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/web/docs/index.html)\n- [Libcootapi Documentation](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/docs/api/html/)\n- [Wiki](https://wiki.uni-konstanz.de/ccp4/index.php/Coot)\n- [FAQ](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/docs/coot-faq.html)\n- [Tutorials](https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/web/tutorial/tutorial.html)\n\n## Blog\n\n[Coot Development Blog](https://pemsley.github.io/coot/ \"Coot Development Blog\")\n",
+  "installCommand": "git clone https://github.com/pemsley/coot ~/.claude/skills/coot",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
