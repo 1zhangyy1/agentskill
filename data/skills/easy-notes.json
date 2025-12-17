@@ -1,0 +1,31 @@
+{
+  "id": "101627fb7cd8d755",
+  "slug": "easy-notes",
+  "name": "Easy_notes",
+  "description": "",
+  "author": "sandnap",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/730052?v=4",
+  "repoUrl": "https://github.com/sandnap/easy_notes",
+  "repoFullName": "sandnap/easy_notes",
+  "stars": 6,
+  "forks": 2,
+  "category": "productivity",
+  "categories": [
+    "productivity"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2024-12-13T18:29:37Z",
+  "updatedAt": "2025-12-17T01:43:38Z",
+  "lastCommitAt": "2025-12-17T01:43:34Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-17T03:34:19.557Z",
+  "authorUrl": "https://github.com/sandnap",
+  "license": "MIT",
+  "readme": "# Easy Notes\n\nEasy Notes is a simple note taking app built with Ruby on Rails and features rich text notes with support for images, links, and more. Supports note categorization.\n\nTechnology:\n\n- Ruby version 3.3.4\n\n- Rails version 8.0.0\n\n- Hotwire (turbo and stimulus)\n\n- SQLite database\n\n- Rails Authentication\n\n- No Build using Import Maps and CSS Zero\n\nBuild and run:\n\n1. Clone the repository\n\n2. Run `rails db:migrate`\n\n3. Run `rails db:seed`\n\n4. Run `bin/dev`\n\n5. Open the app in your browser at `http://localhost:3000`\n\n6. Login with `test@example.com` and password `password`\n",
+  "installCommand": "git clone https://github.com/sandnap/easy_notes ~/.claude/skills/easy-notes",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

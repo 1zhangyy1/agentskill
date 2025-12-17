@@ -1,0 +1,31 @@
+{
+  "id": "00088bfbabf05c57",
+  "slug": "a",
+  "name": "A",
+  "description": "My personal monorepo.",
+  "author": "thoughtpolice",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/3416?v=4",
+  "repoUrl": "https://github.com/thoughtpolice/a",
+  "repoFullName": "thoughtpolice/a",
+  "stars": 6,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-04-09T00:46:56Z",
+  "updatedAt": "2025-12-14T15:28:09Z",
+  "lastCommitAt": "2025-12-12T02:11:31Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-17T03:32:34.307Z",
+  "authorUrl": "https://github.com/thoughtpolice",
+  "license": "Apache-2.0",
+  "readme": "# Austin's monorepo\n\nA unifying monorepository of my various buck2-oriented projects. Some code may\nbe exported from here. I got the idea from [Xe Iaso's `x` repository][x]. The\ninternal name to the monorepo is `depot`, which is a friendly homage to [tvl].\n\nDo not touch. Feel free to ask questions, though.\n\n[x]: https://github.com/xe/x\n[tvl]: https://tvl.fyi/\n\n# License\n\nLook at the code specifically, but generally everything here is Apache 2.0 (see\n`LICENSE.txt` for details).\n",
+  "installCommand": "git clone https://github.com/thoughtpolice/a ~/.claude/skills/a",
+  "defaultBranch": "canon",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

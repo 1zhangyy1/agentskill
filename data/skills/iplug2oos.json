@@ -1,0 +1,41 @@
+{
+  "id": "6b82ff2734691b8d",
+  "slug": "iplug2oos",
+  "name": "IPlug2OOS",
+  "description": "Template to build an iPlug2 project with CI/CD and publish a WAM to github pages",
+  "author": "iPlug2",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/36328372?v=4",
+  "repoUrl": "https://github.com/iPlug2/iPlug2OOS",
+  "repoFullName": "iPlug2/iPlug2OOS",
+  "stars": 127,
+  "forks": 30,
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [
+    "actions",
+    "audiounit",
+    "clap",
+    "codespaces",
+    "iplug2",
+    "plug-ins",
+    "vst",
+    "vst3",
+    "wam"
+  ],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2020-02-03T10:30:48Z",
+  "updatedAt": "2025-12-16T18:32:03Z",
+  "lastCommitAt": "2025-12-16T16:04:54Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-17T03:34:12.322Z",
+  "authorUrl": "https://github.com/iPlug2",
+  "license": null,
+  "readme": "![Build WAM](https://github.com/iPlug2/iPlug2OOS/workflows/Build%20WAM/badge.svg)\n\nThis repo contains an \"out of source\" iPlug2 template project, which is desirable when you need to keep all your project dependencies synchronised with version control and build it using CI/CD in the cloud. It set up for \"containerized development\" using [VSCode](https://code.visualstudio.com/docs/devcontainers/containers) and [github codespaces](https://github.com/features/codespaces).\n\nInstead of using the common-mac.xcconfig and common-win.xcconfig in the iPlug2 folder, it uses copies of them at the top level of the iPlug2OOS repo. This means the iPlug2 submodule itself does not have to be modified.\n\nhttps://github.com/iPlug2/iPlug2/wiki/Out-of-source-builds\n\nContainerized development is documented [here](https://docs.google.com/document/d/e/2PACX-1vT6lYZ3vtYKWAty2g6DL994IO0_pfyGctDdKfPxF6MZwOgFWENfLuVtBW9J0-KzLsfPSKKN055UnAmj/pub)\n",
+  "installCommand": "git clone https://github.com/iPlug2/iPlug2OOS ~/.claude/skills/iplug2oos",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

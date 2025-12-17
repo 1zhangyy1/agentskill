@@ -1,0 +1,34 @@
+{
+  "id": "1f575bc8b471d8b2",
+  "slug": "coreyjacom",
+  "name": "Coreyja.com",
+  "description": "New and Hopefully Improved Personal Site",
+  "author": "coreyja",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/964771?v=4",
+  "repoUrl": "https://github.com/coreyja/coreyja.com",
+  "repoFullName": "coreyja/coreyja.com",
+  "stars": 6,
+  "forks": 1,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "hacktoberfest",
+    "hacktoberfest2024"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2022-11-12T16:10:19Z",
+  "updatedAt": "2025-11-19T17:22:48Z",
+  "lastCommitAt": "2025-12-14T12:03:59Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-17T03:32:29.561Z",
+  "authorUrl": "https://github.com/coreyja",
+  "license": "Apache-2.0",
+  "readme": "# coreyja.com\n\nNew and Hopefully Improved Personal Site\n\n## Building\n\nThis project is built entirely with Rust using server-side rendering (no frontend build step needed).\n\n### Quick Start\n\n```bash\n# Build everything (Rust release build)\n./scripts/build-all.sh\n\n# For development (Rust debug build)\n./scripts/dev-build.sh\n```\n\n### Manual Build Steps\n\nIf you prefer to build manually:\n\n```bash\ncargo build --release\n```\n\n## Screenshots\n\nThere are generated from `shot-scraper` on the 'live' site\n\n<details><summary>iPhone</summary>\n\n![Screenshot at iPhone](screenshots/iphone.png)\n</details>\n\n<details><summary>4K</summary>\n\n  ![Screenshot at 4k](screenshots/4k.png)\n</details>\n\n<details><summary>1080p</summary>\n\n![Screenshot at 1080p](screenshots/desktop.png)\n</details>\n\n<details><summary>iPad</summary>\n\n![Screenshot at iPad](screenshots/ipad.png)\n</details>\n",
+  "installCommand": "git clone https://github.com/coreyja/coreyja.com ~/.claude/skills/coreyjacom",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
