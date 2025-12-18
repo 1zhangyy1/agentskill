@@ -23,7 +23,7 @@
   "updatedAt": "2025-11-19T17:22:48Z",
   "lastCommitAt": "2025-12-14T12:03:59Z",
   "source": "github-search",
-  "collectedAt": "2025-12-17T03:32:29.561Z",
+  "collectedAt": "2025-12-18T03:33:39.065Z",
   "authorUrl": "https://github.com/coreyja",
   "license": "Apache-2.0",
   "readme": "# coreyja.com\n\nNew and Hopefully Improved Personal Site\n\n## Building\n\nThis project is built entirely with Rust using server-side rendering (no frontend build step needed).\n\n### Quick Start\n\n```bash\n# Build everything (Rust release build)\n./scripts/build-all.sh\n\n# For development (Rust debug build)\n./scripts/dev-build.sh\n```\n\n### Manual Build Steps\n\nIf you prefer to build manually:\n\n```bash\ncargo build --release\n```\n\n## Screenshots\n\nThere are generated from `shot-scraper` on the 'live' site\n\n<details><summary>iPhone</summary>\n\n![Screenshot at iPhone](screenshots/iphone.png)\n</details>\n\n<details><summary>4K</summary>\n\n  ![Screenshot at 4k](screenshots/4k.png)\n</details>\n\n<details><summary>1080p</summary>\n\n![Screenshot at 1080p](screenshots/desktop.png)\n</details>\n\n<details><summary>iPad</summary>\n\n![Screenshot at iPad](screenshots/ipad.png)\n</details>\n",

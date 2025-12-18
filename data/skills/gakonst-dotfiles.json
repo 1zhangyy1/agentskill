@@ -1,0 +1,31 @@
+{
+  "id": "71ff31ee7bd0f782",
+  "slug": "gakonst-dotfiles",
+  "name": "Dotfiles",
+  "description": "My dotfiles along with a script to deploy them to your environment.",
+  "author": "gakonst",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/17802178?v=4",
+  "repoUrl": "https://github.com/gakonst/dotfiles",
+  "repoFullName": "gakonst/dotfiles",
+  "stars": 12,
+  "forks": 2,
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2017-09-28T12:49:12Z",
+  "updatedAt": "2025-12-12T03:36:12Z",
+  "lastCommitAt": "2025-12-12T03:36:08Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-18T03:35:35.807Z",
+  "authorUrl": "https://github.com/gakonst",
+  "license": null,
+  "readme": "# gakonst / dotfiles\n\nDotfiles for macOS: tmux, Neovim, Zsh, Yabai/SKHD, Alacritty, and a few helpers. All files live in this repo and get symlinked into `$HOME` by the bootstrap script.\n\n## What's inside\n- **Shell:** `.zshrc`, `.zshenv`, `.zprofile`, `fzf-zsh-history-config.zsh`, PATH helpers in `.local/bin/env*`, oh-my-zsh with modern CLI aliases, fzf/zoxide setup, tmux auto-attach. `ZSH_CUSTOM` points to `.config/zsh-custom` where `zsh-autosuggestions` is vendored.\n- **Neovim:** Lua config (`.config/nvim/init.lua`) with lazy.nvim, gruvbox, LSP (rust/ts/python/lua), nvim-cmp, Treesitter, Conform format-on-save, Trouble, lualine, NvimTree. Lockfile included.\n- **Tmux:** `.tmux.conf` with backtick prefix, vim-style splits/movement, catppuccin-ish status, mouse, Alt+number window jumps.\n- **Window mgmt:** `.yabairc` (BSP layout, gaps, rules) and `.skhdrc` (bindings for focus/move/resize, spaces, displays).\n- **Terminal:** `.config/alacritty` (includes `alacritty-theme` submodule) with `alacritty.toml` importing solarized_light.\n- **GitHub CLI:** `.config/gh/config.yml` and `hosts.yml` (no tokens).\n- **Python toolchain:** `.config/uv/*` receipt and version pin.\n- **SoundCloud dl:** `.config/scdl/scdl.cfg` and `.config/scdl2/scdl.cfg` (contains public client_id; review before pushing).\n- **Zed:** `.config/zed/settings.json` (vim mode, fonts, theme prefs).\n- **Vim (legacy):** `.vimrc` with vim-plug, gruvbox/solarized, airline, NERDTree, fzf, vim-tmux-navigator, commentary.\n- **Misc:** `.gitconfig`, fish snippet `.config/fish/conf.d/uv.env.fish` to share PATH helper.\n\n## Quick start (fresh machine)\n```bash\n# clone\ngit clone https://github.com/gakonst/dotfiles.git ~/dotfiles\ncd ~/dotfiles\n\n# run bootstrap (installs packages, oh-my-zsh, clones alacritty theme, symlinks files)\n./bootstrap.sh\n```\n\nAfterwards:\n- Restart terminal or `exec zsh` to load the new shell config.\n- Start services (macOS): `brew services start skhd && brew services start yabai`.\n- Yabai needs SIP disabled + scripting addition (follow yabai README); run `sudo yabai --load-sa` after each macOS update.\n\n### Flags\n- Set `SKIP_BREW=1` to skip Homebrew installs (handy when re-linking on an existing machine).\n- Set `SKIP_OMZ=1` to skip oh-my-zsh install (if you manage it yourself).\n- Set `SKIP_FZF=1` to skip fzf keybinding install.\n\n### Submodules\n- `.oh-my-zsh` (ohmyzsh)\n- `.config/alacritty/themes` (alacritty-theme)\n- `.config/zsh-custom/plugins/zsh-autosuggestions` (zsh-users)\n\n## Notes\n- The bootstrap script backs up any existing files it replaces into `~/.dotfiles_backup_<timestamp>`.\n- It is macOS-focused (Homebrew). On Linux it will still symlink files but skip package installs.\n- Local plugin path for Neovim `~/vibe-producing/vim-strudel` is expected to exist if you want the Strudel integration.\n",
+  "installCommand": "git clone https://github.com/gakonst/dotfiles ~/.claude/skills/gakonst-dotfiles",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

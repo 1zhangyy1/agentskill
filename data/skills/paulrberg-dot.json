@@ -1,0 +1,34 @@
+{
+  "id": "5575762decafb461",
+  "slug": "paulrberg-dot",
+  "name": "Dot",
+  "description": "PRB's Claude Code config",
+  "author": "PaulRBerg",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/8782666?v=4",
+  "repoUrl": "https://github.com/PaulRBerg/dot-claude",
+  "repoFullName": "PaulRBerg/dot-claude",
+  "stars": 58,
+  "forks": 9,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "claude",
+    "claude-code"
+  ],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2025-08-31T13:06:18Z",
+  "updatedAt": "2025-12-17T22:15:09Z",
+  "lastCommitAt": "2025-12-17T22:15:05Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-18T03:31:36.964Z",
+  "authorUrl": "https://github.com/PaulRBerg",
+  "license": "MIT",
+  "readme": "# Claude Code config\n\n[![CI](https://github.com/PaulRBerg/dot-claude/actions/workflows/ci.yml/badge.svg)](https://github.com/PaulRBerg/dot-claude/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude_Code-Configured-DE7356)](https://github.com/anthropics/claude-code)\n\nPRB's `.claude` directory.\n\n## Quick Start\n\nGet up and running in 3 steps:\n\n```bash\n# 1. Clone to ~/.claude\ngit clone git@github.com:PaulRBerg/dot-claude.git ~/.claude\ncd ~/.claude\n\n# 2. Install dependencies\njust install\n\n# 3. Try it out\nccc                  # Make your first commit with the claude wrapper\n```\n\nSee [Installation](#installation) for detailed setup and [Configuration](#configuration) for customization.\n\n## Settings\n\n**Modular architecture**: All JSONC files in `settings/*` automatically merge into `settings.json` on commit via Husky +\nlint-staged.\n\n**Editing**: Modify `settings/**/*.jsonc` files (never edit `settings.json` directly). Changes auto-merge on commit, or\nrun `just merge_settings` manually.\n\n## Context\n\nGlobal instructions live in `CLAUDE.md`. Sections cover communication style, code preferences, scope preservation, git\nsafety, and shell escaping rules.\n\n## Installation\n\n### Prerequisites\n\n- **Node.js** - For Husky/lint-staged automation (`npm install`)\n- **Just** - Command runner for build scripts (`brew install just`)\n- **Python 3.13+** and [uv](https://github.com/astral-sh/uv) - Python package and project manager\n\n### Clone Repository\n\nClone or copy this repository to `~/.claude`:\n\n```bash\ngit clone git@github.com:PaulRBerg/dot-claude.git ~/.claude\ncd ~/.claude\n```\n\n### Install Dependencies\n\n```bash\njust install  # Node deps, Python deps, and CLI dependencies\n```\n\n### Verify Installation\n\n```bash\njust full-check      # Run all code checks\njust test-hooks      # Run hook tests\nclaude                # Run Claude\n```\n\n## Configuration\n\n**Flags**: Add flags at the end of prompts to trigger behaviors (`-s` for subagents, `-c` for auto-commit, `-t` for\ntesting, `-d` for debug, `-n` to skip linting). Flags are composable: `implement API -s -t -c`.\n\n**Justfile**: Run common tasks like `just full-check` (all code checks), `just merge_settings` (merge JSONC files), or\n`just test` (run tests). See `justfile` for all commands.\n\n## Features\n\n### Commands\n\nSlash commands in `commands/*.md` handle GitHub workflows, releases, and task management. Examples: `/commit` (atomic\ncommits), `/create-pr` (PRs with semantic analysis), `/create-issue` (GitHub issues), `/bump-release` (version bumping),\n`/update-readme` (README sync), `/lint-context` (validate CLAUDE.md).\n\n### Skills\n\nAuto-activating skills in `skills/`: **typescript**, **gh-cli**, **ui-ux-design**, **dry-refactor**.\n\nExternal plugins: **code-review**, **playwright-skill**.\n\n### Agents\n\nSpecialized subagents in `agents/`: code review, debugging, tool discovery, docs finding, AI docs fetching. Invoke via\n`-s` flag or Task tool.\n\n### MCP Servers\n\nThree servers extend Claude's capabilities (configured in `.mcp.json`):\n\n- **context7** - Library documentation and code examples\n- **serena** - Semantic code navigation and editing\n- **sequential-thinking** - Chain-of-thought reasoning\n\nEnable/disable in `settings/permissions/mcp.jsonc`.\n\n### Hooks\n\nEvent-driven automation. See [hooks/README.md](hooks/README.md) for details.\n\n## Utilities\n\n> [!NOTE] Highly recommended: The `claude` wrapper runs Claude with `--dangerously-skip-permissions` and auto-loads MCP\n> servers from `.mcp.json`. See [this issue](https://github.com/anthropics/claude-code/issues/3321).\n\nOptional shell utilities in `utils.sh`:\n\n- **`ccc [args]`** - Streamlined commits via `/commit` (defaults to `--all`)\n- **`ccbump [args]`** - Quick release bumping via `/bump-release`\n- **`claude [args]`** - Enhanced CLI wrapper with MCP auto-loading\n\nSource in your shell config:\n\n```zsh\n# In ~/.zshrc\nsource ~/.claude/utils.sh\n```\n\n## License\n\nThis project is licensed under MIT.\n",
+  "installCommand": "git clone https://github.com/PaulRBerg/dot-claude ~/.claude/skills/paulrberg-dot",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
