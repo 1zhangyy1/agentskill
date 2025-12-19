@@ -1,0 +1,31 @@
+{
+  "id": "0c49c49cdb7779f8",
+  "slug": "gptme-contrib",
+  "name": "Gptme Contrib",
+  "description": "Tools and extensions for gptme",
+  "author": "gptme",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/157223935?v=4",
+  "repoUrl": "https://github.com/gptme/gptme-contrib",
+  "repoFullName": "gptme/gptme-contrib",
+  "stars": 11,
+  "forks": 9,
+  "category": "ai-ml",
+  "categories": [
+    "ai-ml"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-01-10T14:03:06Z",
+  "updatedAt": "2025-12-18T20:51:31Z",
+  "lastCommitAt": "2025-12-18T20:51:27Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-19T03:46:20.676Z",
+  "authorUrl": "https://github.com/gptme",
+  "license": null,
+  "readme": "# gptme-contrib\n\nCommunity-contributed tools and scripts for [gptme](https://github.com/ErikBjare/gptme).\n\n## Overview\n\nThis repository contains:\n- [Custom `tools/`](https://gptme.org/docs/custom_tool.html) that extend gptme's functionality\n- Standalone `scripts/` that can be used via the shell tool\n- Shared `lessons/` for agents\n\nThis repo is meant as a place for the community to share tools and scripts that they have created for gptme, but are not general/mature/stable enough to be included in the core gptme repository.\n\nIf you have a tool you'd like to share, please consider contributing it here!\n\n## Dependencies\n\nSome scripts in this repository require additional dependencies:\n\n- **uv**: Required for scripts with `#!/usr/bin/env -S uv run` shebangs\n  ```bash\n  pipx install uv\n  ```\n\n## Usage\n\n### Custom Tools\n\nNo custom tools in this repository yet. Check back later!\n\n<!--\n```python\n# In your gptme config:\nTOOL_MODULES = \"gptme.tools,gptme_contrib.tools\"\n```\n-->\n\n### Script Tools\n\nScripts can be used directly via the shell tool:\n\n```bash\n# Make scripts executable\nchmod +x scripts/twitter.py\n\n# Use ./ to respect shebang\n./scripts/twitter.py --help\n```\n\n## Available Scripts\n\n### GitHub Integration (scripts/github/)\n\nScripts for GitHub context generation and repository management:\n\n- **context-gh.sh** - Generate comprehensive GitHub context (notifications, issues, PRs, CI status)\n- **repo-status.sh** - Check CI status across multiple repositories\n\nSee [scripts/github/README.md](scripts/github/README.md) for detailed documentation.\n\n### Workspace Management\n\n- **state-status.py** - Multi-directory state viewer (tasks, tweets, email, etc.)\n- **search.py** - Enhanced workspace search with filtering\n\n### Social Media\n\n- **twitter/** - Twitter automation and monitoring\n- **bluesky/** - Bluesky integration\n- **discord/** - Discord bot\n\n### Communication\n\n- **email/** - Universal email system for AI agents\n\n### Other\n\n- **tasks.py** - Task management utilities\n- **wordcount.py** - Word counting utilities\n- **perplexity.py** - Perplexity API integration\n\n## Structure\n\n- `tools/` - Custom tools for gptme\n- `scripts/` - Standalone script tools\n- `lessons/` - Shared lessons for prompts and workflows\n  - `lessons/workflow/` - Workflow lessons (e.g., git-workflow.md)\n\n## Contributing\n\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on contributing new tools.\n\n## License\n\nMIT License - feel free to use and modify as you like!\n",
+  "installCommand": "git clone https://github.com/gptme/gptme-contrib ~/.claude/skills/gptme-contrib",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
