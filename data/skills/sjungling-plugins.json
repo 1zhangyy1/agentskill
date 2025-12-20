@@ -1,0 +1,31 @@
+{
+  "id": "81d360a083e10466",
+  "slug": "sjungling-plugins",
+  "name": "Plugins",
+  "description": "personal collection of Claude Code plugins",
+  "author": "sjungling",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/8387?v=4",
+  "repoUrl": "https://github.com/sjungling/claude-plugins",
+  "repoFullName": "sjungling/claude-plugins",
+  "stars": 5,
+  "forks": 0,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "maintained",
+  "createdAt": "2025-10-10T04:14:44Z",
+  "updatedAt": "2025-12-20T00:42:15Z",
+  "lastCommitAt": "2025-11-11T03:34:33Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-20T03:29:12.311Z",
+  "authorUrl": "https://github.com/sjungling",
+  "license": "MIT",
+  "readme": "# claude-plugins\npersonal collection of Claude Code plugins\n",
+  "installCommand": "git clone https://github.com/sjungling/claude-plugins ~/.claude/skills/sjungling-plugins",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

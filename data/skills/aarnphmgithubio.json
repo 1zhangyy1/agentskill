@@ -1,0 +1,31 @@
+{
+  "id": "061e70e2e49d2c46",
+  "slug": "aarnphmgithubio",
+  "name": "Aarnphm.github.io",
+  "description": "",
+  "author": "aarnphm",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/29749331?v=4",
+  "repoUrl": "https://github.com/aarnphm/aarnphm.github.io",
+  "repoFullName": "aarnphm/aarnphm.github.io",
+  "stars": 14,
+  "forks": 1,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2022-08-21T15:25:41Z",
+  "updatedAt": "2025-12-19T19:10:42Z",
+  "lastCommitAt": "2025-12-19T19:10:39Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-20T03:26:44.170Z",
+  "authorUrl": "https://github.com/aarnphm",
+  "license": "Apache-2.0",
+  "readme": "",
+  "installCommand": "git clone https://github.com/aarnphm/aarnphm.github.io ~/.claude/skills/aarnphmgithubio",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}
