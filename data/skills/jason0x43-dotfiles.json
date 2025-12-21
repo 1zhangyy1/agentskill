@@ -20,7 +20,7 @@
   "updatedAt": "2025-12-18T17:27:34Z",
   "lastCommitAt": "2025-12-18T17:27:30Z",
   "source": "github-search",
-  "collectedAt": "2025-12-20T03:28:35.131Z",
+  "collectedAt": "2025-12-21T03:50:05.167Z",
   "authorUrl": "https://github.com/jason0x43",
   "license": null,
   "readme": "# Dotfiles\n\nDotfiles! Err...yay!\n\n## Environment\n\nI spend most of my time in the terminal.\n\nTerminal: [wezterm](https://wezfurlong.org/wezterm/) Shell:\n[fish](https://fishshell.com), Editor: [neovim](http://neovim.io)\n\n## Paths\n\nThe location of my dotfiles is specified by the `DOTFILES` environment variable,\nset to `~/.dotfiles` by default. Things that shouldn’t be in the repo, like\nsensitive or host-specific information, go in `~/.local/config`.\n\nGit doesn't support environment variable expansion in `include` statements in\n`.gitconfig`, but it will automatically look in `~/.config/git/config`, and the\nother tools I use can be pointed at `~/.config` as necessary.\n\nTransient files, like vim sessions or zsh completions, are stored under\n`XDG_CACHE_HOME`, set to `~/.cache` by default.\n\nThere’s a `bin/dotfiles` script that will put things in their expected places,\nas well as installing some core homebrew packages and updating plugins.\n",

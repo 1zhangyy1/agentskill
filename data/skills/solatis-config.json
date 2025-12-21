@@ -1,0 +1,31 @@
+{
+  "id": "202e2c1958c3425b",
+  "slug": "solatis-config",
+  "name": "Config",
+  "description": "My claude code customizations / config. ",
+  "author": "solatis",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/119317?v=4",
+  "repoUrl": "https://github.com/solatis/claude-config",
+  "repoFullName": "solatis/claude-config",
+  "stars": 224,
+  "forks": 61,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2025-07-28T07:23:25Z",
+  "updatedAt": "2025-12-19T23:28:23Z",
+  "lastCommitAt": "2025-12-18T11:09:29Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-21T03:51:28.486Z",
+  "authorUrl": "https://github.com/solatis",
+  "license": "MIT",
+  "readme": "# Claude Commands & Agents\n\nPersonal collection of Claude agents and commands.\n\n```\nagents/                # Specialized agents (architect, debugger, developer, etc.)\ncommands/              # Commands like plan-execution\n```\n\n## Acknowledgments\n\n`prompt-engineering.md` is originally based on [Southbridge Research's exceptional analysis of Claude Code prompts](https://southbridge-research.notion.site/Prompt-Engineering-The-Art-of-Instructing-AI-2055fec70db181369002dcdea7d9e732). This document has been invaluable for understanding and applying advanced prompt engineering techniques. I later integrated additional prompting techniques, but this document has been invaluable to kick-starting my understanding of prompting techniques that work.\n\nWhen optimizing prompts with these techniques:\n\n```\nApply ALL prompt engineering patterns from `prompt-engineering.md` to this modification. For EACH change, specify EXACTLY which technique(s) you used:\n- Pattern name (e.g., \"Progressive Disclosure\", \"Emphasis Hierarchy\")\n- Why this pattern applies here\n- Expected behavioral impact\n\nCRITICAL: Changes without pattern attribution = task incomplete.\n```\n",
+  "installCommand": "git clone https://github.com/solatis/claude-config ~/.claude/skills/solatis-config",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
