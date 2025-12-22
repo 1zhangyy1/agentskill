@@ -1,0 +1,31 @@
+{
+  "id": "89f47b3a8d2102a8",
+  "slug": "repo-posts",
+  "name": "Repo_posts",
+  "description": "",
+  "author": "tom-doerr",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/23431444?v=4",
+  "repoUrl": "https://github.com/tom-doerr/repo_posts",
+  "repoFullName": "tom-doerr/repo_posts",
+  "stars": 175,
+  "forks": 18,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 1,
+  "status": "active",
+  "createdAt": "2025-02-17T04:32:30Z",
+  "updatedAt": "2025-12-22T03:50:39Z",
+  "lastCommitAt": "2025-12-22T03:50:35Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-22T03:52:16.059Z",
+  "authorUrl": "https://github.com/tom-doerr",
+  "license": "MIT",
+  "readme": "<div align=\"center\">\n\n# GitHub Repository Showcase\n\n[![Website](https://img.shields.io/website?url=https%3A%2F%2Ftom-doerr.github.io%2Frepo_posts%2F&label=site&style=for-the-badge)](https://tom-doerr.github.io/repo_posts/)\n[![RSS](https://img.shields.io/badge/RSS-feed-orange?logo=rss&style=for-the-badge)](https://tom-doerr.github.io/repo_posts/feed.xml)\n[![Status](https://img.shields.io/badge/Status-page-blue?style=for-the-badge)](https://tom-doerr.github.io/repo_posts/status.html)\n[![RSS Smoke](https://img.shields.io/github/actions/workflow/status/tom-doerr/repo_posts/rss-smoke.yml?branch=main&label=RSS%20smoke&style=for-the-badge)](https://github.com/tom-doerr/repo_posts/actions/workflows/rss-smoke.yml)\n[![Related Data](https://img.shields.io/github/actions/workflow/status/tom-doerr/repo_posts/generate-related-min.yml?branch=main&label=Related%20data&style=for-the-badge)](https://github.com/tom-doerr/repo_posts/actions/workflows/generate-related-min.yml)\n[![Pages](https://img.shields.io/github/deployments/tom-doerr/repo_posts/github-pages?label=Pages&style=for-the-badge)](https://github.com/tom-doerr/repo_posts/deployments/activity_log?environment=github-pages)\n[![Feed 200](https://img.shields.io/website?url=https%3A%2F%2Ftom-doerr.github.io%2Frepo_posts%2Ffeed.xml&label=feed%20200&style=for-the-badge)](https://tom-doerr.github.io/repo_posts/feed.xml)\n[![License](https://img.shields.io/github/license/tom-doerr/repo_posts?style=for-the-badge)](LICENSE)\n\n</div>\n\nLive site: https://tom-doerr.github.io/repo_posts/\n\n- Feed (Atom): https://tom-doerr.github.io/repo_posts/feed.xml\n- Status: Built via GitHub Pages (workflow in `.github/workflows/Deploy Jekyll site`).\n\n## How things update\n- On push to `main` that changes `docs/_posts/**`: the “Generate Related Data” workflow runs a quick owner-based related pass and rebuilds `docs/assets/search-index.json`.\n- Every 30 minutes (schedule): the same workflow loads/stores embeddings (`docs/_data/embeddings.npz`), computes only missing neighbors, updates `docs/_data/related.json`, and writes `docs/_data/status.json`.\n- After each run: the README coverage line between the markers below is updated, and the live Status page (`/status.html`) shows current counts and sizes.\n\n## What this repo is\nA Jekyll site stored under `docs/` using the Minimal theme. Posts live in `docs/_posts/` and screenshots in `docs/assets/`.\n\n- Layout override: `docs/_layouts/default.html` (adds per‑post image and a link back to the index; auto dark mode).\n- Homepage: `docs/index.md` (lists posts, adds anchors, lazy images, and an RSS link).\n- Issue template: `.github/ISSUE_TEMPLATE/bug_report.yml`.\n\n## Contribution policy\nWe don't accept repository suggestions via Issues/PRs. The site is curated automatically. Please use issues only for site bugs and improvements.\n\n## Deploy\n- Trigger: push to `main` builds `docs/` and deploys to Pages.\n- Workflow: `.github/workflows/Deploy Jekyll site` (standard Pages Jekyll build).\n- Optional CI: image compression runs on PRs that touch `docs/assets/**`.\n\n## Structure\n```\nrepo_posts/\n  docs/\n    _posts/      # content\n    assets/      # images\n    _layouts/    # layout override\n    index.md     # homepage\n  .github/\n    ISSUE_TEMPLATE/\n    workflows/\n```\n\n## License\nMIT for code/config — see LICENSE.\n\nContent licensing — see CONTENT-LICENSE.md. Screenshots in `docs/assets/` and third‑party text in `docs/_posts/` remain the property of their respective owners; no license is granted for those assets.\n\n<!-- related-coverage:start -->\nRelated coverage: pending…\n<!-- related-coverage:end -->\n\n## Liquid numeric gotcha (percentages)\nLiquid math is integer by default. If you compute a percentage like:\n\n```\n{{ s.related_renderable | times: 100 | divided_by: s.posts }}%\n```\n\nit truncates to an integer. To get a decimal percentage, make one operand a float:\n\n```\n{{ s.related_renderable | times: 100.0 | divided_by: s.posts | round: 1 }}%\n```\n\nor:\n\n```\n{{ s.related_renderable | times: 1.0 | divided_by: s.posts | times: 100 | round: 1 }}%\n```\n",
+  "installCommand": "git clone https://github.com/tom-doerr/repo_posts ~/.claude/skills/repo-posts",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
