@@ -8,7 +8,7 @@
   "repoUrl": "https://github.com/MicrosoftDocs/azure-ai-docs",
   "repoFullName": "MicrosoftDocs/azure-ai-docs",
   "stars": 114,
-  "forks": 398,
+  "forks": 399,
   "category": "devops",
   "categories": [
     "devops"
@@ -17,10 +17,10 @@
   "tier": 1,
   "status": "active",
   "createdAt": "2024-08-20T19:03:54Z",
-  "updatedAt": "2025-12-20T06:06:56Z",
-  "lastCommitAt": "2025-12-20T06:06:52Z",
+  "updatedAt": "2025-12-22T23:16:38Z",
+  "lastCommitAt": "2025-12-22T23:16:31Z",
   "source": "github-search",
-  "collectedAt": "2025-12-22T03:54:01.918Z",
+  "collectedAt": "2025-12-23T03:48:01.313Z",
   "authorUrl": "https://github.com/MicrosoftDocs",
   "license": "CC-BY-4.0",
   "readme": "## Microsoft Open Source Code of Conduct\nThis project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).\nFor more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.",

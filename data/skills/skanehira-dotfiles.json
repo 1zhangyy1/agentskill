@@ -1,0 +1,31 @@
+{
+  "id": "9db529e23ad85d48",
+  "slug": "skanehira-dotfiles",
+  "name": "Dotfiles",
+  "description": "my dotfiles",
+  "author": "skanehira",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/7888591?v=4",
+  "repoUrl": "https://github.com/skanehira/dotfiles",
+  "repoFullName": "skanehira/dotfiles",
+  "stars": 68,
+  "forks": 4,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2018-10-14T11:05:15Z",
+  "updatedAt": "2025-12-22T08:11:40Z",
+  "lastCommitAt": "2025-12-22T08:11:36Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-23T03:50:38.867Z",
+  "authorUrl": "https://github.com/skanehira",
+  "license": null,
+  "readme": "# My dotfiles\n",
+  "installCommand": "git clone https://github.com/skanehira/dotfiles ~/.claude/skills/skanehira-dotfiles",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
