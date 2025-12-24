@@ -1,0 +1,31 @@
+{
+  "id": "2c13d6fa856ecdd5",
+  "slug": "atusy-dotfiles",
+  "name": "Dotfiles",
+  "description": "",
+  "author": "atusy",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/30277794?v=4",
+  "repoUrl": "https://github.com/atusy/dotfiles",
+  "repoFullName": "atusy/dotfiles",
+  "stars": 19,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2022-02-05T13:22:18Z",
+  "updatedAt": "2025-12-24T00:17:34Z",
+  "lastCommitAt": "2025-12-24T00:17:31Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-24T03:45:27.394Z",
+  "authorUrl": "https://github.com/atusy",
+  "license": "MIT",
+  "readme": "# dotfiles\n\nVersion controlled by chezmoi\n\n## Git\n\n### Git Hooks\n\n`executable_*` are copied from `template.bash`\n\n``` bash\nman githooks | grep -E '^\\s{3}[a-z]' | sed -Ee 's/\\s+//' | while read -r hook\ndo\n  cp \"dot_config/git/hooks/template.bash\" \"dot_config/git/hooks/$hook\"\ndone\n```\n\n## Vim/Neovim\n\n- [爆速で起動する Neovim を作る](https://qiita.com/delphinus/items/fb905e452b2de72f1a0f)\n- [nvim-lspの設定をlsp-handlerでカスタマイズする](https://zenn.dev/nnsnico/articles/customize-lsp-handler)\n- [NeovimのLSPで誰にどうして怒られたのかを確認するための設定](https://dev.classmethod.jp/articles/eetann-change-neovim-lsp-diagnostics-format/)\n",
+  "installCommand": "git clone https://github.com/atusy/dotfiles ~/.claude/skills/atusy-dotfiles",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

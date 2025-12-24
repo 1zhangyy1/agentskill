@@ -1,0 +1,40 @@
+{
+  "id": "1f4c97af00c93adc",
+  "slug": "sindri",
+  "name": "Sindri",
+  "description": "Consistent dev environments anywhere. Define once in YAML, deploy to Docker, Fly.io, or DevPod. Pre-built extensions for AI, languages & infrastructure.",
+  "author": "pacphi",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/29155988?v=4",
+  "repoUrl": "https://github.com/pacphi/sindri",
+  "repoFullName": "pacphi/sindri",
+  "stars": 7,
+  "forks": 1,
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [
+    "ai-toolkit",
+    "clis",
+    "devpods",
+    "docker",
+    "flyio",
+    "github-actions",
+    "kubernetes",
+    "sdks"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-11-22T00:47:03Z",
+  "updatedAt": "2025-12-23T18:28:07Z",
+  "lastCommitAt": "2025-12-23T18:28:03Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-24T03:44:12.820Z",
+  "authorUrl": "https://github.com/pacphi",
+  "license": "MIT",
+  "readme": "# Sindri\n\n[![License](https://img.shields.io/github/license/pacphi/sindri)](LICENSE)\n[![CI](https://github.com/pacphi/sindri/actions/workflows/ci.yml/badge.svg)](https://github.com/pacphi/sindri/actions/workflows/ci.yml)\n[![FAQ](https://img.shields.io/badge/FAQ-on%20fly.dev-blue)](https://sindri-faq.fly.dev)\n\nA declarative, provider-agnostic cloud development environment system. Deploy consistent development environments to Fly.io, local Docker, or via DevPod to Kubernetes, AWS, GCP, Azure, and other cloud providers using YAML-defined extensions.\n\n```text\n   ███████╗██╗███╗   ██╗██████╗ ██████╗ ██╗\n   ██╔════╝██║████╗  ██║██╔══██╗██╔══██╗██║\n   ███████╗██║██╔██╗ ██║██║  ██║██████╔╝██║\n   ╚════██║██║██║╚██╗██║██║  ██║██╔══██╗██║\n   ███████║██║██║ ╚████║██████╔╝██║  ██║██║\n   ╚══════╝╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝\n\n   🔨 Forging Development Environments\n   📦 https://github.com/pacphi/sindri\n```\n\n## About the Name\n\n**Sindri** (Old Norse: \"spark\") was a legendary dwarf blacksmith in Norse mythology, renowned for forging three of the most powerful artifacts: Mjölnir (Thor's hammer), Draupnir (Odin's ring), and Gullinbursti (Freyr's golden boar).\n\nLike its mythological namesake, Sindri forges powerful development environments from raw materials—transforming cloud infrastructure, YAML configuration, and Docker into consistent, reproducible developer workspaces.\n\n## Quick Start\n\n```bash\n# Clone repository\ngit clone https://github.com/pacphi/sindri\ncd sindri\n\n# Initialize configuration\n./cli/sindri config init\n\n# Edit sindri.yaml for your needs\n# See examples/ directory for templates\n\n# Deploy locally\n./cli/sindri deploy --provider docker\n\n# Or deploy to Fly.io\n./cli/sindri deploy --provider fly\n```\n\n**Prerequisites:** [Docker](https://www.docker.com/get-started/), [yq](https://github.com/mikefarah/yq). For Fly.io: [flyctl](https://fly.io/docs/flyctl/install/) CLI. For DevPod: [devpod](https://devpod.sh/) CLI.\n\n## Core Features\n\n- **Modular Extension System** - YAML-driven with dependency resolution\n- **Fast Startup** - Optimized Docker images with pre-installed tools (10-15s cold start)\n- **Extension System** - 70+ modular extensions for languages, tools, and infrastructure\n- **Schema Validation** - All YAML validated against JSON schemas\n- **Provider Adapters** - Clean abstraction for Docker, Fly.io, and DevPod (with Kubernetes, AWS, GCP, Azure backends)\n- **Volume Architecture** - Immutable `/docker/lib` system, mutable `$HOME` volume containing workspace\n- **BOM Tracking** - Comprehensive software bill of materials for security auditing\n\n## Documentation\n\n### Getting Started\n\n- **[Quickstart Guide](docs/QUICKSTART.md)** - Fast setup and deployment\n- **[FAQ](docs/FAQ.md)** - Searchable answers to common questions\n- **[Architecture Overview](docs/ARCHITECTURE.md)** - System design and concepts\n- **[Configuration Reference](docs/CONFIGURATION.md)** - Complete sindri.yaml guide\n\n### Extensions\n\n- **[Extension Catalog](docs/EXTENSIONS.md)** - Available extensions and usage\n- **[Extension Authoring](docs/EXTENSION_AUTHORING.md)** - Creating custom extensions\n- **[Bill of Materials](docs/BOM.md)** - Software tracking and SBOM generation\n\n### Deployment\n\n- **[Deployment Overview](docs/DEPLOYMENT.md)** - Provider comparison and selection\n- **[Fly.io Deployment](docs/providers/FLY.md)** - Fly.io-specific guide\n- **[DevPod Integration](docs/providers/DEVPOD.md)** - DevContainer setup\n- **[Docker Deployment](docs/providers/DOCKER.md)** - Local Docker setup\n- **[Kubernetes Deployment](docs/providers/KUBERNETES.md)** - Enterprise K8s guide\n- **[IDE Integration](docs/ides/README.md)** - Connect with VS Code, IntelliJ, Zed, Eclipse, or Warp\n- **[Secrets Management](docs/SECRETS_MANAGEMENT.md)** - Managing secrets across providers\n\n### Development & Operations\n\n- **[Project Management](docs/PROJECT_MANAGEMENT.md)** - Using new-project and clone-project\n- **[Contributing Guide](docs/CONTRIBUTING.md)** - Development workflow and standards\n- **[Testing Guide](docs/TESTING.md)** - Running tests and CI/CD\n- **[Workflow Architecture](.github/WORKFLOW_ARCHITECTURE.md)** - CI/CD workflow structure and design\n- **[CI Testing Deep Dive](docs/CI_WORKFLOW_IN_DEPTH.md)** - Comprehensive CI testing guide\n- **[Release Process](docs/RELEASE.md)** - Creating releases and changelog automation\n- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions\n- **[Security](docs/SECURITY.md)** - Security best practices\n\n### Claude Code Integration\n\nA Claude Code skill is available to guide extension development. When using Claude Code, ask about creating extensions and it will automatically provide guidance. See [Sindri Extension Guide](.claude/skills/sindri-extension-guide/SKILL.md) for the skill definition.\n\n```text\nExample questions:\n- \"Help me create a new extension for Lua development\"\n- \"What fields are required in extension.yaml?\"\n- \"How do I use the apt installation method?\"\n- \"Show me an example of a script-based extension\"\n```\n\n## License\n\nMIT License - see [LICENSE](LICENSE) file for details.\n",
+  "installCommand": "git clone https://github.com/pacphi/sindri ~/.claude/skills/sindri",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
