@@ -7,8 +7,8 @@
   "authorAvatar": "https://avatars.githubusercontent.com/u/47287758?v=4",
   "repoUrl": "https://github.com/coleam00/ottomator-agents",
   "repoFullName": "coleam00/ottomator-agents",
-  "stars": 5117,
-  "forks": 1819,
+  "stars": 5122,
+  "forks": 1820,
   "category": "ai-ml",
   "categories": [
     "ai-ml"
@@ -17,10 +17,10 @@
   "tier": 2,
   "status": "maintained",
   "createdAt": "2024-12-02T00:47:45Z",
-  "updatedAt": "2025-12-24T02:59:41Z",
+  "updatedAt": "2025-12-25T01:03:55Z",
   "lastCommitAt": "2025-11-09T21:46:48Z",
   "source": "github-search",
-  "collectedAt": "2025-12-24T03:42:49.751Z",
+  "collectedAt": "2025-12-25T03:45:51.329Z",
   "authorUrl": "https://github.com/coleam00",
   "license": "MIT",
   "readme": "# What is the Live Agent Studio?\n\nThe [Live Agent Studio](https://studio.ottomator.ai) is a community-driven platform developed by [oTTomator](https://ottomator.ai) for you to explore cutting-edge AI agents and learn how to implement them for yourself or your business! All agents on this platform are open source and, over time, will cover a very large variety of use cases.\n\nThe goal with the studio is to build an educational platform for you to learn how to do incredible things with AI, while still providing practical value so that you’ll want to use the agents just for the sake of what they can do for you!\n\nThis platform is still in beta – expect longer response times under load, a rapidly growing agent library over the coming months, and a lot more content on this platform soon on Cole Medin’s YouTube channel!\n\n# What is this Repository for?\n\nThis repository contains the source code/workflow JSON for all the agents on the Live Agent Studio! Every agent being added to the platform is currently be open sourced here so we can not only create a curated collection of cutting-edge agents together as a community, but also learn from one another!\n\n## Tokens\n\nMost agents on the Live Agent Studio cost tokens to use, which are purchasable on the platform. However, when you first sign in you are given some tokens to start so you can use the agents free of charge! The biggest reason agents cost tokens is that we pay for the LLM usage since we host all the agents developed by you and the rest of the community!\n\n[Purchase Tokens](https://studio.ottomator.ai/pricing)\n\n## Future Plans\n\nAs the Live Agent Studio develops, it will become the go-to place to stay on top of what is possible with AI agents! Anytime there is a new AI technology, groundbreaking agent research, or a new tool/library to build agents with, it’ll be featured through agents on the platform. It’s a tall order, but we have big plans for the oTTomator community, and we’re confident we can grow to accomplish this!\n\n## FAQ\n\n### I want to build an agent to showcase in the Live Agent Studio! How do I do that?\n\nHead on over here to learn how to build an agent for the platform:\n\n[Developer Guide](https://studio.ottomator.ai/guide)\n\nAlso check out [the sample n8n agent](~sample-n8n-agent~) for a starting point of building an n8n agent for the Live Agent Studio, and [the sample Python agent](~sample-python-agent~) for Python.\n\n### How many tokens does it cost to use an agent?\n\nEach agent will charge tokens per prompt. The number of tokens depends on the agent, as some agents use larger LLMs, some call LLMs multiple times, and some use paid APIs.\n\n### Where can I go to talk about all these agents and get help implementing them myself?\n\nHead on over to our Think Tank community and feel free to make a post!\n\n[Think Tank Community](https://thinktank.ottomator.ai)\n\n---\n\n&copy; 2024 Live Agent Studio. All rights reserved.  \nCreated by oTTomator\n",

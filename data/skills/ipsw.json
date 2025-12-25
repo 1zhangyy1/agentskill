@@ -1,0 +1,40 @@
+{
+  "id": "243cef3279eee53e",
+  "slug": "ipsw",
+  "name": "Ipsw",
+  "description": "A SKILL.md for ipsw",
+  "author": "blacktop",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/6118188?v=4",
+  "repoUrl": "https://github.com/blacktop/ipsw-skill",
+  "repoFullName": "blacktop/ipsw-skill",
+  "stars": 7,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "apple",
+    "claude-code",
+    "claude-skills",
+    "codex",
+    "ipsw",
+    "reverse-engineering",
+    "skill",
+    "vulnerability-research"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-12-24T17:59:06Z",
+  "updatedAt": "2025-12-25T00:58:22Z",
+  "lastCommitAt": "2025-12-25T00:58:19Z",
+  "source": "github-topic",
+  "collectedAt": "2025-12-25T03:40:50.869Z",
+  "authorUrl": "https://github.com/blacktop",
+  "license": "MIT",
+  "readme": "# ipsw-skill\n\nA Claude Code skill for Apple firmware and binary reverse engineering using the [ipsw](https://github.com/blacktop/ipsw) CLI tool.\n\n## What This Skill Provides\n\nThis skill empowers Claude to assist with:\n\n- **Disassembling functions** in dyld_shared_cache and Mach-O binaries\n- **Dumping Objective-C headers** from private frameworks\n- **Downloading IPSWs/OTAs** and extracting kernelcaches\n- **Analyzing entitlements** across iOS/macOS binaries\n- **KEXT extraction and analysis** from kernelcaches\n- **Tracking changes** between iOS/macOS versions\n\n## Installation\n\n### Prerequisites\n\nInstall the `ipsw` CLI tool:\n\n```bash\nbrew install blacktop/tap/ipsw\n```\n\n### Claude Code\n\nInstall the marketplace:\n\n```bash\nclaude plugin marketplace add blacktop/ipsw-skill\n```\n\nInstall the plugin:\n\n```bash\nclaude plugin install ipsw\n```\n\nOr install manually by cloning:\n\n```bash\n# Clone the repo\ngit clone https://github.com/blacktop/ipsw-skill /tmp/ipsw-skill\n\n# User-wide (available in all projects)\nmv /tmp/ipsw-skill/skills/ipsw ~/.claude/skills/ipsw\n\n# Project-specific (check into your repo)\nmv /tmp/ipsw-skill/skills/ipsw .claude/skills/ipsw\n```\n\n### Codex CLI\n\nUse the built-in `$skill-installer` to install from GitHub:\n\n```\n$skill-installer https://github.com/blacktop/ipsw-skill\n```\n\nOr install manually by copying the skill folder:\n\n```bash\n# Clone the repo\ngit clone https://github.com/blacktop/ipsw-skill /tmp/ipsw-skill\n\n# User-wide (available in all projects)\nmv /tmp/ipsw-skill/skills/ipsw ~/.codex/skills/\n\n# Or project-specific (check into your repo)\nmv /tmp/ipsw-skill/skills/ipsw .codex/skills/\n```\n\n> **Note**: Run Codex with `--enable skills` if skills aren't loading automatically.\n\n## Usage Examples\n\nOnce installed, Claude will automatically use this skill when you ask about Apple reverse engineering tasks:\n\n> \"Disassemble the _malloc function from the system dyld_shared_cache\"\n\n> \"Dump the Objective-C headers for SpringBoardServices\"\n\n> \"Download the latest IPSW for iPhone 15 Pro and extract the kernel\"\n\n> \"Find all binaries with the platform-application entitlement in iOS 18\"\n\n> \"Extract the sandbox KEXT from this kernelcache\"\n\n> \"What classes in Security.framework handle keychain operations?\"\n\n## Skill Contents\n\n```\n.claude-plugin/\n└── marketplace.json            # Marketplace configuration\nskills/\n└── ipsw/\n    ├── SKILL.md                # Core workflows and quick reference\n    └── references/\n        ├── dyld.md             # dyld_shared_cache analysis commands\n        ├── macho.md            # Mach-O binary analysis commands\n        ├── kernel.md           # Kernel & KEXT analysis commands\n        ├── download.md         # Firmware download & extraction\n        ├── class-dump.md       # ObjC header dumping\n        └── entitlements.md     # Entitlements database & queries\n```\n\n## Resources\n\n- [ipsw Documentation](https://blacktop.github.io/ipsw)\n- [ipsw GitHub](https://github.com/blacktop/ipsw)\n- [Discord Community](https://discord.gg/BEamsHAWAh)\n\n## License\n\nMIT\n",
+  "installCommand": "git clone https://github.com/blacktop/ipsw-skill ~/.claude/skills/ipsw",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

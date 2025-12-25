@@ -1,0 +1,36 @@
+{
+  "id": "6a28b1a24c6ef150",
+  "slug": "tweakcc-system-prompts",
+  "name": "Tweakcc System Prompts",
+  "description": "Customized Claude Code system prompts for use with tweakcc — ~48k bytes smaller, 30% faster, same accuracy",
+  "author": "bl-ue",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/54780737?v=4",
+  "repoUrl": "https://github.com/bl-ue/tweakcc-system-prompts",
+  "repoFullName": "bl-ue/tweakcc-system-prompts",
+  "stars": 26,
+  "forks": 5,
+  "category": "coding",
+  "categories": [
+    "coding"
+  ],
+  "tags": [
+    "claude-code",
+    "claude-code-system-prompts",
+    "system-prompts",
+    "tweakcc"
+  ],
+  "tier": 2,
+  "status": "maintained",
+  "createdAt": "2025-10-22T23:14:41Z",
+  "updatedAt": "2025-12-23T17:22:59Z",
+  "lastCommitAt": "2025-11-23T18:05:33Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-25T03:43:18.938Z",
+  "authorUrl": "https://github.com/bl-ue",
+  "license": null,
+  "readme": "Customized Claude Code system prompts for use with tweakcc — ~48k bytes smaller, 30% faster, same accuracy",
+  "installCommand": "git clone https://github.com/bl-ue/tweakcc-system-prompts ~/.claude/skills/tweakcc-system-prompts",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}
