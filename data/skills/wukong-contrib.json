@@ -20,7 +20,7 @@
   "updatedAt": "2025-10-04T17:40:07Z",
   "lastCommitAt": "2025-09-04T08:31:37Z",
   "source": "github-search",
-  "collectedAt": "2025-12-25T03:42:28.061Z",
+  "collectedAt": "2025-12-26T03:40:13.316Z",
   "authorUrl": "https://github.com/wzpan",
   "license": null,
   "readme": "# wukong-contrib\n\n<a href=\"https://github.com/users/wzpan/projects/1\"><img alt=\"wukong-project\" src=\"https://img.shields.io/badge/project-wukong-informational.svg?style=flat-square\"></a>\n<a href=\"https://travis-ci.org/wzpan/wukong-contrib\"><img alt=\"Travis\" src=\"https://img.shields.io/travis/wzpan/wukong-contrib.svg?style=flat-square\"></a>\n\n[wukong-robot](http://github.com/wzpan/wukong-robot) 的第三方技能插件。\n\n除了 [Weather](https://github.com/wzpan/wukong-contrib/wiki/weather) 插件之外，其余插件均为用户贡献，因此并不保证完全可用。\n\n* [用户贡献技能插件列表](https://wukong.hahack.com/#/contrib)\n\n## 安装\n\n``` sh\ncd $HOME/.wukong\ngit clone http://github.com/wzpan/wukong-contrib contrib\npip3 install -r contrib/requirements.txt\n```\n\n## 升级\n\n``` sh\ncd /home/pi/.wukong/contrib\ngit pull\npip3 install -r requirements.txt\n```\n\n## 如何贡献\n\n### 教程\n\n- [基础篇](https://wukong.hahack.com/#/writing-skill-basic)\n- [实战篇1：hello world](https://wukong.hahack.com/#/writing-skill-1)\n- [实战篇2：开发一个清除缓存技能](https://wukong.hahack.com/#/writing-skill-2)\n- [实战篇3：开发一个天气查询技能](https://wukong.hahack.com/#/writing-skill-3)\n- [实战篇4：开发一个沉浸式音乐播放技能](https://wukong.hahack.com/#/writing-skill-4)\n- [实战篇5：发布技能](https://wukong.hahack.com/#/writing-skill-publish)\n\n",

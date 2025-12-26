@@ -1,0 +1,36 @@
+{
+  "id": "035ced328091c966",
+  "slug": "copilot",
+  "name": "Copilot",
+  "description": "Copilot Skills is a system for organizing domain knowledge into reusable, discoverable skills that keep AI agents focused and efficient.",
+  "author": "TheSethRose",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/10383809?v=4",
+  "repoUrl": "https://github.com/TheSethRose/Copilot-Skills",
+  "repoFullName": "TheSethRose/Copilot-Skills",
+  "stars": 5,
+  "forks": 2,
+  "category": "devops",
+  "categories": [
+    "devops"
+  ],
+  "tags": [
+    "claude-skills",
+    "copilot",
+    "github",
+    "skills"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-10-19T06:05:02Z",
+  "updatedAt": "2025-12-26T00:50:42Z",
+  "lastCommitAt": "2025-12-09T13:41:57Z",
+  "source": "github-topic",
+  "collectedAt": "2025-12-26T03:38:42.387Z",
+  "authorUrl": "https://github.com/TheSethRose",
+  "license": "MIT",
+  "readme": "Copilot Skills is a system for organizing domain knowledge into reusable, discoverable skills that keep AI agents focused and efficient.",
+  "installCommand": "git clone https://github.com/TheSethRose/Copilot-Skills ~/.claude/skills/copilot",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": ""
+}

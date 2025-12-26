@@ -1,0 +1,36 @@
+{
+  "id": "b2a66e8330e63e05",
+  "slug": "agent-skills-nix",
+  "name": "Agent Skills Nix",
+  "description": "Declarative management of Agent Skills on Nix",
+  "author": "Kyure-A",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/49436968?v=4",
+  "repoUrl": "https://github.com/Kyure-A/agent-skills-nix",
+  "repoFullName": "Kyure-A/agent-skills-nix",
+  "stars": 6,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [
+    "agent-skills",
+    "claude-skills",
+    "nix",
+    "skills"
+  ],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-12-22T13:15:25Z",
+  "updatedAt": "2025-12-26T02:28:06Z",
+  "lastCommitAt": "2025-12-23T13:27:28Z",
+  "source": "github-topic",
+  "collectedAt": "2025-12-26T03:38:38.881Z",
+  "authorUrl": "https://github.com/Kyure-A",
+  "license": "MIT",
+  "readme": "# Agent Skills Nix Framework\n\nDeclarative management of Agent Skills (directories containing `SKILL.md`) with flake-pinned sources, discovery, selection, bundling, and Home Manager integration.\n\n## Concepts\n\n- **sources**: Named inputs (flake or path) pointing at a skills root (`subdir`).\n- **discover**: Scans sources for directories that contain `SKILL.md`, producing a catalog.\n- **skills.enable / skills.enableAll / skills.explicit**: Declaratively pick discovered skills, enable-all (global or by source list), and explicitly specified ones; no accidental auto-install unless you opt in.\n- **targets**: Agent-specific destinations synced from a store bundle (structure: `link`, `symlink-tree`, `copy-tree`).\n\n## Quick start (child flake + Home Manager)\n\nPut skills config in a small child flake so the only pinned inputs there are skill sources.\n\n`skills/flake.nix` (child, same directory as `home-manager.nix`):\n```nix\n{\n  description = \"skills catalog\";\n\n  inputs = {\n    anthropic-skills.url = \"github:anthropics/skills\";\n    anthropic-skills.flake = false;\n  };\n\n  outputs = { self, anthropic-skills, ... }:\n    {\n      homeManagerModules.default =\n        import ./home-manager.nix { inherit anthropic-skills; };\n    };\n}\n```\n\n`skills/home-manager.nix` (child):\n```nix\n{ anthropic-skills, ... }:\n{\n  programs.agent-skills = {\n    sources.anthropic = {\n      path = anthropic-skills;\n      subdir = \"skills\";\n    };\n    skills.enable = [ \"frontend-design\" \"skill-creator\" ];\n    # or: skills.enableAll = true;\n    # or: skills.enableAll = [ \"anthropic\" ];\n  };\n}\n```\n\nThen load it from your main Home Manager config:\n\n```nix\n{ inputs, ... }:\n{\n  imports = [\n    inputs.agent-skills.homeManagerModules.default\n    inputs.skills-config.homeManagerModules.default\n  ];\n\n  programs.agent-skills = {\n    enable = true;\n    targets = {\n      codex  = { dest = \".codex/skills\";  structure = \"symlink-tree\"; };\n      claude = { dest = \".claude/skills\"; structure = \"symlink-tree\"; };\n    };\n  };\n}\n```\n\nNotes:\n\n- If you use a child flake, import both modules: `inputs.agent-skills.homeManagerModules.default` and `inputs.skills-config.homeManagerModules.default`.\n- Pass your flake `inputs` to Home Manager (e.g. `home-manager.extraSpecialArgs = { inherit inputs; };`) so source `input` names resolve.\n- `structure = \"link\"` uses `home.file` symlinks; `symlink-tree` and `copy-tree` run in `home.activation`.\n- `symlink-tree` uses `rsync -a --delete` (preserve symlinks); `copy-tree` uses `rsync -aL --delete` (dereference symlinks).\n- Examples live at `examples/child-flake/flake.nix`, `examples/child-flake/home-manager.nix`, `examples/direct/flake.nix`, and `examples/direct/home-manager.nix`.\n\n## Flake outputs\n\n- `packages.<system>.agent-skills-bundle`: Store bundle of selected skills (empty by default; configure in consumers).\n- `apps.<system>.skills-install`: Sync bundle to default targets (`$HOME/.codex/skills`, `$HOME/.claude/skills`). Override destinations with `AGENT_SKILLS_DESTS`.\n- `apps.<system>.skills-list`: JSON view of the default catalog.\n- `checks.<system>.skills`: Sanity check that the bundle builds.\n- `homeManagerModules.default`: Home Manager module implementing the DSL above.\n- `lib.agent-skills`: Helper functions (`discoverCatalog`, `selectSkills`, `mkBundle`, `catalogJson`, `defaultConfig`).\n\n## Library functions\n\n```nix\nlet\n  lib = (import ./lib/agent-skills.nix { inherit inputs; lib = nixpkgs.lib; });\n  catalog = lib.discoverCatalog sources;\n  selection = lib.selectSkills { inherit catalog sources; allowlist = [ \"foo\" ]; skills = { bar = { from = \"local\"; path = \"bar\"; }; }; };\n  bundle = lib.mkBundle { pkgs = nixpkgs.legacyPackages.${system}; selection = selection; };\nin { inherit catalog selection bundle; }\n```\n\n`discoverCatalog` enforces `SKILL.md` presence and rejects duplicate IDs. `selectSkills` errors on unknown allowlist entries or missing files, preventing accidental drift. (Home Manager maps `skills.enable` → `allowlist` and `skills.explicit` → `skills`.)\n\n## Apps usage\n\n- List catalog: `nix run .#skills-list`\n- Sync bundle: `nix run .#skills-install` (override destinations via `AGENT_SKILLS_DESTS=\"~/tmp/skills1 ~/tmp/skills2\"`)\n\nBoth apps operate on the flake’s default (empty) config; point at your own flake/module for real catalogs.\n\n## Checks / safety\n\n- Disallows skill IDs containing `/..` or leading `/`.\n- Verifies `SKILL.md` for discovered and explicit skills.\n- Fails on duplicate IDs across sources.\n- Activation scripts always `mkdir -p` and use `rsync -a --delete` by default.\n",
+  "installCommand": "git clone https://github.com/Kyure-A/agent-skills-nix ~/.claude/skills/agent-skills-nix",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}
