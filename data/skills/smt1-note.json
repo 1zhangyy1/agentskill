@@ -26,7 +26,7 @@
   "updatedAt": "2025-12-23T06:28:43Z",
   "lastCommitAt": "2025-12-23T06:28:40Z",
   "source": "github-search",
-  "collectedAt": "2025-12-26T03:45:24.243Z",
+  "collectedAt": "2025-12-27T03:34:49.697Z",
   "authorUrl": "https://github.com/akiomik",
   "license": null,
   "readme": "# smt1-note\n\n真・女神転生 (Shin Megami Tensei) の日本語版SFCについてのデータをまとめています。\n\n[サイトはこちら](https://smt1-note.vercel.app/)\n\n## ドキュメントの生成\n\n[Starlight](https://starlight.astro.build/) を使って生成している。\n\n```bash\nnpm install # インストール\nnpm run start # ローカルサーバの起動\n```\n\n## スクリプト\n\n### マップジェネレータ\n\n[Ammonite](https://ammonite.io) が必要。また、 [doodle](https://www.creativescala.org/doodle/) の [未リリースのコミット](https://github.com/creativescala/doodle/commit/efc3371fbaf3277dcd9a90af5d49f94f115c269e) に依存しているため、事前に `publishLocal` しておく必要がある。\n\n以下のコマンドで `map.png` を生成する。\n\n```bash\n# Generates map.png\namm scripts/map-generator.sc\n```\n\n### 文字デコーダ\n\n[Ammonite](https://ammonite.io) が必要。\n\n16進数でエンコードされた文字コードを受け取ってUTF-8にデコードした文字を出力する。\n\n```bash\n# Decodes characters from hex string\namm scripts/char-decoder.sc --str 668AB9707F # => コンゴトモ\n\n# Decodes characters from binary file\namm scripts/char-decoder.sc --file text.bin\n```\n\n### 文字エンコーダ\n\n[Ammonite](https://ammonite.io) が必要。\n\nUTF-8の文字列を受け取って、16進数でエンコードされた文字コードを出力する。\n\n```bash\n# Encodes characters to hex string\namm scripts/char-encoder.sc --str コンゴトモ # => 668ab9707f\n```\n\n## リソース\n\n### 逆アセンブリ\n\n- https://github.com/spannerisms/smt1dasm\n",

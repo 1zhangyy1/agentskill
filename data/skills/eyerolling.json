@@ -1,0 +1,31 @@
+{
+  "id": "093f2c8aaf7ccbe1",
+  "slug": "eyerolling",
+  "name": "Eyerolling",
+  "description": "",
+  "author": "yurenju",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/22155?v=4",
+  "repoUrl": "https://github.com/yurenju/eyerolling-skills",
+  "repoFullName": "yurenju/eyerolling-skills",
+  "stars": 13,
+  "forks": 1,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-08-22T08:55:21Z",
+  "updatedAt": "2025-12-26T11:44:30Z",
+  "lastCommitAt": "2025-12-26T11:44:26Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-27T03:31:10.225Z",
+  "authorUrl": "https://github.com/yurenju",
+  "license": "Apache-2.0",
+  "readme": "# 翻白眼技能集 / Eye-Rolling Skills\n\n一套讓人翻白眼的囉唆開發流程 —— 透過結構化的三步驟，從需求澄清到完整實作，確保你在動手寫 code 之前已經被問到不耐煩。\n\n![eyerolling-skills](assets/claude-code-config-intro.png)\n\n## 🙄 核心理念\n\n**從想法到實作的完整流程：** 透過 PRD (產品需求文件) 驅動開發，確保每個功能都經過囉唆的需求確認、詳細的實作計畫，以及可執行的驗收標準。是的，就是這麼囉唆。\n\n## 🚀 核心工作流程\n\n### 三步驟開發流程\n\n這套工作流程從模糊的功能想法開始，透過結構化的方法逐步細化為可執行的實作任務：\n\n**第一步：需求澄清** - 當你有一個功能想法時，使用 `/create-prd` 讓 AI 透過互動問答幫助你釐清需求細節，最終產生清晰完整的產品需求文件 (PRD)。\n\n**第二步：實作規劃** - 有了明確的 PRD 後，使用 `/create-impl-plan` 讓 AI 分析你的程式碼架構，將 PRD 拆解成 5-7 個具體的實作任務，並生成對應的驗收測試場景。\n\n**第三步：任務執行** - 透過 `/process-task-list` 逐一執行實作任務。每完成一個任務會自動 git commit，並詢問是否繼續下一個任務。對於複雜的長期專案，你可以多次執行此命令來分階段完成所有任務。\n\n這個流程的核心價值在於確保每個功能都經過充分的需求分析，有明確的實作計畫，並且執行過程可追蹤、可中斷、可恢復。\n\n### 1️⃣ `/create-prd` - 需求澄清與 PRD 生成\n\n**用途：** 將模糊的功能需求轉化為清晰的產品需求文件\n\n**流程：**\n- 接收功能描述（如：「我要開發一個 Obsidian 筆記可以直接發布在靜態網站的網站」）\n- AI 主動詢問澄清問題，促使開發者深入思考\n- 基於問答結果生成完整 PRD 文件\n\n**輸出：** `docs/specs/[date]-[feature-name]/prd.md`\n\n**範例互動：**\n```\n開發者：「我想要一個筆記發布系統」\nAI：「這個系統主要解決什麼問題？目標用戶是誰？需要支援哪些筆記格式？...」\n```\n\n### 2️⃣ `/create-impl-plan` - 實作計畫制定\n\n**用途：** 讀取 PRD，分析專案架構，制定詳細的實作任務清單\n\n**流程：**\n- 讀取並分析 PRD 內容\n- 檢視現有程式碼架構和慣例\n- 生成 5-7 個主要實作任務，每個任務包含詳細的實作要點\n- 為每個任務生成「完成檢查」，提供具體可執行的驗證方法\n- 自動生成 Gherkin 格式的驗收測試場景\n- 最後一個任務固定為驗收測試\n\n**輸出：**\n- `docs/specs/[prd-slug]/implementation.md` - 任務清單\n- `docs/specs/[prd-slug]/acceptance.feature` - 驗收測試場景\n\n### 3️⃣ `/process-task-list` - 任務執行與管理\n\n**用途：** 逐一執行實作計畫中的每個任務，支援分階段完成長期開發流程\n\n**執行模式：**\n- **單任務執行：** 每次執行完成一個任務後會暫停，等待開發者確認是否繼續\n- **多次執行：** 可以重複執行此命令來處理剩餘任務，適合長期開發流程\n- **彈性管理：** 對話過長時可選擇使用 `/compact` 精簡對話或 `/clear` 重新開始\n\n**功能特色：**\n- **任務追蹤：** 與 Claude Code 的 TodoWrite 工具整合，即時追蹤進度\n- **完成檢查：** 每個任務包含具體可執行的驗證方法（單元測試、MCP 工具檢查、指令執行等）\n- **驗收測試：** 遇到驗收測試任務時，啟用專門的 acceptance-tester subagent\n- **Git 整合：** 每完成一個任務自動執行 git commit\n- **狀態持久化：** 任務狀態保存在 `implementation.md` 中，支援跨對話追蹤\n\n## 🔍 輔助功能\n\n### `/research` - 研究與調查\n\n**用途：** 在還未確定實作方向時，進行深度研究和分析\n\n**適用場景：**\n- 技術選型調研\n- 問題根因分析  \n- 架構設計評估\n- 最佳實踐研究\n\n**輸出：** `docs/research/[date]-[topic].md`\n\n**與主流程整合：** 研究結果可作為後續 PRD 撰寫的參考依據\n\n## 📦 快速開始\n\n### 安裝\n\n將所有 Skills 安裝到 Claude Code 環境：\n\n```bash\n# 首次安裝\nnpm run install-config\n\n# 強制覆蓋現有 Skills（注意 -- 和 overwrite 之間需要空格）\nnpm run install-config -- overwrite\n```\n\n**安裝位置：**\n- Windows: `C:\\Users\\[username]\\.claude\\skills`\n- macOS/Linux: `~/.claude/skills`\n\n安裝時會自動清理舊版本的 commands 和 agents（如果存在）。\n\n### 使用範例\n\n**完整開發流程：**\n\n1. **需求澄清**\n   ```\n   /create-prd\n   我想開發一個部落格文章管理系統\n   ```\n\n2. **制定計畫**\n   ```\n   /create-impl-plan\n   請基於剛才生成的 PRD 制定實作計畫\n   ```\n\n3. **執行開發**\n   ```\n   /process-task-list\n   開始執行實作任務\n   \n   # 完成一個任務後，可以：\n   # - 繼續下一個任務\n   # - 稍後重新執行 /process-task-list 繼續剩餘任務\n   # - 對話過長時可使用 /compact 或 /clear（可選）\n   ```\n\n## 🏗️ 專案架構\n\n```\nclaude-code-config/\n├── skills/                         # 核心 Skills（目錄結構）\n│   ├── research/\n│   │   ├── SKILL.md               # 研究分析流程\n│   │   └── examples/              # 範例文件\n│   ├── create-prd/\n│   │   ├── SKILL.md               # PRD 生成流程\n│   │   └── examples/              # 範例文件\n│   ├── create-impl-plan/\n│   │   ├── SKILL.md               # 實作計畫流程\n│   │   └── references/            # 參考指引\n│   ├── process-task-list/\n│   │   ├── SKILL.md               # 任務執行流程\n│   │   └── references/            # 參考指引\n│   └── acceptance-test/\n│       └── SKILL.md               # 驗收測試流程\n├── scripts/\n│   └── install-config.js          # 安裝腳本\n├── docs/                          # 輸出目錄\n│   ├── research/                  # 研究文件\n│   │   └── [date]-[topic].md\n│   └── specs/                     # 產品規格\n│       └── [date]-[feature]/\n│           ├── prd.md\n│           ├── implementation.md\n│           └── acceptance.feature\n└── README.md\n```\n\n## ✨ 核心特色\n\n- **🎯 規格導向開發：** 透過 PRD 驅動整個開發流程，確保需求清晰可追蹤\n- **🛠️ Claude Code 整合：** 與 TodoWrite 同步任務狀態，自動化 Git 提交流程\n- **🧪 完成檢查與驗收測試：** 每個任務包含具體驗證方法，支援 Gherkin 格式驗收測試\n- **📂 Skills 目錄結構：** 採用 Claude Code Skills 格式，支援檔案拆分和漸進式揭露\n\n## 🎨 適用場景\n\n適合重視開發流程規範、需要清晰需求文件、希望透過完成檢查確保實作品質的個人開發者或團隊專案。\n\n## 📋 最佳實踐\n\n1. **循序執行** PRD → 實作計畫 → 任務執行的完整流程\n2. **充分澄清** 在 PRD 階段確保需求清晰無歧義  \n3. **持續同步** 保持任務狀態即時更新並定期提交\n\n## 🤝 貢獻與回饋\n\n本專案基於 [snarktank/ai-dev-tasks](https://github.com/snarktank/ai-dev-tasks) 的概念，針對 Claude Code 和繁體中文環境進行了深度客製化。\n\n為什麼叫翻白眼？因為跟 AI 反覆討論需求、一直被追問細節，從旁人的角度看起來確實有點囉唆到讓人想翻白眼。但這正是這套流程的價值：在動手之前把事情想清楚。\n\n## 📄 授權\n\n本專案採用 Apache 2.0 授權條款。",
+  "installCommand": "git clone https://github.com/yurenju/eyerolling-skills ~/.claude/skills/eyerolling",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

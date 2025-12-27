@@ -7,8 +7,8 @@
   "authorAvatar": "https://avatars.githubusercontent.com/u/102783063?v=4",
   "repoUrl": "https://github.com/fltman/project-scaffolder",
   "repoFullName": "fltman/project-scaffolder",
-  "stars": 59,
-  "forks": 24,
+  "stars": 62,
+  "forks": 25,
   "category": "other",
   "categories": [
     "other"
@@ -17,10 +17,10 @@
   "tier": 2,
   "status": "active",
   "createdAt": "2025-12-06T06:31:22Z",
-  "updatedAt": "2025-12-25T22:16:16Z",
+  "updatedAt": "2025-12-27T02:10:00Z",
   "lastCommitAt": "2025-12-06T06:33:11Z",
   "source": "github-search",
-  "collectedAt": "2025-12-26T03:45:49.605Z",
+  "collectedAt": "2025-12-27T03:35:14.140Z",
   "authorUrl": "https://github.com/fltman",
   "license": null,
   "readme": "",

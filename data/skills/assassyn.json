@@ -1,0 +1,31 @@
+{
+  "id": "e0542be4295a7050",
+  "slug": "assassyn",
+  "name": "Assassyn",
+  "description": "Asynchronous semantics for architectural simulation and synthesis.",
+  "author": "Synthesys-Lab",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/169300691?v=4",
+  "repoUrl": "https://github.com/Synthesys-Lab/assassyn",
+  "repoFullName": "Synthesys-Lab/assassyn",
+  "stars": 60,
+  "forks": 13,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2024-02-09T09:21:11Z",
+  "updatedAt": "2025-12-25T16:26:01Z",
+  "lastCommitAt": "2025-12-25T16:25:56Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-27T03:37:02.780Z",
+  "authorUrl": "https://github.com/Synthesys-Lab",
+  "license": null,
+  "readme": "# Assassyn: **As**ynchronous **S**emantics for **A**rchitectural **S**imulation & **Syn**thesis\n\n[![Tests](https://github.com/synthesys-lab/assassyn/actions/workflows/test.yaml/badge.svg)](https://github.com/synthesys-lab/assassyn/actions/workflows/test.yaml)\n[![Apptainer Tests](https://github.com/synthesys-lab/assassyn/actions/workflows/apptainer.yaml/badge.svg)](https://github.com/synthesys-lab/assassyn/actions/workflows/apptainer.yaml)\n\nAssassyn is aimed at developing a new programming paradigm for hardware development.\nThe ultimate goal is to unify the hardware modeling (simulation), implementation (RTL),\nand verfication.\n\n---\n\n## Getting Started\n\n### Virtual Machine\nYou either refer to the [docker](./docs/vm/docker.md) or [apptainer](./docs/vm/apptainer.md)\nto use the framework in a virtual machine.\n\n\n### Physical Machine\nIt can also be built on your physical machine. The instructions below are Ubuntu based:\n\n1. Make sure you have all the repos propoerly cloned:\n````sh\ngit submodule update --init --recursive\n````\n\n2. Install dependences:\n\n````sh\nsudo apt-get update\nsudo apt-get install -y $(\n  awk '/apt-get install/,/apt-get clean/' Dockerfile \\\n  | sed '1d;$d; s/[\\\\[:space:]]*$//; s/^[[:space:]]*//' \\\n  | grep -v '^$' \\\n  | tr '\\n' ' '\n)\n````\n\n4. Have this repo built from source:\n````sh\nsource setup.sh  # Set up environment variables\nmake build-all   # Build all components\n````\n\nIf you do not have enough memory, a lower job number is recommended.\n\n5. Verify your installation.\n````sh\npython -c 'import assassyn' # import this module\necho $? # 0 is expected\nmake test-all # Optional, runs all the tests.\necho $?\n````\n\n## File Structure\n\nOur file structure is as follows:\n\n```\n- assassyn/                 # The main assassyn package\n  |- python/                # All the Python-related code\n  |  |- assassyn/           # The assassyn Python package\n  |  `- ci-tests/           # Application-level tests for CI\n  |- 3rd-party/             # External depdendencies\n  |  |- circt/              # It relies on CIRCT for Verilog backend\n  |  |- ramulator2          # It relies on Ramulator2 for DRAM modeling\n  |  `- verilator           # It relies on Verilator for Verilog simulation\n  |- scripts/\n  |  |- *.patch             # Useful scripts for patching 3rd-party\n  |  |- pre-commit          # Git pre-commit hook\n  |  `- init/*.inc          # Makefile includes for building components\n  |- docs/                  # The chater document of this framework\n  |  |- developer/          # Developer guidelines\n  |  |- design/             # High-level design decisions of Assassyn\n  |  `- builder/            # Document to build and setup the project\n  |- tools/                 # All the helper modules\n  |  |- c-ramulator-wrapper # Which wraps Ramulator2 in C for FFI access\n  |  `- rust-sim-runtime    # Which provides runtime support for Rust simulator, including Ramulator access\n  |- examples/              # Example applications\n  `- tutorials/             # Tutorials written in Quarto qmd\n```\n",
+  "installCommand": "git clone https://github.com/Synthesys-Lab/assassyn ~/.claude/skills/assassyn",
+  "defaultBranch": "master",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "e54a6d355071c2b6",
+  "slug": "agent-designer",
+  "name": "Agent Designer",
+  "description": "Purpose Design and maintain Codex/Claude-style SKILLs, plus supporting docs and MCP tool catalog.",
+  "author": "appautomaton",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/229419921?v=4",
+  "repoUrl": "https://github.com/appautomaton/agent-designer",
+  "repoFullName": "appautomaton/agent-designer",
+  "stars": 32,
+  "forks": 3,
+  "category": "documentation",
+  "categories": [
+    "documentation"
+  ],
+  "tags": [],
+  "tier": 2,
+  "status": "active",
+  "createdAt": "2025-12-20T01:26:41Z",
+  "updatedAt": "2025-12-27T03:18:54Z",
+  "lastCommitAt": "2025-12-26T18:02:03Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-27T03:31:10.946Z",
+  "authorUrl": "https://github.com/appautomaton",
+  "license": null,
+  "readme": "Language: English | [中文](README.zh-CN.md)\n\nAGENT-DESIGNER (Codex Skills Workspace)\n======================================\n\nPurpose\n  Design and maintain Codex/Claude-style SKILLs, plus supporting docs and MCP tool catalog.\n\n> [!TIP]\n> **How to start a new project**\n> 0) (Optional) Use this repo as a template: clone it, remove the git history (`rm -rf .git`), then re-init (`git init`).\n> 1) Generate docs/mcp-tools.md (mcp-tools-catalog).\n>    - Why: Codex may not proactively use MCP; having the full tool list makes planning easier.\n>    - Example prompt: \"Generate docs/mcp-tools.md from enabled MCP servers.\"\n> 2) Create AGENTS.md (agents-bootstrap).\n>    - Why: this imports an issues-driven dev workflow into AGENTS.md based on your project requirements.\n>    - Tip: you can also talk with Codex first to clarify scope, then ask it to \"bootstrap my AGENTS.md\".\n> 3) Create plan/Issue CSV (plan).\n>    - Note: this repo ships a custom plan skill at `.codex/skills/plan/` (overrides the system plan skill).\n>    - Templates: `.codex/skills/plan/assets/_template.md` and `.codex/skills/plan/assets/_template.csv`.\n>    - Example prompt: \"Create a plan and Issue CSV for <goal>.\"\n\n> [!CAUTION]\n> The `collaborating-with-gemini` workflow stages screenshots/images in `.codex_uploads/`. Don't add `.codex_uploads/` to `.gitignore`, or Gemini may refuse to read ignored paths.\n\nKey files\n  - AGENTS.md (project rules)\n  - .codex/skills/ (all skills)\n  - docs/SKILLs/agent-skills-standard.md (skill design standard)\n  - docs/mcp-tools.md (MCP tools catalog)\n  - docs/testing-policy.md (testing defaults)\n  - issues/README.md (Issue CSV format)\n\nCommon actions\n  - Regenerate MCP tools catalog: use the mcp-tools-catalog skill\n  - Draft a new AGENTS.md: use the agents-bootstrap skill\n  - Collaborate with Claude: use the collaborating-with-claude skill (bridge script; don't run `claude` directly)\n  - Collaborate with Gemini: use the collaborating-with-gemini skill (bridge script; don't run `gemini` directly)\n  - Validate skill structure: follow docs/SKILLs/agent-skills-standard.md\n\nNotes\n  - This repo is documentation- and workflow-first. Most changes are text.\n  - Use official docs as the primary source of truth.\n  - If invoking bridge scripts directly, prefer `python3` (some systems don't have `python`).\n  - Skill authoring best-practice: reference `docs/SKILLs/agent-skills-standard.md` in chat (e.g., \"@docs/SKILLs/agent-skills-standard.md\") and iterate.\n\nAcknowledgements\n  - Initial inspiration:\n    - https://github.com/anthropics/skills\n    - https://github.com/GuDaStudio/skills\n",
+  "installCommand": "git clone https://github.com/appautomaton/agent-designer ~/.claude/skills/agent-designer",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

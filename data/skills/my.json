@@ -1,0 +1,31 @@
+{
+  "id": "fababbb7374f79c5",
+  "slug": "my",
+  "name": "My",
+  "description": "",
+  "author": "iota9star",
+  "authorAvatar": "https://avatars.githubusercontent.com/u/21272154?v=4",
+  "repoUrl": "https://github.com/iota9star/my-skills",
+  "repoFullName": "iota9star/my-skills",
+  "stars": 5,
+  "forks": 0,
+  "category": "other",
+  "categories": [
+    "other"
+  ],
+  "tags": [],
+  "tier": 3,
+  "status": "active",
+  "createdAt": "2025-12-22T07:18:58Z",
+  "updatedAt": "2025-12-24T04:33:54Z",
+  "lastCommitAt": "2025-12-24T04:33:50Z",
+  "source": "github-search",
+  "collectedAt": "2025-12-27T03:35:10.257Z",
+  "authorUrl": "https://github.com/iota9star",
+  "license": "MIT",
+  "readme": "# Personal Skills Collection\n\nA curated collection of efficient command-line tools and workflows optimized for maximum productivity and minimal context usage.\n\nEnglish Version | [中文版](./README.zh-CN.md)\n\n## Skills Overview\n\nThis collection includes 10 specialized skills covering file discovery, code analysis, text processing, and data extraction:\n\n### Core Skills\n- **[ast-grep](./skills/ast-grep/)** - Structural code search and refactoring\n- **[bat](./skills/bat/)** - Enhanced file viewer with syntax highlighting\n- **[code-structure](./skills/code-structure/)** - Extract code structure efficiently\n- **[fd](./skills/fd/)** - Fast file discovery with parallel search\n- **[fzf](./skills/fzf/)** - Interactive fuzzy finder\n\n### Data Processing Skills\n- **[jq](./skills/jq/)** - JSON data extraction and manipulation\n- **[yq](./skills/yq/)** - YAML data extraction and manipulation\n\n### Text Processing Skills\n- **[ripgrep](./skills/ripgrep/)** - Fast text search with one-shot patterns\n- **[sd](./skills/sd/)** - Intuitive find & replace with JavaScript regex\n\n### Analysis Skills\n- **[tokei](./skills/tokei/)** - Code statistics analysis by language\n\n## Installation\n\n### macOS (using Homebrew)\n```bash\n# Install all tools with one command\nbrew install ast-grep bat fd fzf jq ripgrep sd tokei yq\n```\n\n### Install from source (Cargo)\n```bash\n# Install all Rust-based tools\ncargo install ast-grep fd-find ripgrep sd tokei\ncargo install --locked bat  # bat requires --locked flag\n```\n\n### Manual Installation Links\n- **fzf**: https://github.com/junegunn/fzf#installation\n- **bat**: https://github.com/sharkdp/bat#installation\n- **ripgrep**: https://github.com/BurntSushi/ripgrep#installation\n- **jq**: https://stedolan.github.io/jq/download/\n- **yq**: https://github.com/mikefarah/yq#install\n\n## Quick Start\n\nEach skill contains a `SKILL.md` file with:\n- When to use the tool\n- Common workflows and patterns\n- Integration examples with other tools\n- Progressive disclosure to reference documentation\n\n### Common Workflows\n\n```bash\n# Interactive file search and edit\nfd -e py | fzf --preview=\"bat --color=always {}\" | xargs vim\n\n# Code analysis pipeline\ncode-structure → ripgrep → ast-grep → bat\n\n# Configuration management\nfd → jq/yq → fzf → sd\n\n# Statistics-driven refactoring\ntokei → fd → ripgrep → ast-grep → tokei\n```\n\n## Adding New Skills\n\nTo add a new command-line tool to this collection:\n\n### 1. Create Documentation\nAdd a simplified documentation file to the `docs/` directory:\n- Name it after the tool (e.g., `newtool.md`)\n- Include only core features, installation methods, and basic usage\n- Keep it concise and focused on practical examples\n\n### 2. Generate SKILL File\nUse AI to generate a `SKILL.md` file following the project's specification:\n\n```bash\n# Create the skill directory\nmkdir -p skills/newtool\n\n# Ask AI to generate SKILL.md based on:\n# 1. The docs/newtool.md content\n# 2. The existing skills/*SKILL.md patterns\n# 3. This project's philosophy of context efficiency\n```\n\n### 3. Update README\nAdd the new skill to the appropriate category in README.md:\n- Include installation commands\n- Add it to relevant workflows\n\n### 4. Test Integration\nEnsure the new tool integrates well with existing tools in the collection.\n\n## Using Skills with Claude Code\n\nCopy these skills to Claude Code for enhanced functionality:\n\n### Claude API\n- Upload skills as a zip file\n- Specify skills in the container parameter\n\n### Claude Desktop/claude.ai\n- Navigate to `~/.claude/skills/` or `.claude/skills/`\n- Copy skill directories directly\n\n### Droid\n- Navigate to `~/.factory/skills/` or `.factory/skills/`\n- Copy skill directories directly\n\n### Skill Requirements\nBased on [skills.md](./skills.md), each skill needs:\n\n#### Required Structure\n```yaml\n---\nname: your-skill-name  # lowercase/numbers/hyphens only\ndescription: What the skill does and when to use it  # third person, specific\n---\n```\n\n#### Best Practices\n- Use **gerund form** naming: `processing-files`, `analyzing-code`\n- Keep SKILL.md under 500 lines\n- Split content into separate files for complex skills\n- Include both what skill does AND when to use it\n- Follow progressive disclosure patterns\n\n#### Example Skill Structure\n```\nskills/tool-name/\n├── SKILL.md (main instructions)\n├── scripts/ (utility scripts)\n├── docs/ (reference documentation)\n└── examples/ (input/output examples)\n```\n\n### Integration Patterns\n- **Tool composition**: Chain multiple tools for powerful workflows\n- **Context efficiency**: Extract only what you need\n- **Progressive disclosure**: Load details when needed\n- **Error handling**: Validate inputs and provide helpful error messages\n\n## Philosophy\n\nThese skills prioritize:\n- **Context efficiency** - Extract only what you need\n- **Tool composition** - Combine tools for powerful workflows\n- **Performance** - Use optimized, fast tools\n- **Interactivity** - Leverage fuzzy finders and previews\n- **Progressive disclosure** - Details when needed, not before\n\n## License\n\nMIT License\n\nSee the [LICENSE](./LICENSE) file for the full license text.\n",
+  "installCommand": "git clone https://github.com/iota9star/my-skills ~/.claude/skills/my",
+  "defaultBranch": "main",
+  "hasMarketplaceJson": false,
+  "skillPath": "README.md"
+}

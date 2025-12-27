@@ -7,8 +7,8 @@
   "authorAvatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
   "repoUrl": "https://github.com/anthropics/claude-code",
   "repoFullName": "anthropics/claude-code",
-  "stars": 48029,
-  "forks": 3363,
+  "stars": 48851,
+  "forks": 3442,
   "category": "automation",
   "categories": [
     "automation"
@@ -17,10 +17,10 @@
   "tier": 1,
   "status": "active",
   "createdAt": "2025-02-22T17:41:21Z",
-  "updatedAt": "2025-12-23T03:40:50Z",
+  "updatedAt": "2025-12-27T03:29:55Z",
   "lastCommitAt": "2025-12-20T19:00:03Z",
   "source": "github-search",
-  "collectedAt": "2025-12-23T03:43:30.663Z",
+  "collectedAt": "2025-12-27T03:30:36.502Z",
   "authorUrl": "https://github.com/anthropics",
   "license": null,
   "readme": "# Claude Code\n\n![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)\n\n[npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.\n\n**Learn more in the [official documentation](https://docs.anthropic.com/en/docs/claude-code/overview)**.\n\n<img src=\"./demo.gif\" />\n\n## Get started\n\n1. Install Claude Code:\n\n**MacOS/Linux:**\n```bash\ncurl -fsSL https://claude.ai/install.sh | bash\n```\n\n**Homebrew (MacOS):**\n```bash\nbrew install --cask claude-code\n```\n\n**Windows:**\n```powershell\nirm https://claude.ai/install.ps1 | iex\n```\n\n**NPM:**\n```bash\nnpm install -g @anthropic-ai/claude-code\n```\n\nNOTE: If installing with NPM, you also need to install [Node.js 18+](https://nodejs.org/en/download/)\n\n2. Navigate to your project directory and run `claude`.\n\n## Plugins\n\nThis repository includes several Claude Code plugins that extend functionality with custom commands and agents. See the [plugins directory](./plugins/README.md) for detailed documentation on available plugins.\n\n## Reporting Bugs\n\nWe welcome your feedback. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).\n\n## Connect on Discord\n\nJoin the [Claude Developers Discord](https://anthropic.com/discord) to connect with other developers using Claude Code. Get help, share feedback, and discuss your projects with the community.\n\n## Data collection, usage, and retention\n\nWhen you use Claude Code, we collect feedback, which includes usage data (such as code acceptance or rejections), associated conversation data, and user feedback submitted via the `/bug` command.\n\n### How we use your data\n\nSee our [data usage policies](https://docs.anthropic.com/en/docs/claude-code/data-usage).\n\n### Privacy safeguards\n\nWe have implemented several safeguards to protect your data, including limited retention periods for sensitive information, restricted access to user session data, and clear policies against using feedback for model training.\n\nFor full details, please review our [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and [Privacy Policy](https://www.anthropic.com/legal/privacy).\n",
